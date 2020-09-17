@@ -1,6 +1,7 @@
 ---
 title: More to think about
 layout: thinks
+order: 122
 ---
 
 * The commands that your computer knows about when you first switch it on depends on the operating system it ships with. Whose chose them?

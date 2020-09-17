@@ -1,6 +1,7 @@
 ---
 title: File extensions
 layout: topic
+order: 103
 ---
 
 It is a convention to indicate a file's type by putting a dot followed by a code at the end of its name.

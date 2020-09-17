@@ -1,6 +1,7 @@
 ---
 title: Example — python3
 layout: topic
+order: 111
 ---
 
 Python is a programming language, but your computer doesn't _natively_ understand Python. Instead it has a program (called the Python interpreter) that does. So when you want to run talk some Python, you need to type the name of that program.

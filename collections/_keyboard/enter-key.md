@@ -1,6 +1,7 @@
 ---
 title: ENTER key
 layout: topic
+order: 103
 ---
 
 The ENTER key is often special because it's used to indicate the _submitting input_.

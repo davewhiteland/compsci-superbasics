@@ -1,6 +1,7 @@
 ---
 title: Editing commands
 layout: topic
+order: 118
 ---
 
 Although it varies a little depending on which command shell you're using, you can recall previous commands and then edit them before pressing ENTER.

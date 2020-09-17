@@ -1,6 +1,7 @@
 ---
 title: Key combinations
 layout: topic
+order: 102
 ---
 
 Some keys are _modifier_ keys: they change the meaning of the other key you press. A clear example of this is A (gives a) and SHIFT-A (gives A): SHIFT here is a modifier.

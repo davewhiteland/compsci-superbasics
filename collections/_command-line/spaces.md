@@ -1,6 +1,7 @@
 ---
 title: Spaces on the command line
 layout: topic
+order: 112
 ---
 
 All the spaces on the command line get squashed (collapsed) into single spaces. They are not commands themselves, but they server as seperators between commands.

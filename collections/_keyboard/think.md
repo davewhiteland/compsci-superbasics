@@ -1,6 +1,7 @@
 ---
 title: More to think about
 layout: thinks
+order: 110
 ---
 
 

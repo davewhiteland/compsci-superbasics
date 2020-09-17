@@ -1,6 +1,7 @@
 ---
 title: Directories
 layout: topic
+order: 104
 ---
 
 Also known as: folders.

@@ -1,6 +1,7 @@
 ---
 title: CAPS LOCK
 layout: topic
+order: 104
 ---
 
 The Caps Lock key is usually used to _lock_ the input to CAPITAL (or upper case) letters. Press it again to _unlock_. This button is unusual because it's used to _toggle_ between states. If you press it, the capitals are locked on. If you press it again, the lock is taken off. 

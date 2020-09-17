@@ -1,6 +1,7 @@
 ---
 title: How to get to the command line
 layout: topic
+order: 102
 ---
 These aren't the only ways, but they are common:
 
