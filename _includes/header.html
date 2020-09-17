@@ -1,0 +1,23 @@
+<aside class="main-header">
+  <header class="module">
+    <h1><a href="/"><img src="/images/compsci-superbasics.png"></a></h1>
+  </header>
+  <div class="module color2">
+    {{ site.description }}
+  </div>
+  <nav class="module color4">
+    <ul>
+      <li>
+        <a href="/" class="start-link">Start here</a>
+      </li>
+      {% for topic in site.topics %}
+        <li>
+          <a href="{{ topic.url }}">{{ topic.topic | replace: '-',' ' | capitalize }}</a>
+        </li>
+      {% endfor %} 
+    </ul>
+  </nav>
+  <div class="module color3">
+    Work-in-Progress!
+  </div>
+</aside>

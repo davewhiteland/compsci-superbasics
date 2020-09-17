@@ -1,0 +1,123 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: CompSci Superbasics
+#email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Basic things you need to know in order to use your computer
+  properly in the CompSci labs.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+#github_username:  jekyll
+
+# Build settings
+plugins:
+  - jekyll-feed
+
+collections_dir: collections
+collections:
+  keyboard:
+    output: true
+    permalink: /keyboard/:path/
+    order:
+      - keys.md
+      - combos.md
+      - enter-key.md
+      - caps-lock.md
+      - escape-key.md
+      - control-c.md
+      - others.md
+      - tab.md
+      - shortcuts.md
+      - think.md
+  command-line:
+    output: true
+    permalink: /command-line/:path/
+    order:
+      - what-is-it.md
+      - how-to-get-there.md
+      - names.md
+      - prompt.md
+      - using-enter.md
+      - no-command.md
+      - issuing-a-command.md
+      - example-pwd.md
+      - no-such-command.md
+      - system-path.md
+      - example-python3.md
+      - spaces.md
+      - arguments.md
+      - options.md
+      - current-directory.md
+      - tab-completion.md
+      - previous-command.md
+      - editing.md
+      - pasting.md
+      - powerful.md
+      - processes.md
+      - think.md
+  file-system:
+    output: true
+    permalink: /files/:path/
+    order:
+      - contents.md
+      - names.md
+      - extensions.md
+      - directories.md
+      - paths.md
+      - path-separators.md
+      - symlinks.md
+      - special-filenames.md
+      - hidden-files.md
+      - current-directory.md
+      - parent-directory.md
+      - finding-files.md
+      - permissions.md
+      - think.md
+  topics:
+    output: true
+    permalink: /:path/
+    order:
+      - keyboard.md
+      - command-line.md
+      - file-system.md
+      - remote.md
+      - text-editing.md
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

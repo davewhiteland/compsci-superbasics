@@ -1,0 +1,43 @@
+---
+layout: default
+---
+{% capture the_collection %}{{page.collection}}{% endcapture %}
+{% if page.collection %}
+  {% assign  document = site[the_collection]  %}
+{% endif %}
+
+{% for links in document  %}
+  {% if links.title == page.title %}
+    {% unless forloop.first %}
+      {% assign prevurl = prev.url %}
+      {% assign prevtitle = prev.title %}      
+    {% endunless %}
+    {% unless forloop.last %}
+      {% assign next = document[forloop.index] %}
+      {% assign nexturl = next.url %}
+      {% assign nexttitle = next.title %}      
+    {% endunless %}
+  {% endif %}
+  {% assign prev = links %}
+{% endfor %}
+
+<article class="color3 module">
+  <h2>{{ page.title }}</h2>
+  {{ content }}
+</article>
+<article class="color3 module">
+{% if prevurl or nexturl %}
+   <div>
+       {% if prevurl %}<a href="{{prevurl}}" class="prev">{{ prevtitle }}</a>{% endif %}                    
+       {% if nexturl %}<a href="{{nexturl}}" class="next">{{ nexttitle }}</i></a>{% endif %}
+   </div>
+{% endif %}
+</article>
+
+<script>
+  document.body.onkeyup = function(e){
+    {% if prevurl %} if (e.keyCode == '37') { window.location = '{{prevurl}}'; }{% endif %}
+    {% if nexturl %}if (e.keyCode == '39') { window.location = '{{nexturl}}'; }{% endif %}
+  };
+</script>
+
