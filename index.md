@@ -14,7 +14,8 @@ Get on top of the superbasics!
 
 <div class="nav color4">
   <ul>
-      {% for topic in site.topics %}
+      {% assign sorted_topics = site.topics | sort: "order" %}
+      {% for topic in sorted_topics %}
         <li>
           <a href="{{ topic.url | prepend:site.baseurl }}">{{ topic.title }}</a>
         </li>

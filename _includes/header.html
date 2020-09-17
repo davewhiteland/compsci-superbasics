@@ -10,7 +10,8 @@
       <li>
         <a href="{{ site.baseurl }}/" class="start-link">Start here</a>
       </li>
-      {% for topic in site.topics | sort: "order" %}
+      {% assign sorted_topics = site.topics | sort: "order" %}
+      {% for topic in sorted_topics %}
         <li>
           <a href="{{ topic.url | prepend:site.baseurl }}">{{ topic.topic | replace: '-',' ' | capitalize }}</a>
         </li>

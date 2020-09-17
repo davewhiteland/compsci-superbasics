@@ -91,6 +91,16 @@ collections:
       - finding-files.md
       - permissions.md
       - think.md
+  text-editing:
+    output: true
+    permalink: /text-editing/:path/
+    order:
+      - text-editing.md
+  remote-sessions:
+    output: true
+    permalink: /remote-sessions/:path/
+    order:
+      - remote-sessions.md
   topics:
     output: true
     permalink: /:path/
@@ -98,7 +108,7 @@ collections:
       - keyboard.md
       - command-line.md
       - file-system.md
-      - remote.md
+      - remote-sessions.md
       - text-editing.md
 
 # Exclude from processing.
