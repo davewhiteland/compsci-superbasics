@@ -28,16 +28,16 @@ layout: default
 <article class="color3 module">
 {% if prevurl or nexturl %}
    <div>
-       {% if prevurl %}<a href="{{prevurl}}" class="prev">{{ prevtitle }}</a>{% endif %}                    
-       {% if nexturl %}<a href="{{nexturl}}" class="next">{{ nexttitle }}</i></a>{% endif %}
+       {% if prevurl %}<a href="{{prevurl | prepend:site.baseurl }}" class="prev">{{ prevtitle }}</a>{% endif %}                    
+       {% if nexturl %}<a href="{{nexturl | prepend:site.baseurl }}" class="next">{{ nexttitle }}</i></a>{% endif %}
    </div>
 {% endif %}
 </article>
 
 <script>
   document.body.onkeyup = function(e){
-    {% if prevurl %} if (e.keyCode == '37') { window.location = '{{prevurl}}'; }{% endif %}
-    {% if nexturl %}if (e.keyCode == '39') { window.location = '{{nexturl}}'; }{% endif %}
+    {% if prevurl %} if (e.keyCode == '37') { window.location = '{{prevurl | prepend:site.baseurl }}'; }{% endif %}
+    {% if nexturl %} if (e.keyCode == '39') { window.location = '{{nexturl | prepend:site.baseurl }}'; }{% endif %}
   };
 </script>
 

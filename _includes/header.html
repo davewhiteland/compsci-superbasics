@@ -1,6 +1,6 @@
 <aside class="main-header">
   <header class="module">
-    <h1><a href="/"><img src="/images/compsci-superbasics.png"></a></h1>
+    <h1><a href="/"><img src="{{ site.baseurl }}/images/compsci-superbasics.png"></a></h1>
   </header>
   <div class="module color2">
     {{ site.description }}
@@ -8,11 +8,11 @@
   <nav class="module color4">
     <ul>
       <li>
-        <a href="/" class="start-link">Start here</a>
+        <a href="{{ site.baseurl }}/" class="start-link">Start here</a>
       </li>
       {% for topic in site.topics %}
         <li>
-          <a href="{{ topic.url }}">{{ topic.topic | replace: '-',' ' | capitalize }}</a>
+          <a href="{{ topic.url | prepend:site.baseurl }}">{{ topic.topic | replace: '-',' ' | capitalize }}</a>
         </li>
       {% endfor %} 
     </ul>

@@ -8,7 +8,7 @@ layout: default
     <ul>
       {% for topic in site[page.topic] %}
         <li>
-          <a href="{{ topic.url }}">{{ topic.title }}</a>
+          <a href="{{ topic.url | prepend:site.baseurl }}">{{ topic.title }}</a>
         </li>
       {% endfor %} 
     </ul>

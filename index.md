@@ -14,14 +14,10 @@ Get on top of the superbasics!
 
 <div class="nav color4">
   <ul>
-    <li>
-      <a href="keyboard">the keyboard</a>
-    </li>
-    <li>
-      <a href="command-line">the command line</a>
-    </li>
-    <li>
-      <a href="files">the file system</a>
-    </li>
+      {% for topic in site.topics %}
+        <li>
+          <a href="{{ topic.url | prepend:site.baseurl }}">{{ topic.title }}</a>
+        </li>
+      {% endfor %} 
   </ul>
 </div>
