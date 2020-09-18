@@ -128,7 +128,11 @@ nav, .nav {
 }
 
 .prev {
-  float:left;
+  float: left;
+}
+.prev-wrapper {
+  clear:both;
+  padding-top:1em;
 }
 .next {
   float: right;
@@ -268,4 +272,86 @@ table {
     nav a {
         margin: 0 0.75em;
     }
+}
+
+
+.next {
+  transition:background-color 0s;
+  width: 80%;
+  line-height:3em;
+  height: 3em;
+  text-align:right;
+  position: relative;
+  background: #ffeeee;
+}
+.next:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 1em solid white;
+  border-top: 1.5em solid transparent;
+  border-bottom: 1.5em solid transparent;
+}
+.next:before {
+  content: "";
+  position: absolute;
+  right: -1em;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 1em solid #ffeeee;
+  border-top: 1.5em solid transparent;
+  border-bottom: 1.5em solid transparent;
+}
+a.next:hover {
+  background:#ffcccc;
+};
+.next:hover:before {
+  border-left: 1em solid #ffcccc;
+}
+
+.prev { 
+  transition:background-color 0s;
+  width: 80%;
+  height: 3em;
+  line-height: 3em;
+  text-align:left;
+  position: relative;
+  background: #eeeeee;
+}
+.prev:after {
+  content: "";
+  position: absolute;
+  left: -1em;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 1em solid #eeeeee;
+  border-top: 1.5em solid transparent;
+  border-bottom: 1.5em solid transparent;
+}
+.prev:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 1em solid white;
+  border-top: 1.5em solid transparent;
+  border-bottom: 1.5em solid transparent;
+}
+a.prev:hover {
+  background:#cccccc;
+};
+.prev:hover:after {
+  border-right: 1em solid #cccccc;
+}
+.top-nav {
+  float:right;
+  margin-top: -$spacing-unit;
+  padding-top:0.5em;
 }

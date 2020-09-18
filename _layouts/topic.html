@@ -22,14 +22,17 @@ layout: default
 {% endfor %}
 
 <article class="color3 module">
+  <a class="top-nav" href="{{ site.baseurl }}/{{ page.collection }}/">{{ page.collection | replace: '-', ' ' | capitalize }}</a>
   <h2>{{ page.title }}</h2>
   {{ content }}
 </article>
 <article class="color3 module">
 {% if prevurl or nexturl %}
    <div>
-       {% if prevurl %}<a href="{{prevurl | prepend:site.baseurl }}" class="prev">{{ prevtitle }}</a>{% endif %}                    
        {% if nexturl %}<a href="{{nexturl | prepend:site.baseurl }}" class="next">{{ nexttitle }}</i></a>{% endif %}
+       <div class="prev-wrapper">
+       {% if prevurl %}<a href="{{prevurl | prepend:site.baseurl }}" class="prev">{{ prevtitle }}</a>{% endif %}                    
+     </div>
    </div>
 {% endif %}
 </article>

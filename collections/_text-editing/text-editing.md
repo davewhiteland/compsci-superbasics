@@ -1,7 +1,7 @@
 ---
 title: text editing
 layout: topic
-order: 100
+order: 101
 ---
 
 Placeholder
