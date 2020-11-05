@@ -5,7 +5,7 @@ order: 122
 ---
 
 * The commands that your computer knows about when you first switch it on depends on the operating system it ships with. Whose chose them?
-* Some commands are "built-ins" because they are part of the operating system's kernel... others are programs that come pre-installed. How can tell which is which?
+* Some commands are "built-ins" because they are part of the operating system's kernel... others are programs that come pre-installed. How can you tell which is which?
 * You can save command line instructions into a file... and then tell your computer to read the commands from that file (instead of typing them again). This is shell scripting!
 * You can run different command line interpreters: choose the one that works best for you, and learn its shortcuts.
 * On Windows, if you install the version control software Git, it ships with a tool called git-bash that behaves more like a Unix bash command line than a Windows one — remember which one you're using!
