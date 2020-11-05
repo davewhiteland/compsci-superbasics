@@ -38,7 +38,7 @@ probably doesn't exist. You can fix this either using quotation marks or by
 If you're going to study computer science, make you life easier and never put
 spaces (or other special characters) into filenames. Of course you _can_ put
 fancy things into your filenames, but you can avoid a world of pain by sticking
-to numbers, lowercase letters, hypehn (`-`), underscore (`_`) and dot (`.`).
+to numbers, lowercase letters, hyphen (`-`), underscore (`_`) and dot (`.`).
 For similar reasons, it's usually simpler to keep everything lower case. For
 more detail, see the intro about file systems.
 

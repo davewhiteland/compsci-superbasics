@@ -4,7 +4,7 @@ layout: topic
 order: 112
 ---
 
-All the spaces on the command line get squashed (collapsed) into single spaces. They are not commands themselves, but they server as seperators between commands.
+All the spaces on the command line get squashed (collapsed) into single spaces. They are not commands themselves, but they server as separators between commands.
 
 If you type a few spaces at the prompt, you'll see the cursor move along. (If there wasn't a cursor, you wouldn't be able to see this happening).
 

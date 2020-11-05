@@ -11,7 +11,7 @@ If you type a command and press ENTER:
 * if it isn't, it looks to see if it can find a program with that name that it can run instead
 * if it can't, it does nothing (that's what happened when you just pressed ENTER)
 
-When it's finsihed — the command has run, or the program finishes what it was doing — the computer throws up a new prompt for you.
+When it's finished — the command has run, or the program finishes what it was doing — the computer throws up a new prompt for you.
 
 For example, in Unix there is a command
 

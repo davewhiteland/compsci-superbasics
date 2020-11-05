@@ -4,6 +4,8 @@ layout: topic
 order: 114
 ---
 
+An option is a way to give a command extra information about how to run. They
+are called _options_ because they are usually _optional_. Arguments normally tell the command _what_, whereas options tell it _how_.
 
 Options usually control _how_ a command runs. Unlike arguments, they begin with a hyphen (-).
 
@@ -20,6 +22,6 @@ A _long option_ is more than one letter, and has _two_ hyphens
 
     --version
 
-Often — but not always: it depends on the command or program — the same option has both short (for convenience) and long (for clarity) forms.
+Often — but not always (it depends on the command or program) — the same option has both forms: short (for convenience) and long (for clarity).
 
 The programs you write can accept options, but what they mean is up to you. Most programming languages have libraries to help you define and use your own.
