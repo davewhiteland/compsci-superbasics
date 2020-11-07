@@ -4,4 +4,4 @@ layout: topic
 order: 101
 ---
 
-Placeholder
+**Remote sessions** superbasics aren't ready yet! :-(

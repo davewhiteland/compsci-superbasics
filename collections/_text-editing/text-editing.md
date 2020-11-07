@@ -4,4 +4,4 @@ layout: topic
 order: 101
 ---
 
-Placeholder
+**Text editing** superbasics aren't ready yet! :-(
