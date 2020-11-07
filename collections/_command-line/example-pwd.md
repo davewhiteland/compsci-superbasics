@@ -8,7 +8,7 @@ This command works on Windows, Mac and Unix:
 
     pwd
     
-It means "print working directory" and will show you the full name of the directory you are in (strictly speaking, the whole "path", or address in the filesystem).
+It means "print working directory" and will show you the full name of the directory you are in (strictly speaking, the whole "path", or address in the [file system]({{ site.baseurl }}/file-system)).
 
 So type `pwd` and hit ENTER.
 
