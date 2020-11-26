@@ -20,27 +20,30 @@ it can be a royal pain (voice of experience). Good luck.
 ## Adding content
 
 This whole project was set up to make adding and changing the basic content as
-lightweight as possible: so, the content itself, as much as possible, with
-markdown. In order to get pages on sites like these populated and maintained,
-the smallest overhead possible is best.
+lightweight as possible: so, the content itself, as much as possible, is
+written in markdown. In order to keep pages on sites like these populated and maintained, the smallest overhead possible is best.
 
-So if this is installed in a repo, just editing markdown prose (and maybe a
-setting or two for new pages) is enough: pushing deploys and publishes.
+So if this is installed in a GitHub repo, just editing markdown prose (and
+maybe a setting or two for new pages) is enough: pushing deploys and publishes.
 
 In order to do this — specifically the building of the navigation and on-page
 links — whole thing is driven by Jekyll's surprisingly versatile collections.
 
-## Sections are in collections
+## Topics and pages are in collections
 
-See the `collections` directory: each section of the site is in there.
+Look in the `collections` directory.
 
 The site has **topics**. The topics that are _published_ are in `_topics`. Each
-markdown file in there contains settings (in fact the files only contain Jekyll
-"front-matter").
+markdown file in there contains settings (in fact those files only contain
+Jekyll "front-matter").
 
 To **add a new topi**:
 
-* add a markdown file to `_collections/_topics` and 
+* add a markdown file to `_collections/_topics`
+* update the `_config.yml`: add the page you've just added  to the
+  `collections`, in the `topics` list
+* you need to update the order too (see below) — in time this step will
+  become redundant
 
 There are some work-in-progress topics: they are in `_topics_pending` so that
 they don't get displayed on the live site. You can move files out of there into
@@ -50,8 +53,11 @@ To **add a new page** to `some-section`:
 
 * add a markdown (`.md`) file to the `collections/_some-section` folder
 * make sure it has the _right position_ relative to the other pages: that means
-  adding it to the right place in `_config.yml` too... and also setting an
-  `order` (see below).
+  adding it to the right place in the right collection inside `_config.yml`
+  too...
+* you need to update the order too (see below) — in time this step will
+  become redundant
+
 
 ## About `order`
 
