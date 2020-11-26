@@ -14,10 +14,10 @@ conventional uses:
 | key      | Symbol  | example of what might do               |
 | -------- | ------- | -------------------------------------- |
 | SHIFT    |         | shift to upper case                        |
-| Alternate | Alt    | generate alternate character (e.g., £ or #)    |
+| Alternate | Alt <br>⌥ <br> Option  | generate alternate character (e.g., £ or #)    |
 | Control  | ^ <br> Ctl <br> Ctrl | turn other key(s) into a control signal   |
 | Function | Fn      | turn the other key(s) into a function button    |
 | Command  | ⌘       | (on Mac) execute shortcut (the other keys(s)) |
-| Windows  | Win     | (on Windows — pressing Ctl+Escape does the same) launch start menu   |
+| Windows  | Win  <br> ⊞  | (on Windows — pressing Ctl+Escape does the same) launch start menu   |
 
 If you see Ctl-SHIFT-C, that means "hold down the control key and the shift key and then press C". Those first two are modifying the C.  What that _actually_ does will depend on the program that is listening to it.
