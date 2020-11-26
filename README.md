@@ -37,6 +37,9 @@ tech exposure are much less reliable than they used to be.
 
 ## Jekyll, based on block-blog theme
 
+> See DEVELOPMENT.md if you're going to be doing any work — there's a gotcha
+> on the way the topics and pages are ordered.
+
 The site uses Jekyll's containers to manage a collection of topic-pages that
 are previous-next linked together.
 
