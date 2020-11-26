@@ -17,6 +17,10 @@ Jekyll has some dependencies (Ruby and friends). Try it. It can just work, in
 which case it's great. But like all "it just work"s, if it doesn't just work
 it can be a royal pain (voice of experience). Good luck.
 
+Because of a Jekyll version lag on GitHub, there's a Python utility in here
+too (see "about `order`" below). When the version bumps, the Python script
+will be redundant, and will go.
+
 ## Adding content
 
 This whole project was set up to make adding and changing the basic content as
