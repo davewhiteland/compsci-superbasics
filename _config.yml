@@ -39,12 +39,17 @@ collections:
     order:
       - keys.md
       - combos.md
+      - modifier-keys.md
       - enter-key.md
       - caps-lock.md
       - escape-key.md
       - control-c.md
       - others.md
       - tab.md
+      - arrow-keys.md
+      - number-lock.md
+      - function-keys.md
+      - windows-key.md
       - shortcuts.md
       - think.md
   command-line:
@@ -65,6 +70,7 @@ collections:
       - spaces.md
       - arguments.md
       - options.md
+      - getting-information.md
       - current-directory.md
       - tab-completion.md
       - previous-command.md
@@ -81,6 +87,7 @@ collections:
       - names.md
       - extensions.md
       - directories.md
+      - root.md
       - paths.md
       - path-separators.md
       - symlinks.md
@@ -108,8 +115,8 @@ collections:
       - keyboard.md
       - command-line.md
       - file-system.md
-      - remote-sessions.md
-      - text-editing.md
+#      - remote-sessions.md
+#      - text-editing.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

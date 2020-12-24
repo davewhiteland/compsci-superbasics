@@ -18,6 +18,3 @@ Filenames in Unix systems are case-sensitive, so it's a good idea to simply
 keep all your filenames lower-case (unless there's a specific reason not to).
 
 The filename is _only_ a name: it in no way affects what is in the file.
-
-If you have a photograph of a cat called `cat.jpg` and you change the name
-

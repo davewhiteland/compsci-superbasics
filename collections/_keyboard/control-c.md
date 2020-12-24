@@ -1,9 +1,14 @@
 ---
 title: Control-C
 layout: topic
-order: 106
+order: 107
 ---
 
-The convention for cancelling or interrupting a process is to press Ctl-C (that is: hold down CONTROL and press C). This sends an interrupt signal.
+<span class="key"><sub>ctrl</sub></span><span class="key">C</span>
 
-It's up to the program that's listening to your keystrokes to decide how to respond.
+The convention for cancelling or interrupting a process is to press Ctrl-C
+(that is: hold down the control key and press C). This sends an *interrupt
+signal*.
+
+It's up to the program that's listening to your keystrokes to decide how to
+respond.

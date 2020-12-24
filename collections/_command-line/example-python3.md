@@ -4,9 +4,9 @@ layout: topic
 order: 111
 ---
 
-Python is a programming language, but your computer doesn't _natively_ understand Python. Instead it has a program (called the Python interpreter) that does. So when you want to run talk some Python, you need to type the name of that program.
+Python is a programming language, but your computer doesn't _natively_ understand Python. Instead it has a program (called the Python interpreter) that does. So when you want to execute instructions in Python, you need to type the name of the interpreter.
 
-For example if you type `python3` on the command line two things might happen:
+For example, if you type `python3` on the command line two things might happen:
 
 * if your computer can't find the `python3` program, it will fail (and return to the prompt)
 

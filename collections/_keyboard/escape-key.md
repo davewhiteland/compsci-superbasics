@@ -1,8 +1,10 @@
 ---
 title: Escape key
 layout: topic
-order: 105
+order: 106
 ---
 
+<span class="key"><sub>esc</sub></span>
 
-The Escape key is often used to _escape_ from a program or process — often it will dismiss a dialogue box just as if you had clicked Cancel.
+The escape key is often used to _escape_ from a program or process. Pressing it
+will typically dismiss a dialogue box just as if you had clicked Cancel.

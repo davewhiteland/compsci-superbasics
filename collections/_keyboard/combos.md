@@ -4,20 +4,27 @@ layout: topic
 order: 102
 ---
 
-Some keys are _modifier_ keys: they change the meaning of the other key you press. A clear example of this is A (gives a) and SHIFT-A (gives A): SHIFT here is a modifier.
+Some keys are _modifier_ keys: they change the meaning of the other key you
+press. A clear example of this is how you use the shift (⇧) key to type the
+lower and upper case letter A:
 
-To start with you just use these to type... but in computing, the modifier keys are really used to provide far more key combinations than there are buttons on your keyboard.
+| keys pressed               | result            |
+| -------------------------: | ----------------- |
+| <span class="key">A</span> | a                 |
+| <span class="key">&nbsp;⇧&nbsp;</span><span class="key">A</span> | A  |
 
-The meanings of keys can be mapped to _anything_, but these are the
-conventional uses:
+Both "a" and "A" are printable characters — good for typing words. But other
+modifiers can indicate that you're not trying to _type_ the letter "a" at all,
+but using it as a button to have some effect. You are sending a control signal.
 
-| key      | Symbol  | example of what might do               |
-| -------- | ------- | -------------------------------------- |
-| SHIFT    |         | shift to upper case                        |
-| Alternate | Alt <br>⌥ <br> Option  | generate alternate character (e.g., £ or #)    |
-| Control  | ^ <br> Ctl <br> Ctrl | turn other key(s) into a control signal   |
-| Function | Fn      | turn the other key(s) into a function button    |
-| Command  | ⌘       | (on Mac) execute shortcut (the other keys(s)) |
-| Windows  | Win  <br> ⊞  | (on Windows — pressing Ctl+Escape does the same) launch start menu   |
+<img src="{{ site.baseurl }}/images/keys-a-shift-a-ctrl-a.svg" class="not-too-wide"
+alt="animation of shift, control, and A keys">
 
-If you see Ctl-SHIFT-C, that means "hold down the control key and the shift key and then press C". Those first two are modifying the C.  What that _actually_ does will depend on the program that is listening to it.
+For example, if you are pressing the control key when you hit the A, it might
+mean "select **A**ll the things". The specific meaning will vary depending on
+what program is currently running, and what it's listening for. To help you
+remember, programs tend to use the same conventions for what the key
+combinations mean.
+
+You can only do combinations with modifier keys. Pressing more than one
+ordinary key at the same time (for example, A and B) generally does not work.

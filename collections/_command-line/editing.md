@@ -1,16 +1,19 @@
 ---
 title: Editing commands
 layout: topic
-order: 118
+order: 119
 ---
 
-Although it varies a little depending on which command shell you're using, you can recall previous commands and then edit them before pressing ENTER.
+Although it varies a little depending on which command shell you're using, you
+can recall previous commands and then edit them before pressing enter.
 
 | Press this... | ...to do this                  |
 |---------------|--------------------------------|
-| Ctl-A         | jump to start of line          |
-| Ctl-E         | jump to end of line            |
-| ← and  →      | run both ways along the line   |
+| <span class="key"><sub>ctrl</sub></span><span class="key">A</span> | jump to start of line          |
+| <span class="key"><sub>ctrl</sub></span><span class="key">E</span>| jump to end of line            |
+| <span class="key">←</span> and <span class="key">→</span> | run both ways along the line   |
 
-On the Mac, in _Terminal_, if you hold down Alt you can click with the mouse on a position on the line and the cursor will jump to that position on the line.
+On the Mac, in _Terminal_, if you hold down <span
+class="key"><sub>alt</sub></span> you can click with the mouse on a position on
+the line and the cursor will jump to that position on the line.
 

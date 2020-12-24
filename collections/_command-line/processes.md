@@ -1,7 +1,7 @@
 ---
 title: Processes (or getting control back)
 layout: topic
-order: 121
+order: 122
 ---
 
 When describing the command line, we've talked about the program finishing, and
@@ -18,6 +18,8 @@ The ampersand tells the command line to detach the command from the current
 process (which is running your command line) and run it in its own process.
 
 This is common on our Unix system when you launch the editor (e.g., `kate`).
+
+    kate &
 
 If you don't add an ampersand, you'll see the command window is not listening
 to your typing... until you kill Kate's window.

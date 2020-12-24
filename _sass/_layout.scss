@@ -175,7 +175,7 @@ header {
 /*****************************************************************************/
 
 article {
-  p {
+  p, td {
     a {
       border-bottom: .125em solid #ccc;
       padding: 0 0 .15em 0;
@@ -213,7 +213,7 @@ blockquote {
     border: .1em solid #ddd;
     border-top-color: #eee;
     border-bottom-color: #bbb;
-    padding: $spacing-unit;
+    padding: 0 $spacing-unit;
     background: #f2f2f2;
     -webkit-box-shadow: 0 1px 4px #ccc, 0 5px 12px -8px #555;
     -moz-box-shadow: 0 1px 4px #ccc, 0 5px 12px -8px #555;
@@ -245,6 +245,12 @@ pre,
 samp {
   font-family: "Source Code Pro", monospace, monospace;
   font-size: 1em;
+}
+
+h3 {
+  margin-top:1.5em;
+  padding-top:0.5em;
+  border-top:1px solid #ddd;
 }
 
 /*****************************************************************************/
@@ -363,4 +369,50 @@ a.prev:hover {
   float:right;
   margin-top: -$spacing-unit;
   padding-top:0.5em;
+}
+
+img.key-wide {max-width: 20em;}
+
+span.key{
+  font-size:120%;
+  color:white;
+  padding:0.2em 0em 0.2em 0.4em;
+  background-image:url(../images/key-blank.svg);
+  background-size:auto 100%;
+  background-position:left;
+  background-repeat:no-repeat;
+  border-radius:0.2em;
+  text-align:center;
+  margin-right:0.2em;
+}
+span.key::after{
+  padding:0.2em 0 0.2em 0.2em;
+  content: "\2002";
+  background-image:url(../images/key-blank.svg);
+  background-size:auto 100%;
+  background-position:right;
+}
+span.key sub{
+  font-size:66%;
+  bottom:0;
+}
+span.key.wide sub {
+  padding-right:2em;
+}
+img.key {
+  height:2em;
+  vertical-align: middle;
+  margin-right:0.2em;
+}
+img.enter-key {
+  height:4em;
+}
+img.not-too-wide {
+  max-width:12em;
+}
+.inline-block {
+  display:inline-block;
+}
+.center {
+  text-align:center;
 }

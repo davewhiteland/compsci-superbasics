@@ -4,15 +4,26 @@ layout: topic
 order: 112
 ---
 
-All the spaces on the command line get squashed (collapsed) into single spaces. They are not commands themselves, but they server as separators between commands.
+All the spaces on the command line get squashed (collapsed) into single spaces.
+They are not commands themselves, but they server as separators between
+commands.
 
-If you type a few spaces at the prompt, you'll see the cursor move along. (If there wasn't a cursor, you wouldn't be able to see this happening).
+If you type a few spaces at the prompt, you'll see the cursor move along. (If
+there wasn't a cursor, you wouldn't be able to see this happening).
 
-If you type a few spaces, type `pwd` and some more spaces, and then press ENTER...
+If you type a few spaces, type `pwd` and some more spaces, and then press
+enter...
 
-...the `pwd` command runs (it prints the current working directory, remember?)
+...the `pwd` command runs (it prints the current working directory).
 
-The command line interpreter _collapses_ the spaces, and looks for the command that is left.
+The command line interpreter _collapses_ and _strips_ the spaces, and looks for
+the command that is left.
 
-If you just type some spaces on the command line and press ENTER... nothing happens. The spaces are being collapsed, but there's no command.
+> _Collapsing_ spaces means a run of spaces get squashed down to just one.
+> <br>
+> _Stripping_ spaces means the spaces at the start and end get removed.
+
+If you just type some spaces on the command line and press enter... nothing
+happens. The spaces are being collapsed and stripped to nothing: there's
+[no command]({{ site.baseurl }}/command-line/no-command).
  
