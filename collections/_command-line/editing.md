@@ -5,7 +5,8 @@ order: 119
 ---
 
 Although it varies a little depending on which command shell you're using, you
-can recall previous commands and then edit them before pressing enter.
+can [recall previous commands]({{site.baseurl}}/command-line/previous-command)
+and then edit them before pressing enter.
 
 | Press this... | ...to do this                  |
 |---------------|--------------------------------|
@@ -14,6 +15,6 @@ can recall previous commands and then edit them before pressing enter.
 | <span class="key">←</span> and <span class="key">→</span> | run both ways along the line   |
 
 On the Mac, in _Terminal_, if you hold down <span
-class="key"><sub>alt</sub></span> you can click with the mouse on a position on
+class="key"><sub>alt</sub></span> you can click with the mouse on a character on
 the line and the cursor will jump to that position on the line.
 
