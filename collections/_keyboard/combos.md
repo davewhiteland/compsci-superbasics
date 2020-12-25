@@ -17,8 +17,9 @@ Both "a" and "A" are printable characters — good for typing words. But other
 modifiers can indicate that you're not trying to _type_ the letter "a" at all,
 but using it as a button to have some effect. You are sending a control signal.
 
-<img src="{{ site.baseurl }}/images/keys-a-shift-a-ctrl-a.svg" class="not-too-wide"
-alt="animation of shift, control, and A keys">
+<div class="not-too-wide">
+<object id="svg-key-animation" data="{{ site.baseurl }}/images/keys-a-shift-a-ctrl-a.svg" type="image/svg+xml"></object>
+</div>
 
 For example, if you are pressing the control key when you hit the A, it might
 mean "select **A**ll the things". The specific meaning will vary depending on
