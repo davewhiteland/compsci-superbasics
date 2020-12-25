@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 131 92" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" style="white-space: pre;">
+  <style>
+    :root {
+      --dirfill: #ffffbb;
+    }
+    #dir {
+      cursor: pointer;
+      transition: fill 1s ease;
+    }
+    </style>
+    <defs>
+        <symbol id="dir" preserveAspectRatio="none" width="20" height="14" viewBox="0 0 20 14" overflow="visible">
+            <path id="dir-0" fill="var(--dirfill,#ffffbb)" stroke="#000000" stroke-linecap="square" d="M-1.66667,-3L5.33333,-3L6.33333,-1L17.3333,-1L17.3333,10L-1.66667,10Z" transform="translate(14.5,11.6667) translate(-12.3333,-8.16667)"/>
+        </symbol>
+    </defs>
+    <path d="M0,0L0,11.5" stroke="#828282" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(37.875,60.75)"/>
+    <path d="M0,0L0,11.5" stroke="#828282" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(24.1573,34.3504)"/>
+    <path d="M0,-12L0,11.5" stroke="#828282" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(120.875,73)"/>
+    <path d="M0,0L0,11.5" stroke="#828282" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(93.875,46.625)"/>
+    <path d="M0,0L0,-10.259C-0.00303846,-12.3074,0.792191,-13.5002,2.97311,-13.434L52.8074,-13.4973C54.8678,-13.434,55.9281,-12.4399,56,-10.5L56,0.375" stroke="#828282" fill="none" stroke-linecap="square" stroke-width="2" transform="translate(24.125,34.375)"/>
+    <path d="M0,0L0,-10.259C-0.00303846,-12.3074,0.792191,-13.5002,2.97311,-13.434L23.8074,-13.4973C25.8678,-13.434,26.9281,-12.4399,27,-10.5L27,0.375" stroke="#828282" fill="none" stroke-linecap="square" stroke-width="2" transform="translate(10.6724,59.3585)"/>
+    <path d="M0,0L0,-10.259C-0.00303846,-12.3074,0.792191,-13.5002,2.97311,-13.434L50.8074,-13.4973C52.8678,-13.434,53.9281,-12.4399,54,-10.5L54,0.375" stroke="#828282" fill="none" stroke-linecap="square" stroke-width="2" transform="translate(66.7724,59.5585)"/>
+    <path d="M0,0L0,-10.259C-0.00303846,-12.3074,0.792191,-13.5002,2.97311,-13.434L50.8074,-13.4973C52.8678,-13.434,53.9281,-12.4399,54,-10.5L54,0.375" stroke="#828282" fill="none" stroke-linecap="square" stroke-width="2" transform="translate(20.7724,85.7585)"/>
+    <path d="M0,0L0,-10.5" stroke="#828282" fill="none" stroke-linecap="square" stroke-width="2" transform="translate(52.25,20.75)"/>
+    <path d="M0,0L0,-10.5" stroke="#828282" fill="none" stroke-linecap="square" stroke-width="2" transform="translate(80,46)"/>
+    <path d="M0,0L0,11.5" stroke="#828282" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(47.875,72.75)"/>
+    <use id="dir-0-0-1-1" width="20" height="14" xlink:href="#dir" transform="translate(47.4609,84.6644) translate(-9.99998,-7)"/>
+    <use id="dir-0-0-1-2" width="20" height="14" xlink:href="#dir" transform="translate(74.4609,84.6644) translate(-9.99998,-7)"/>
+    <use id="dir-0-0-1-0" width="20" height="14" xlink:href="#dir" transform="translate(20.4609,84.6644) translate(-9.99998,-7)"/>
+    <use id="dir-0-1-2-0" width="20" height="14" xlink:href="#dir" transform="translate(120.434,84.4868) translate(-9.99998,-7)"/>
+    <use id="dir-0-1-2" width="20" height="14" xlink:href="#dir" transform="translate(120.434,58.4868) translate(-9.99998,-7)"/>
+    <use id="dir-0-1-1" width="20" height="14" xlink:href="#dir" transform="translate(93.7581,58.4868) translate(-9.99998,-7)"/>
+    <use id="dir-0-1-0" width="20" height="14" xlink:href="#dir" transform="translate(66.5833,58.4868) translate(-9.99998,-7)"/>
+    <use id="dir-0-0-1" width="20" height="14" xlink:href="#dir" transform="translate(37.6633,58.4868) translate(-9.99998,-7)"/>
+    <use id="dir-0-0-0" width="20" height="14" xlink:href="#dir" transform="translate(10.6132,58.4868) translate(-9.99998,-7)"/>
+    <use id="dir-0-1" width="20" height="14" xlink:href="#dir" transform="translate(79.6721,32.6804) translate(-9.99998,-7)"/>
+    <use id="dir-0-0" width="20" height="14" xlink:href="#dir" transform="translate(23.5773,32.5557) translate(-9.99998,-7)"/>
+    <use id="dir-0" width="20" height="14" xlink:href="#dir" transform="translate(51.5,7.50003) translate(-9.99998,-7)"/>
+</svg>

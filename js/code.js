@@ -1,1 +1,1 @@
-console.log("code.js");
+document.getElementsByTagName("body")[0].classList.add("js");

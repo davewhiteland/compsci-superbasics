@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 14" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" style="white-space: pre;">
+  <style>
+    :root{ --dirfill: white; }
+  </style>
+  <path fill="var(--dirfill)" stroke="#000" stroke-linecap="square" d="M-1.66667,-3L5.33333,-3L6.33333,-1L17.3333,-1L17.3333,10L-1.66667,10Z" transform="translate(14.5,11.6667) translate(-12.3333,-8.16667)"/>
+</svg>

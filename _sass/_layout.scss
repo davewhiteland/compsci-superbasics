@@ -205,7 +205,7 @@ hr {
 
 pre {
     background: #f7f7f7;
-    padding: 0.4em;
+    padding: 0 0.4em;
 }
 
 blockquote {
@@ -407,7 +407,7 @@ img.key {
 img.enter-key {
   height:4em;
 }
-img.not-too-wide {
+.not-too-wide {
   max-width:12em;
 }
 .inline-block {
@@ -416,3 +416,12 @@ img.not-too-wide {
 .center {
   text-align:center;
 }
+
+.key-dir-table {
+  margin-top:1em;
+}
+.key-dir {
+    width:2.5em;
+}
+.js-only { display: none; }/* display if JavaScript */
+.js .js-only { display: block;} /* display if JavaScript */
