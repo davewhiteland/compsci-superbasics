@@ -7,7 +7,14 @@ order: 116
 
 Also known as: Where you are.
 
-It often matters where you are when you issue a command. This is why the 
-prompt is often set to show the current directory. Or use `pwd` to find out.
+It is often _critically important_ that you know where you are when you issue a
+command. This is why the  prompt is often set to show the current directory. Or
+use `pwd` to find out.
 
-See the SuperBasics on  [the file system]({{ site.baseurl }}/file-system) for more about moving around.
+See the SuperBasics on the file system for more information:
+
+* The [special name `.`]({{ site.baseurl }}/files/special-filenames)
+  _always_ refers to the current directory.
+
+* Understand [the current directory]({{ site.baseurl }}/files/current-directory)
+  in terms of navigating the file system.

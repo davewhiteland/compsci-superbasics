@@ -55,7 +55,7 @@ that directory structures are hierarchical: they can be represented as
 Note how every directory (except one) has <em>only one parent</em>, and can have
 none, one, or many subdirectories.
 
-<hr>
+---
 
 <sup id="footnote-1">1</sup>&nbsp;
 You can create [symbolic links]({site.baseurl}/file-system/symbolic-links)

@@ -1,0 +1,20 @@
+---
+title: The desktop
+layout: topic
+order: 108
+---
+
+You're familiar with the desktop because it's what you see when you log into
+your computer with a graphical user interface. 
+
+But in terms of a file system, it's just another directory (usually called
+`desktop`). The only thing that's special about it is that it's the one
+that is displayed on your whole screen when you use a window-based interface.
+
+This means you can — of course — still access the files on your desktop via
+the command line.
+
+In most systems you'll find the `desktop` directory inside your home directory
+(that's the one you are automatically logged into when you log in, and which
+on Unix has the [special name]({{ site.baseurl }}/files/special-filenames) of
+`~` (tilde, or twiddle).
