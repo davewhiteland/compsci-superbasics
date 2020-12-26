@@ -12,9 +12,8 @@ letters long.
 
 This is only a convention but it's a very useful one, that's helpful to humans
 and computers: it allows you to reliably guess what kind of file something is.
-This is often used
 
-However: it is only a convention: the extension is only advisory, and _really_
+However, it is _only_ a convention: the extension is only advisory, and _really_
 it's just part of the name. Most graphical user interfaces will warn you if you
 try to change the extension on a filename, because it often causes confusion
 later.
@@ -24,7 +23,7 @@ later.
 > change the label (that's like renaming the file) to `FOOTBALLS`, obviously
 > the box still contains a tiger.
 >
-> <div class="center"><img alt="tiger in a box marked FOOTBALLS" src="{{site.baseurl}}/images/tiger-box.svg" class="not-too-wide"></div>
+> <div class="center not-too-wide"><img alt="tiger in a box marked FOOTBALLS" src="{{site.baseurl}}/images/tiger-box.svg"></div>
 >
 > Changing the name doesn't affect its contents. But it _will_ probably affect
 > how people treat that box, and what happens when they open it.

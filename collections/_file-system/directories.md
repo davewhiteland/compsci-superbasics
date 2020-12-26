@@ -4,7 +4,7 @@ layout: topic
 order: 104
 ---
 
-Directories are also known as "folders".
+Directories are sometimes called folders.
 
 A directory is a special kind of file that contains other files.
 
@@ -15,7 +15,7 @@ of its subdirectories.
 Each directory can have at most one parent; it can only ever be in one
 directory<a href="#footnote-1"><sup>1</sup></a>. The consequence of this is
 that directory structures are hierarchical: they can be represented as
-(inverted) tree-like graphs.
+(inverted) tree-like graphs:
 
 <object id="svg-dir-diagram" data="{{ site.baseurl }}/images/dir-tree.svg" type="image/svg+xml">
 </object>
@@ -67,9 +67,9 @@ are just aliases, so the directory itself still has only one parent.
   const ID_PREFIX = "dir",
         ID_SEP = "-",
         COL_DEFAULT = "#ffb",
-        COL_CURRENT = "#fff",
-        COL_PARENT  = "#f00",
-        COL_SUBDIR  = "#ff0";
+        COL_CURRENT = "#0b0",
+        COL_PARENT  = "#fff",
+        COL_SUBDIR  = "#ffee00";
   let quantities, dirs, subdirs = {};
   window.addEventListener("load", function() {
     quantities = {
