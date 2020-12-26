@@ -1,7 +1,7 @@
 ---
 title: Symbolic links
 layout: topic
-order: 108
+order: 110
 ---
 
 Sometimes called a _symlink_, _alias_ or (in user interface terms) an

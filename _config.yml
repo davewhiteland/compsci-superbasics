@@ -89,6 +89,8 @@ collections:
       - directories.md
       - root.md
       - paths.md
+      - absolute-paths.md
+      - relative-paths.md
       - path-separators.md
       - symlinks.md
       - desktop.md

@@ -1,7 +1,7 @@
 ---
 title: Hidden files
 layout: topic
-order: 110
+order: 113
 ---
 
 Hidden files are files that you don't normally see when you look inside a
