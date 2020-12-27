@@ -4,8 +4,7 @@ layout: topic
 order: 110
 ---
 
-Sometimes called a _symlink_, _alias_ or (in user interface terms) an
-_shortcut_.
+Sometimes called a _symlink_, _alias_ or (in user interface terms) a _shortcut_.
 
 A _symbolic link_ is a file that points to another file. The file it's pointing
 to might be a directory (because directories are really just a special kind of
