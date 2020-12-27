@@ -14,7 +14,8 @@ that is displayed on your whole screen when you use a window-based interface.
 This means you can — of course — still access the files on your desktop via
 the command line.
 
-In most systems you'll find the `desktop` directory inside your home directory
-(that's the one you are automatically logged into when you log in, and which
-on Unix has the [special name]({{ site.baseurl }}/files/special-filenames) of
-`~` (tilde, or twiddle).
+In most systems you'll find the `desktop` directory inside your
+_home directory_. Your home directory is the one associated with your username,
+and which is normally set to be the current directory when you log in. On Unix
+systems, this has the [special name]({{ site.baseurl }}/files/special-filenames)
+of `~` (tilde, or twiddle).
