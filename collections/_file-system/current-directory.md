@@ -28,7 +28,5 @@ To change into the directory `foo`, do this:
     cd foo
 
 ...but this will only work if the directory `foo` is in the
-[current directory]({{ site.baseurl }}/files/current-directory).
-If it isn't, you'll need to provide a route for the computer to follow in the
-same you do when you are navigating the file system usually.
+current directory. If it isn't, you'll need to provide a path to it.
 
