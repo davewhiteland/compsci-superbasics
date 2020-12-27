@@ -20,11 +20,12 @@ Relative file paths start at the
 </p>
 
 <p class="js-only">
-  Click or tap on a directory to see the path from the current directory.
+  Click or tap on a directory to set the current directory, then tap or click
+  on another to see the relative path between the two.
 </p>
 
 There's no way to just hop across between siblings. You must go up to the
-parent and then down again.
+parent (with `..`) and then down again.
 
 ### Using the "current directory" `./`
 
@@ -50,7 +51,10 @@ you use it.
         FROM_DISPLAY_NAME = "from-abs-display",
         TO_DISPLAY_NAME = "to-abs-display",
         PATH_DISPLAY_NAME = "path-display";
-  const from_dir_id = "dir-0-0-1";
+  
+  let from_dir_id = "dir-0-0-1";
+
+  let want_new_from_dir = true;
 
   // array of dirs from root to dir_id
   function get_dir_array(svg_obj, dir_id) {
@@ -97,6 +101,11 @@ you use it.
         for (let path of paths) {
           path.setAttributeNS(null, 'style', "opacity: 0");
         }
+        if (want_new_from_dir) { // this is setting a new input directory
+          from_dir_id = this.id;
+        }
+        want_new_from_dir = !want_new_from_dir; // toggle
+
         let from_dir = svgObject.getElementById(from_dir_id);
         let from_route = get_dir_array(svgObject, from_dir_id);
         let to_route = get_dir_array(svgObject, this.id);
