@@ -20,13 +20,22 @@ Relative file paths start at the
 </p>
 
 <p class="js-only">
-  Click or tap on a directory to set the current directory, then tap or click
-  on another to see the relative path between the two.
+  Click or tap a directory to set the current directory, then tap or click
+  another to see the relative path between the two.
 </p>
 
 There's no way to just hop across between siblings. You must go up to the
 [parent]({{ site.baseurl }}/files/parent-directory) (with `..`) and then down
 again.
+
+The downside of relative paths is that they are — by definition — sensitive
+to the context of _where_ they are used. Unlike
+[absolute paths]({{ site.baseurl }}/files/absolute-paths), you need a different
+relative path to access the same file from different locations within the file
+structure.
+
+This means you can sometimes break programs that use relative paths if you run
+them from the wrong directory.
 
 ### Using the "current directory" `./`
 

@@ -7,8 +7,8 @@ order: 112
 Sometimes called a _symlink_, _alias_ or (in user interface terms) a _shortcut_.
 
 A _symbolic link_ is a file that points to another file. The file it's pointing
-to might be a directory (because directories are really just a special kind of
-file).
+to might be a [directory]({{ site.baseurl }}/files/directories) (because
+directories are really just a special kind of file).
 
 If you double-click on a symbolic link's icon, most user interfaces will treat
 that exactly as if you'd double-clicked on the thing it is linking too. This is

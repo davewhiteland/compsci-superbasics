@@ -25,8 +25,9 @@ even change or delete them.
 The way file systems are implemented varies a little between operating systems:
 there are some differences in the detail between Windows, Mac, and Unix.
 
-The file system is organised into directories (sometimes called folders) which
-themselves contain files (and more directories).
+The file system is organised into
+[directories]({{ site.baseurl }}/files/directories) (sometimes called folders)
+which themselves contain files (and more directories).
 
 File systems also need to know how to work with different kinds of disk and
 storage, but a lot of that is hidden from you. To start with, all you need to
