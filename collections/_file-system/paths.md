@@ -1,7 +1,7 @@
 ---
 title: File paths
 layout: topic
-order: 106
+order: 108
 ---
 
 The _file path_ describes the position of a file by identifying its position

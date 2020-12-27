@@ -1,7 +1,7 @@
 ---
 title: Relative paths
 layout: topic
-order: 108
+order: 110
 ---
 
 Relative file paths start at the
@@ -25,7 +25,8 @@ Relative file paths start at the
 </p>
 
 There's no way to just hop across between siblings. You must go up to the
-parent (with `..`) and then down again.
+[parent]({{ site.baseurl }}/files/parent-directory) (with `..`) and then down
+again.
 
 ### Using the "current directory" `./`
 

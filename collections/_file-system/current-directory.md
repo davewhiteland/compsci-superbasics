@@ -1,7 +1,7 @@
 ---
 title: Current directory
 layout: topic
-order: 114
+order: 106
 ---
 
 Also known as: "this directory" or "current working directory"
@@ -28,5 +28,6 @@ To change into the directory `foo`, do this:
     cd foo
 
 ...but this will only work if the directory `foo` is in the
-current directory. If it isn't, you'll need to provide a path to it.
+current directory. If it isn't, you'll need to provide a 
+[path]({{ site.baseurl }}/files/paths) to it.
 

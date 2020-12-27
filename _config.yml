@@ -88,6 +88,8 @@ collections:
       - extensions.md
       - directories.md
       - root.md
+      - current-directory.md
+      - parent-directory.md
       - paths.md
       - absolute-paths.md
       - relative-paths.md
@@ -96,8 +98,6 @@ collections:
       - desktop.md
       - special-filenames.md
       - hidden-files.md
-      - current-directory.md
-      - parent-directory.md
       - volumes.md
       - finding-files.md
       - permissions.md

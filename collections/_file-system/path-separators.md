@@ -1,7 +1,7 @@
 ---
 title: Path separators
 layout: topic
-order: 109
+order: 111
 ---
 
 You'll need to use [paths]({{ site.baseurl }}/files/paths) a lot because they
