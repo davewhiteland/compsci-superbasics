@@ -9,6 +9,9 @@
     #dir {
       cursor: pointer;
     }
+    .text{
+      pointer-events:none;
+    }
     .path {
       opacity: 0.0;
     }
