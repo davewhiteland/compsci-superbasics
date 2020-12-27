@@ -59,7 +59,7 @@ information including the permissions, and they will look something like this:
 
     -rwxr-xr--
 
-The first character (`-`) indicates if the file is a special kind of file,
+The first character (`-`) indicates if the file is a special type,
 such as a [directory]({{ site.baseurl }}/files/directories) or
 [symlink]({{ site.baseurl }}/files/symlinks). In this example it is neither
 (if it was, it would be `d` or `l`). Being a directory is not really a
