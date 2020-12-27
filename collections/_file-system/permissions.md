@@ -59,12 +59,13 @@ information including the permissions, and they will look something like this:
 
     -rwxr-xr--
 
-The first character (`-`) indicates if the file is a 
-[directory]({{ site.baseurl }}/files/directories). In this example it is not
-(if it was, it would be `d`). Being a directory is not really a permission,
-_but_ it's relevant because the meaning of `rwx` is slightly different for
-directories. For example, the `x` permission on a directory indicates whether
-or not a user is allowed to `cd` (change directory) into it.
+The first character (`-`) indicates if the file is a special kind of file,
+such as a [directory]({{ site.baseurl }}/files/directories) or
+[symlink]({{ site.baseurl }}/files/symlinks). In this example it is neither
+(if it was, it would be `d` or `l`). Being a directory is not really a
+permission, _but_ it's relevant because the meaning of `rwx` is slightly
+different for directories. For example, the `x` permission on a directory
+indicates whether or not a user is allowed to `cd` (change directory) into it.
 
 The next three (`rwx`) are the permissions for the _owner_. In this example,
 the owner has all three permissions, so can do anything to this file (including
