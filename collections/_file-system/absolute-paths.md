@@ -7,7 +7,7 @@ order: 109
 Absolute file paths _start at the [root]({{ site.baseurl }}/files/root)_.
 
 That means they *must* have the
-[file separator]({{ site.baseurl }}/files/file-separators)
+[path separator]({{ site.baseurl }}/files/path-separators)
 as the very first character, because that is effectively the name of the
 root directory.
 
