@@ -33,13 +33,13 @@ Notice the following details:
   menu:
   
   * how the files are displayed (as icons, or a list)
-  * which files are shown ([hidden files]({{ site.baseurl }}/files/hidden-files))
+  * which files are shown (for example, [hidden files]({{ site.baseurl }}/files/hidden-files))
   * whether or not [file extensions]({{ site.baseurl }}/files/extensions) are
     displayed (it's confusing if they are not)
 
 * the sidebar displays the file system's structure as a _tree_:
 
-  * it only shows directories (shared and networked
+  * it only shows directories (and shared and networked
     [volumes]({{ site.baseurl }}/files/volumes) too if any are available)
   * click on the little triangles to _expand_ or _collapse_ directories
   * if there's no triangle, there are no subdirectories to go into
