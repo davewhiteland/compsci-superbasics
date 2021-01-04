@@ -4,26 +4,26 @@ layout: topic
 order: 117
 ---
 
-# File managers (navigating with a GUI)
+_Or: navigating the file system with a graphical user interface (GUI)._
 
-You  need to learn to navigate the file system on the command line
-because the [current directory]({{ site.baseurl }}/files/current-directory)
-is critical for many operations. But it is also possible to navigate the file
-system using a graphical user interface (GUI). All computer operating systems
-with a GUI have a mechanism for this, and although each looks different, their
-fundamental behaviour is the same. They have different names too:
+You need to learn to navigate the file system on the command line because the
+[current directory]({{ site.baseurl }}/files/current-directory) is critical for
+many operations. But it is also possible to interact with the file system using
+a GUI. All computer operating systems with a GUI have a mechanism for this, and
+although each looks different, their fundamental behaviour is the same. They
+have different names too:
 
-* Linux: File Manager
-* Windows: File Explorer
-* Mac OS: Finder
+* Linux: **File Manager**
+* Windows: **File Explorer**
+* MacOS: **Finder**
 
 If you're unfamiliar with [directory structures]({{ site.baseurl }}/directories),
 using these applications can help you learn your way around.
 
 ## Basic features
 
-Every file manager is different, but they all have the same basic capabilities,
-which are explained here.
+Every file manager is different, but they all have the same basic capabilities.
+This is a general example:
 
 ![example file manager]({{ site.baseurl }}/images/file-manager.svg)
 
