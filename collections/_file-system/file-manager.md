@@ -17,7 +17,7 @@ have different names too:
 * Windows: **File Explorer**
 * MacOS: **Finder**
 
-If you're unfamiliar with [directory structures]({{ site.baseurl }}/directories),
+If you're unfamiliar with [directory structures]({{ site.baseurl }}/files/directories),
 using these applications can help you learn your way around.
 
 ## Basic features
@@ -37,8 +37,10 @@ Notice the following details:
   * whether or not [file extensions]({{ site.baseurl }}/files/extensions) are
     displayed (it's confusing if they are not)
 
-* the sidebar displays the file system as a _tree_:
+* the sidebar displays the file system's structure as a _tree_:
 
+  * it only shows directories (shared and networked
+    [volumes]({{ site.baseurl }}/files/volumes) too if any are available)
   * click on the little triangles to _expand_ or _collapse_ directories
   * if there's no triangle, there are no subdirectories to go into
   * click on a directory to go into it (the main panel will change to show
@@ -46,12 +48,12 @@ Notice the following details:
 
 * the main panel shows the files (and subdirectories) within it:
 
-  * the current directory is highlighted in the tree
-  * as well as your own files, other (shared and network)
-    [volumes]({{ site.baseurl }}/files/extensions) may be accessible too
+  * the current directory is highlighted in the tree: if you change your
+    position in the tree, the files displayed in the main panel will change too
 
-* the path of the current directory is often shown too — this may be useful for
-  cutting-and-pasting (and the little icon for drag-and-dropping)
+* the [absolute path]({{ site.baseurl }}/files/absolute-paths) of the current
+  directory is often shown — this may be useful for cutting-and-pasting (and
+  the little icon might be useful for drag-and-dropping)
 
 * _clicking_ on an icon _selects_ it, but _double-clicking_ tells the file
   manager to attempt to open it — using whatever application it thinks is best:
