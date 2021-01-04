@@ -99,7 +99,7 @@ collections:
       - special-filenames.md
       - hidden-files.md
       - volumes.md
-      - finding-files.md
+      - file-manager.md
       - permissions.md
       - think.md
   text-editing:
