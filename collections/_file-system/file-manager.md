@@ -29,11 +29,11 @@ which are explained here.
 
 Notice the following details:
 
-* what you see in the main panel can be changed by settings in the **View**
+* what you see in the main panel is affected by settings in the **View**
   menu:
   
   * how the files are displayed (as icons, or a list)
-  * which files are shown (hidden files)
+  * which files are shown ([hidden files]({{ site.baseurl }}/files/hidden-files))
   * whether or not [file extensions]({{ site.baseurl }}/files/extensions) are
     displayed (it's confusing if they are not)
 
@@ -60,7 +60,7 @@ Notice the following details:
   * the **File** menu will probably have more options too when an item is
     selected
 
-Look in the **File**, **Edit** and **View menus to see what is possible.
+Look in the **File**, **Edit** and **View** menus to see what is possible.
 
 ### Forward/back/up/home
 
