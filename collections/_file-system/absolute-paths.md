@@ -26,7 +26,7 @@ Absolute paths are useful because they work independently of what the current
 directory is.
 
 One disadvantage of absolute paths is that they can be quite long. When you're
-working with files a long way from the root, this can be inconvienient.
+working with files a long way from the root, this can be inconvenient.
 
 Another problem is that — almost by definition — they rely on the file
 structure being exactly as described. This is why you should avoid using 

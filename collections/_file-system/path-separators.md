@@ -56,7 +56,7 @@ data_path = Path("data", "raw", "ex-1.dat")
 ```
 
 Older Python programs use the `os` (operating system) module which contained
-similar features (and `os.sep` contained the correct seperator character).
+similar features (and `os.sep` contained the correct separator character).
 
 ### In Java
 

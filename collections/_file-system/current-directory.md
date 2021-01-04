@@ -11,7 +11,7 @@ in_ is very important, especially when you are working on the
 [command line]({{ site.baseurl }}/command-line).
 
 This matters because when you refer to files, by default the computer will
-assume you're refering to files relative to where you are.
+assume you're referring to files relative to where you are.
 
 ### Find out which directory you are in
 

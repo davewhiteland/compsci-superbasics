@@ -17,7 +17,7 @@ They are called _options_ because they are usually _optional_.
 > information about _how_.
 
 Options usually control _how_ a command runs. They begin with a hyphen (-)
-immediately followed by a letter indicating _which_ option it is. The hypen
+immediately followed by a letter indicating _which_ option it is. The hyphen
 is crucial: it's how the computer knows it's an option and not an argument.
 
 Every command will have its own options. Some have none (but in Unix, this is
@@ -37,7 +37,7 @@ A _long option_ is more than one letter, and has _two_ hyphens
 
 Often — but not always (it depends on the command or program) — the same option
 has both forms: short (for convenience) and long (for clarity). For example,
-`-v` and `--version` might both be the same option. But be careful beacuse
+`-v` and `--version` might both be the same option. But be careful because
 that's not always the case!
 
 The programs you write can accept options, but what they mean is up to you.

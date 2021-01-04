@@ -22,10 +22,10 @@ last unambiguous character. Then press tab again to see the choices.
 > should _always_ use tab completion to enter its filename on the command line.
 > It saves you typing, avoids typos, and confirms that the file is indeed there.
 
-### Autcomplete and ambiguity in more detail
+### Autocomplete and ambiguity in more detail
 
 Autocomplete works by looking at what you've typed already, matching it to the
-avilable possibilities, and adding those characters for you.
+available possibilities, and adding those characters for you.
 
 Sometimes this completes the whole command or filename, because there are no
 alternatives. Great!

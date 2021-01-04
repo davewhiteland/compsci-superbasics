@@ -60,15 +60,15 @@ Notice the following details:
   * the **File** menu will probably have more options too when an item is
     selected
 
-Look in the **File**, **Edit** and **View menues to see what is possible.
+Look in the **File**, **Edit** and **View menus to see what is possible.
 
-### Foreward/back/up/home
+### Forward/back/up/home
 
 There are usually buttons available on the the file manager too:
 
 * **forward** and **back**<br>
   These navigate through you _history_ (so clicking back means going back to
-  the dirctory you were looking at before this one).
+  the directory you were looking at before this one).
 
 * **up**<br>
   This goes up into the
@@ -84,7 +84,7 @@ Alt-↑ may take you to the parent directory).
 
 ## How to launch a file manager
 
-Each operating system has differnt ways of launching the file manager, but
+Each operating system has different ways of launching the file manager, but
 in general either:
 
 * double-click on a directory icon

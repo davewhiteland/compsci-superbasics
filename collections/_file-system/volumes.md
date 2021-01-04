@@ -29,7 +29,7 @@ Mount points are conventionally stored in either the `/mnt` or `/media`
 directories of the system they've been mounted on.
 
 The Unix `mount` and `unmount` commands are used to do this — in normal
-opertation you probably won't need to do this because it's done by the system
+operation you probably won't need to do this because it's done by the system
 administrators. If you're running Unix on your own laptop (or a Mac) then the
 chances are the operating system will automatically do this for you when it
 detects you've plugged in a new storage device (such as a USB stick).

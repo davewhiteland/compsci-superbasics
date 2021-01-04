@@ -11,7 +11,8 @@ The tab key is sometimes marked with an arrow-to-line symbol:
 <img class="key" src="{{ site.baseurl }}/images/key-tab.svg">
 <img class="key" src="{{ site.baseurl }}/images/key-tab-mac.svg">
 
-The tab (tabulate) key is commonly used in three different ways, depending on context:
+The tab (tabulate) key is commonly used in three different ways, depending on
+context:
 
 * to jump to the next column (for lining up tabular data)
 * to jump to the _next_ position in a form
