@@ -5,7 +5,7 @@ order: 123
 ---
 
 * The commands that your computer knows about when you first switch it on
-  depends on the operating system it ships with. Whose chose them?
+  depends on the operating system it ships with. Who chose them?
 * Some commands are "built-ins" because they are part of the operating system's
   kernel... others are programs that come pre-installed. How can you tell which
   is which?
