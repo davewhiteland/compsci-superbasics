@@ -429,5 +429,9 @@ img.enter-key {
 .key-dir {
     width:2.5em;
 }
+#path-display {
+  padding:1rem 0.5rem;
+  border:2px solid #bb0000;
+}
 .js-only { display: none; }/* display if JavaScript */
 .js .js-only { display: block;} /* display if JavaScript */
