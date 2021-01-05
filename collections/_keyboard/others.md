@@ -18,7 +18,7 @@ which program is listening.
 | <span class="key"><sub>ctrl</sub></span><span class="key">S</span> | save |
 | <span class="key"><sub>ctrl</sub></span><span class="key">F</span> | find or search |
 | <span class="key"><sub>ctrl</sub></span><span class="key">A</span> | select all |
-| <span class="key"><sub>ctrl</sub></span><span class="key">Z</span> | exit |
+| <span class="key"><sub>ctrl</sub></span><span class="key">Z</span> | suspend |
 | <span class="key"><sub>ctrl</sub></span><span class="key">D</span> | terminate input |
 
 Specifically, these combinations are common in Unix and Windows systems.
