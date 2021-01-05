@@ -36,7 +36,12 @@ layout: default
    </div>
 {% endif %}
 </article>
-
+{% unless prevurl %}
+  {% assign prevurl = page.collection | prepend: '/' %}
+{% endunless %}
+{% unless nexturl %}
+  {% assign nexturl = page.collection | prepend: '/'%}
+{% endunless %}
 <script>
   document.body.onkeyup = function(e){
     {% if prevurl %} if (e.keyCode == '37') { window.location = '{{prevurl | prepend:site.baseurl }}'; }{% endif %}

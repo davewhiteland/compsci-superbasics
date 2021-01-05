@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<article class="color3 module">
+<article class="color3 module topic-index">
   <h2>{{ page.title }}</h2>  
   {{ content }}  
   <div class="nav color5">
@@ -14,4 +14,13 @@ layout: default
       {% endfor %} 
     </ul>
   </div>
+  <div class="js-only right arrow-hint">
+    next <a href="{{ sorted_topics[0].url | prepend:site.baseurl }}"><span class="key">→</span></a>
+  </div>
 </article>
+
+<script>
+  document.body.onkeyup = function(e){
+    if (e.keyCode == '39') { window.location = '{{sorted_topics[0].url | prepend:site.baseurl }}'; }
+  };
+</script>
