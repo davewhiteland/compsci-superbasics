@@ -45,8 +45,5 @@ Most programming languages have libraries to help you define and use your own.
 
 It's common to learn the useful options for the commands you use most. But you
 must know how to find others. On Unix, use the `man` (manual) command to see
-them. For example, `man ls` shows you information about the `ls` command which
-lists directory contents. There are 40 options available on the `ls` command
-(for example `-a` shows hidden files which are not normally listed). Often
-these short options are chosen as mnemonics: `-a` here means "show **a**ll
-files".
+them.
+
