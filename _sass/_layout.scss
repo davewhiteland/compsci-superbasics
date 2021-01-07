@@ -177,6 +177,9 @@ header {
 /*****************************************************************************/
 
 article {
+  &.topic-index h2 {
+    margin-top:0em;
+  }
   p, td {
     a {
       border-bottom: .125em solid #ccc;
