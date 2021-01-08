@@ -453,20 +453,23 @@ img.enter-key {
       grid-row: 2/3;
       margin:0;
       padding:0;
-      display: table-cell;
-      vertical-align:middle;
       h1 {
+        font-size:100%;
         margin:0;
-        padding:0.25rem;
-        display: table-cell;
-        vertical-align:middle;
+        text-align:center;
+        padding:1rem 0.25rem 0rem 0.25rem;
+        img {
+          height: 5rem;
+          width: 5rem;
+        }
       }
     }
     .header-desc {
       grid-column: 2/3;
       grid-row: 2/3;
       margin:0;
-      padding:0.2em 1em;
+      display: table-cell;
+      vertical-align: middle;
       text-align:center;
     }
     nav.module {
