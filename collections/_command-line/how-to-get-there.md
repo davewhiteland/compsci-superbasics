@@ -31,8 +31,18 @@ be aware that Git bash really emulates a Unix command shell.
 
 ### On Mac
 
-Press <span class="key">⌘</span><span class="key">U</span> (opens the Utilities
-folder) then open **Terminal**.
+You need to find the **Terminal** application and launch it. Either:
+
+* Press <span class="key">⌘</span><span class="key">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> (command-space to launch Spotlight)
+
+  * then type `terminal` to find then launch the Terminal app.
+
+or, in Finder (e.g., click on the Desktop background, or the blue Finder icon):
+
+* Press <span class="key">⌘</span><span class="key">⇧</span><span class="key">U</span> (opens the Utilities
+folder)
+
+  * then double-click on **Terminal**.
 
 ### On Linux
 
