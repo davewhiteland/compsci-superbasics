@@ -292,6 +292,10 @@ h3 {
     nav a {
         margin: 0 0.75em;
     }
+    blockquote {
+      margin-left:0.5rem;
+      margin-right:0.5rem;
+    }
 }
 
 
@@ -442,6 +446,43 @@ img.enter-key {
 .js .js-only { display: block;} /* display if JavaScript */
 
 
+/* ------------------------------------------------------
+    technique (checkbox label absorbing clicks)
+    from Code Boxx's css-ham-menu
+    https://code-boxx.com/
+  -------------------------------------------------------*/
+
+.main-header nav label, #hamburger { display: none; }
+@media screen and (max-width: 36rem){
+  .main-header nav {
+    text-align:left;
+    li {
+      display:block;
+    }
+    label { /* hamburger icon */
+      cursor:pointer;
+      display: inline-block; 
+      padding: 0.3rem;
+      svg {
+        height:2rem;
+        width:2rem;
+        &:hover {
+          fill: red;
+        }
+      }
+    }
+    ul {
+      display: none;
+      a {
+        float: none; /* normal nav is floated */
+        box-sizing: border-box;
+        display: block;
+      }
+    }
+    input:checked ~ ul { display: block; }
+  }
+}
+
 @media (max-width: 850px) {
   aside.main-header {
     display: grid;
@@ -471,6 +512,7 @@ img.enter-key {
       display: table-cell;
       vertical-align: middle;
       text-align:center;
+      padding:0.2rem 0.666rem;
     }
     nav.module {
       grid-column: 1/3;
