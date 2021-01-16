@@ -21,12 +21,12 @@ layout: default
   {% assign prev = links %}
 {% endfor %}
 
-<article class="color3 module">
+<article class="topic block">
   <a class="top-nav" href="{{ site.baseurl }}/{{ page.collection }}/">{{ page.collection | replace: '-', ' ' | capitalize }}</a>
   <h2>{{ page.title }}</h2>
   {{ content }}
 </article>
-<article class="color3 module">
+<div class="prev-next-nav block">
 {% if prevurl or nexturl %}
    <div>
        {% if nexturl %}<a href="{{nexturl | prepend:site.baseurl }}" class="next">{{ nexttitle }}</i></a>{% endif %}
@@ -35,7 +35,7 @@ layout: default
      </div>
    </div>
 {% endif %}
-</article>
+</div>
 {% unless prevurl %}
   {% assign prevurl = page.collection | prepend: '/' %}
 {% endunless %}

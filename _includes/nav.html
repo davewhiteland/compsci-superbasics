@@ -1,0 +1,23 @@
+  <label id="hamburger" for="hamburger-input">
+    <svg viewBox="0 0 100 80" width="40" height="40">
+        <rect width="100" height="20" rx="10"></rect>
+        <rect width="100" height="20" rx="10" y="30"></rect>
+        <rect width="100" height="20" rx="10" y="60"></rect>
+    </svg>
+  </label>
+  <input type="checkbox" id="hamburger-input"/>
+  <nav class="block">
+    <ul>
+      {% if page.layout != "home" %}
+        <li>
+          <a href="{{ site.baseurl }}/" class="start-link">Start here</a>
+        </li>
+      {% endif %}
+      {% assign sorted_topics = site.topics | sort: "order" %}
+      {% for topic in sorted_topics %}
+        <li>
+          <a href="{{ topic.url | prepend:site.baseurl }}">{{ topic.topic | replace: '-',' ' | capitalize }}</a>
+        </li>
+      {% endfor %} 
+    </ul>
+  </nav>

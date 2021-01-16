@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
   {% include head.html %}
-
 <body>
-  {% include header.html %}
-
-  <section class="main-content">
-    {{ content }}
-      {% include footer.html %}
-  </section>
-
+  <div class="header-and-content">
+    {% include header.html %}
+    <section class="main-content">
+      {{ content }}
+    </section>
+  </div>
+  {% include footer.html %}
 </body>
 </html>

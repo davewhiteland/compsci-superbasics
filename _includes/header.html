@@ -1,33 +1,11 @@
 <aside class="main-header">
-  <header class="module">
-    <h1 class="center"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/compsci-superbasics.png"></a></h1>
-  </header>
-  <div class="module color2 header-desc">
+  <h1 class="block">
+    <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/compsci-superbasics.png"></a>
+  </h1>
+  <div class="block description">
     {{ site.description }}
   </div>
-  <nav class="module color4">
-    <label for="hamburger">
-      <svg viewBox="0 0 100 80" width="40" height="40">
-          <rect width="100" height="20" rx="10"></rect>
-          <rect width="100" height="20" rx="10" y="30"></rect>
-          <rect width="100" height="20" rx="10" y="60"></rect>
-      </svg>
-    </label>
-    <input type="checkbox" id="hamburger"/>
-    <ul id="hamitems">
-      <li>
-        <a href="{{ site.baseurl }}/" class="start-link">Start here</a>
-      </li>
-      {% assign sorted_topics = site.topics | sort: "order" %}
-      {% for topic in sorted_topics %}
-        <li>
-          <a href="{{ topic.url | prepend:site.baseurl }}">{{ topic.topic | replace: '-',' ' | capitalize }}</a>
-        </li>
-      {% endfor %} 
-    </ul>
-  </nav>
-  
-  <div class="module color6 header-notice">
-    Work-in-Progress!
-  </div>
+  {% if page.name != "index.md" %}
+    {% include nav.html %}
+  {% endif %}
 </aside>
