@@ -21,6 +21,7 @@ Because of a Jekyll version lag on GitHub, there's a Python utility in here
 too (see "about `order`" below). When the version bumps, the Python script
 will be redundant, and will go.
 
+
 ## Adding content
 
 This whole project was set up to make adding and changing the basic content as
@@ -53,14 +54,48 @@ There are some work-in-progress topics: they are in `_topics_pending` so that
 they don't get displayed on the live site. You can move files out of there into
 `_topics` while you are working.
 
-To **add a new page** to `some-section`:
+## How to add a new topic page
 
-* add a markdown (`.md`) file to the `collections/_some-section` folder
-* make sure it has the _right position_ relative to the other pages: that means
-  adding it to the right place in the right collection inside `_config.yml`
-  too...
-* you need to update the order too (see below) — in time this step will
-  become redundant
+For example to make a page about _Shaving Yaks_ in the
+_Animals_ topic:
+
+* Find the topic subdirectory in the `collections` directory: it will be
+  something like `_animals/`.
+
+* Make a new markdown file: `yak-shaving.md`. The filename you choose will be
+  in the (public, obviously) URL.
+
+* Make sure that file has this _front matter_ at the very top of the file,
+  including the triple-hyphens, otherwise it will not be processed by Jekyll:
+    ```yaml
+    ---
+    title: Shaving yaks
+    layout: topic
+    ---
+    ```
+  The title will appear as the link text on the site (as well as the page title
+  and heading).
+
+* You also need an `order` number in there (for old versions of Jekyll, but see
+  the last step in this list for how to do that).
+
+* Look in other topic pages to see how the markdown and writing style used so
+  far. Remember to _always_ use `{{site.baseurl}}` as the prefix on all
+  superbasic URLs (even if it works for you on `localhost:4000` without it, it
+  won't up on GitHub pages because that's not running in the root of the
+  webserver).
+
+* Edit `_config.yml`: inside the `collections`, find `animals` and go to the
+  `order:` list...
+
+* ...add `yak-shaving.md` to the `order:` list in the position you want it to
+  appear (i.e., relative to the other topic pages) — Jekyll builds the site
+  with prev/next links that implement that order.
+
+* Finally, run the Python script `utils/sortorder.py` (see below) which "fixes"
+  your `yak-shaving.md` file's front-matter by putting a correct `order: 123`
+  value in there for older versions of Jekyll _inlcuding the one running on
+  GitHub_ at time of writing.
 
 
 ## About `order`
@@ -95,7 +130,8 @@ There are a few settings you might want to fiddle with in `css/main.scss`.
 
 Jekyll watches the stylesheets in the `_sass` directory, and rebuilds the CSS
 if you change it. This project's custom styling is pretty much all in
-`_sass/layout.css`.
+`_sass/layout.scss` with the narrow-screen layout in `responsive.scss` (which
+implements the "hamburger" menu).
 
 
 ## Work in progress
