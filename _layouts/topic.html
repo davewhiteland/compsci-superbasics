@@ -28,12 +28,8 @@ layout: default
 </article>
 <div class="prev-next-nav block">
 {% if prevurl or nexturl %}
-   <div>
-       {% if nexturl %}<a href="{{nexturl | prepend:site.baseurl }}" class="next">{{ nexttitle }}</i></a>{% endif %}
-       <div class="prev-wrapper">
-       {% if prevurl %}<a href="{{prevurl | prepend:site.baseurl }}" class="prev">{{ prevtitle }}</a>{% endif %}                    
-     </div>
-   </div>
+  {% if nexturl %}<a href="{{nexturl | prepend:site.baseurl }}" class="next">{{ nexttitle }}</a>{% endif %}
+  {% if prevurl %}<a href="{{prevurl | prepend:site.baseurl }}" class="prev">{{ prevtitle }}</a>{% endif %}
 {% endif %}
 </div>
 {% unless prevurl %}

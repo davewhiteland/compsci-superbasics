@@ -4,7 +4,7 @@ layout: default
 <article class="block topic-index">
   <h2>{{ page.title }}</h2>  
   {{ content }}  
-  <div class="nav color5">
+  <div class="topic-nav">
     <ul>
       {% assign sorted_topics = site[page.topic] | sort: "order" %}
       {% for topic in sorted_topics %}

@@ -65,6 +65,8 @@ nav.block {
 }
 .block.prev-next-nav {
   background-color: $nav-bg-color;
+  position: relative;
+  padding:1rem;
 }
 .block.description {
   background-color: $yellow;
@@ -111,7 +113,7 @@ footer {
 
 #hamburger, #hamburger-input { display: none; }
 
-nav, .nav {
+nav, .topic-nav {
   ul {
     list-style: none;
     margin:0;
@@ -146,19 +148,52 @@ nav, .nav {
     padding-top: $spacing-unit;
   }
 }
-.nav {
-  padding:1em;
-  border-radius: 0.3em;
+a.prev, a.next {
+  transition:background-color 0s;
+  line-height:1.7;
+  margin:0em;
+  padding: 0.4em;
+  background: #fff;
+  border-radius: 0.2em;
+  box-shadow: 0.1em 0.2em 0.2em #00000066;
+  margin-bottom: 1rem;
+  -webkit-transition: color 0.25s ease-in, background 0.25s ease-in;
+  -moz-transition: color 0.25s ease-in, background 0.25s ease-in;
+  -o-transition: color 0.25s ease-in, background 0.25s ease-in;
+  transition: color 0.25s ease-in, background 0.25s ease-in;
+  &:hover {
+    background: $link-hover;
+    border: 0;
+    color: #fff;
+  }
 }
-.prev {
+a.prev {
   float: left;
+  &::before{
+    display:inline-block;
+    vertical-align:middle;
+    width:3rem;
+    margin-left:-0.5rem;
+    content:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 70 70'%3E%3Cpolygon stroke-width='5' points='60,10 10,40 60,70 50,40 60,10 ' strokeWidth='5' strokecolor='none' fill='%23FF0000' edge='76' orient='x' sides='3' shape='regularPoly' cy='0' cx='0'/%3E%3C/svg%3E");
+  }
+  &:hover::before{
+    // better to change fill with CSS variable... but this works :-|
+    content:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 70 70'%3E%3Cpolygon stroke-width='5' points='60,10 10,40 60,70 50,40 60,10 ' strokeWidth='5' strokecolor='none' fill='%23FFFFFF' edge='76' orient='x' sides='3' shape='regularPoly' cy='0' cx='0'/%3E%3C/svg%3E");
+  }
 }
-.prev-wrapper {
-  clear:both;
-  padding-top:1em;
-}
-.next {
+a.next {
   float: right;
+  &::after{
+    display:inline-block;
+    vertical-align:middle;
+    width:3rem;
+    margin-right:-0.5rem;
+    content:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 70 70'%3E%3Cpolygon stroke-width='5' points='10,10 60,40 10,70 20,40 10,10 ' strokeWidth='5' strokecolor='none' fill='%23FF0000' edge='76' orient='x' sides='3' shape='regularPoly' cy='0' cx='0'/%3E%3C/svg%3E");
+  }
+  &:hover::after{
+    // better to change fill with CSS variable... but this works :-|
+    content:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 70 70'%3E%3Cpolygon stroke-width='5' points='10,10 60,40 10,70 20,40 10,10 ' strokeWidth='5' strokecolor='none' fill='%23FFFFFF' edge='76' orient='x' sides='3' shape='regularPoly' cy='0' cx='0'/%3E%3C/svg%3E");
+  }
 }
 
 .block h2:first-of-type {
@@ -244,82 +279,6 @@ h3 {
   border-top:1px solid #ddd;
 }
 
-.next {
-  transition:background-color 0s;
-  width: 80%;
-  line-height:3em;
-  height: 3em;
-  text-align:right;
-  position: relative;
-  background: #ffeeee;
-}
-.next:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-left: 1em solid $nav-bg-color;
-  border-top: 1.5em solid transparent;
-  border-bottom: 1.5em solid transparent;
-}
-.next:before {
-  content: "";
-  position: absolute;
-  right: -1em;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-left: 1em solid #ffeeee;
-  border-top: 1.5em solid transparent;
-  border-bottom: 1.5em solid transparent;
-}
-a.next:hover {
-  background:#ffcccc;
-};
-.next:hover:before {
-  border-left: 1em solid #ffcccc;
-}
-
-.prev { 
-  transition:background-color 0s;
-  width: 80%;
-  height: 3em;
-  line-height: 3em;
-  text-align:left;
-  position: relative;
-  background: #eeeeee;
-}
-.prev:after {
-  content: "";
-  position: absolute;
-  left: -1em;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-right: 1em solid #eeeeee;
-  border-top: 1.5em solid transparent;
-  border-bottom: 1.5em solid transparent;
-}
-.prev:before {
-  content: "";
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-right: 1em solid $nav-bg-color;
-  border-top: 1.5em solid transparent;
-  border-bottom: 1.5em solid transparent;
-}
-a.prev:hover {
-  background:#cccccc;
-  border-right-color:$nav-bg-color;
-};
-.prev:hover:after {
-  border-right: 1em solid #cccccc;
-}
 .top-nav {
   float:right;
   margin-top: -$spacing-unit / 2;
