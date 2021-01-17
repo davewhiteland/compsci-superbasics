@@ -26,12 +26,12 @@ layout: default
   <h2>{{ page.title }}</h2>
   {{ content }}
 </article>
-<div class="prev-next-nav block">
 {% if prevurl or nexturl %}
-  {% if nexturl %}<a href="{{nexturl | prepend:site.baseurl }}" class="next">{{ nexttitle }}</a>{% endif %}
-  {% if prevurl %}<a href="{{prevurl | prepend:site.baseurl }}" class="prev">{{ prevtitle }}</a>{% endif %}
+  <div class="prev-next-nav block">
+    {% if nexturl %}<a href="{{nexturl | prepend:site.baseurl }}" class="next">{{ nexttitle }}</a>{% endif %}
+    {% if prevurl %}<a href="{{prevurl | prepend:site.baseurl }}" class="prev">{{ prevtitle }}</a>{% endif %}
+  </div>
 {% endif %}
-</div>
 {% unless prevurl %}
   {% assign prevurl = page.collection | prepend: '/' %}
 {% endunless %}
