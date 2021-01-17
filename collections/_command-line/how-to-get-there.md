@@ -1,7 +1,7 @@
 ---
 title: How to get to the command line
 layout: topic
-order: 102
+order: 103
 ---
 
 If you log into a remote server (with NoMachine or Putty, for example), you'll

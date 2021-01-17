@@ -1,7 +1,7 @@
 ---
 title: More to think about
 layout: thinks
-order: 123
+order: 124
 ---
 
 * The commands that your computer knows about when you first switch it on

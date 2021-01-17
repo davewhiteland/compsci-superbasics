@@ -1,7 +1,7 @@
 ---
 title: Getting information (man)
 layout: topic
-order: 115
+order: 116
 ---
 
 It's common to learn the useful options for the commands you use most. But you

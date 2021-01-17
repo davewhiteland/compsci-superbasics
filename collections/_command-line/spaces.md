@@ -1,7 +1,7 @@
 ---
 title: Spaces on the command line
 layout: topic
-order: 112
+order: 113
 ---
 
 All the spaces on the command line get squashed (collapsed) into single spaces.

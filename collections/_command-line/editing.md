@@ -1,7 +1,7 @@
 ---
 title: Editing commands
 layout: topic
-order: 119
+order: 120
 ---
 
 Although it varies a little depending on which command shell you're using, you

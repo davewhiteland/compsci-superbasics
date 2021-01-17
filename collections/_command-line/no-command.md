@@ -1,7 +1,7 @@
 ---
 title: No command
 layout: topic
-order: 106
+order: 107
 ---
 
 If you just press enter, without a command, you've issued _no command_.

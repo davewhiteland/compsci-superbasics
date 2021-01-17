@@ -1,7 +1,7 @@
 ---
 title: Using the enter key
 layout: topic
-order: 105
+order: 106
 ---
 
 The [enter key]({{ site.baseurl }}/keyboard/enter-key) is used to _submit_ the
