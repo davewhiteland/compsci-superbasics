@@ -18,3 +18,20 @@ computer it is (of course!) but the fundamentals of commands are the same.
 
 > Specifically, you use the command line to send commands to the operating
 > system.
+
+### An example on the command line
+
+This example shows a complex command on the command line:
+the [prompt]({{ site.baseurl }}/command-line/prompt), 
+[command]({{ site.baseurl }}/command-line/issuing-a-command), 
+[options]({{ site.baseurl }}/command-line/options), 
+and [arguments]({{ site.baseurl }}/command-line/arguments).
+Notice how the parts are _separated_ by spaces.
+
+<object data="{{ site.baseurl }}/images/command-line.svg" type="image/svg+xml"></object>
+
+The `grep` command searches files for patterns. This example will print out all
+the lines in _any_ text files (`*.txt`) in the current directory (`notes`) that
+contain the word `needle`. The search will be case-insentive (`-i`) and only
+full word matches are considered (`-w`) (so "needles" or "needless" won't
+match, but "needle" will).
