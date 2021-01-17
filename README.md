@@ -35,7 +35,7 @@ learned to program entirely on the web (I'm looking at you
 contrary, it's amazing — but it means assumptions colleges make about students'
 tech exposure are much less reliable than they used to be.
 
-## Jekyll, based on block-blog theme
+## Jekyll
 
 > See DEVELOPMENT.md if you're going to be doing any work — there's a gotcha
 > on the way the topics and pages are ordered.
@@ -48,10 +48,13 @@ See `_config.yml`'s `collections` — if you add a new page, add it to the
 
 Add new topics to the `topics` collection.
 
-The theme is based on the
+The CSS was originally based on the
 [block-log theme](https://jekyllthemes.io/theme/block-log)
 by [Anandu B Ajith](https://github.com/anandubajith)
+and the responsive hamburger is implemented using the
+label-of-hidden-checkbox CSS-only trick inspired by
+[Code Boxx'a css-ham-menu](https://code-boxx.com/).
 
-##
+## Work in progress
 
 Work-in-Progress for 2020 — RHUL
