@@ -62,8 +62,8 @@ _Animals_ topic:
 * Find the topic subdirectory in the `collections` directory: it will be
   something like `_animals/`.
 
-* Make a new markdown file: `yak-shaving.md`. The filename you choose will be
-  in the (public, obviously) URL.
+* Make a new markdown file: `yak-shaving.md` inside that `_animals`
+  subdirectory. The filename you choose will be in the (public, obviously) URL.
 
 * Make sure that file has this _front matter_ at the very top of the file,
   including the triple-hyphens, otherwise it will not be processed by Jekyll:
