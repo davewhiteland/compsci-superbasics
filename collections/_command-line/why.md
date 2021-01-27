@@ -1,7 +1,7 @@
 ---
 title: Why use the command line?
 layout: topic
-order: 102
+order: 103
 ---
 
 Graphical user interfaces (GUIs) exist because they make interacting with the
