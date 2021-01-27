@@ -51,6 +51,7 @@ collections:
     permalink: /command-line/:path/
     order:
       - what-is-it.md
+      - anatomy.md
       - why.md
       - how-to-get-there.md
       - names.md
