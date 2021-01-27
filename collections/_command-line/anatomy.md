@@ -1,7 +1,7 @@
 ---
 title: Anatomy of the command line
 layout: topic
-order: 101
+order: 102
 ---
 
 This example shows a complex command on the command line.

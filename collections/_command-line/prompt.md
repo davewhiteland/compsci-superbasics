@@ -1,7 +1,7 @@
 ---
 title: The prompt
 layout: topic
-order: 105
+order: 106
 ---
 
 The command line shows you a prompt to indicate that it is waiting for your

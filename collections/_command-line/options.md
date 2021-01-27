@@ -1,7 +1,7 @@
 ---
 title: Options
 layout: topic
-order: 115
+order: 116
 ---
 
 One major benefit of using the command line is that you can give commands

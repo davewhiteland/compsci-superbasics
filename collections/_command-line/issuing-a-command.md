@@ -1,7 +1,7 @@
 ---
 title: Issuing a command
 layout: topic
-order: 108
+order: 109
 ---
 
 If you type a command and press enter:
