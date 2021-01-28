@@ -42,7 +42,7 @@ The site has **topics**. The topics that are _published_ are in `_topics`. Each
 markdown file in there contains settings (in fact those files only contain
 Jekyll "front-matter").
 
-To **add a new topi**:
+To **add a new topic**:
 
 * add a markdown file to `_collections/_topics`
 * update the `_config.yml`: add the page you've just added  to the
