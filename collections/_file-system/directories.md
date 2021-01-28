@@ -58,7 +58,7 @@ none, one, or many subdirectories.
 ---
 
 <sup id="footnote-1">1</sup>&nbsp;
-You can create [symbolic links]({site.baseurl}/file-system/symbolic-links)
+You can create [symbolic links]({{ site.baseurl }}/files/symlinks)
 that make it look as if a directory is in more than one place... but these
 are just aliases, so the directory itself still has only one parent.
 
