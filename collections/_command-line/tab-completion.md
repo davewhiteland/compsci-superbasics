@@ -7,7 +7,7 @@ order: 119
 
 Although the command line interpreter does not attempt to execute the command
 until you have submitted it with enter, there are a few keys that have special
-purpose. One is the [tab key]({{ site.baseurl }}/keyboard/tab-key).
+purpose. One is the [tab key]({{ site.baseurl }}/keyboard/tab).
 
 If you start typing a command, and then press tab, the system will try to
 auto-complete the command it _thinks_ you are typing. If there are choices it
