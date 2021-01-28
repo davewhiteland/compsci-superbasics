@@ -5,7 +5,7 @@ order: 101
 ---
 
 
-The fundamental way of issuing a command to the the computer is by typing it on
+The fundamental way of issuing a command to the computer is by typing it on
 the _command line_.
 
 Interfaces (like point-and-click graphical interfaces, or audio commands, or
