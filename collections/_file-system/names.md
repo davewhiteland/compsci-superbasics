@@ -14,7 +14,7 @@ Every file has a name. These are examples of file names:
     letter.2020-12-03.docx
 
 The filename must be unique in the
-[directory]({{ site.baseurl }}/files/directory) it's inside.
+[directory]({{ site.baseurl }}/files/directories) it's inside.
 You cannot have two files with the same name within the same directory.
 
 You can give files almost any name you want... but it's a good idea to only
