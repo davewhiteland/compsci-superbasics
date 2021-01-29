@@ -8,7 +8,7 @@ What's in a file?
 
 When you save things to computer disk, the storage is organised by files.
 
-Your Python program to can be in a file. A JPEG image of your dog is a file.
+Your Python program can be in a file. A JPEG image of your dog is a file.
 An application might be in a file. A spreadsheet is a file.
 
 You need a basic appreciation of files in order to use a computer. The

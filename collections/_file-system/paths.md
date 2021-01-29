@@ -13,7 +13,7 @@ directory.
 The route is described by naming each of the directories, in order, through
 which you must pass to get to the directory that contains the file. The
 directory names are separated by the
-[path separator]({{ site.baseurl }}/files/path separator) character, which on
+[path separator]({{ site.baseurl }}/files/path-separators) character, which on
 Unix is `/` (and Windows is `\`).
 
 >  The file itself is identified by its filename. Remember that filenames are

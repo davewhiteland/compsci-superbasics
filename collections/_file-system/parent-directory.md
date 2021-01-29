@@ -7,7 +7,7 @@ order: 107
 Also known as: "the directory above".
 
 The parent of _any directory_ has the
-[special name]({{ site.baseurl}}/files/special-names) `..` (two dots).
+[special name]({{ site.baseurl}}/files/special-filenames) `..` (two dots).
 
 This is useful because you can include it in file paths without needing to 
 explicitly know the name of the parent.

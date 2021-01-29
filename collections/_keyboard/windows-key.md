@@ -12,5 +12,5 @@ system.
 When pressed alone, the Windows key brings up the Start menu.
 
 The Windows key is sometimes used as a 
-[modifier key]({{ base.siteurl }}/keyboard/modifier-key)
+[modifier key]({{ base.siteurl }}/keyboard/modifier-keys)
 for specific tasks in Windows applications.
