@@ -35,8 +35,7 @@ It went live January 2021.
 
 This is a [Jekyll](https://jekyllrb.com) website
 (designed to run nicely on [GitHub pages](https://pages.github.com)) —
-the [whole repo](https://github.com/RHUL-CS-Projects/compsci-superbasics)
-(RHUL-CS-Projects)
+the [whole repo](https://github.com/davewhiteland/compsci-superbasics)
 is available under the MIT license.
 
 It's currently a work in progress. More topics coming as time allows.
