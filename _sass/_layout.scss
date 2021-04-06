@@ -350,4 +350,7 @@ img.enter-key {
 .js-only { display: none; }     /* display if JavaScript */
 .js .js-only { display: block;} /* display if JavaScript */
 
+.faint {
+  opacity: 0.5;
+}
 

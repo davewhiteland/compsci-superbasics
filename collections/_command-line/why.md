@@ -46,8 +46,8 @@ works: it's possibly the primary way you communicate with the computer. The GUI
 is a layer on top of that (of course you will be familiar with that too).
 
 You can drive most computers from the command line. We tend to focus on the
-Unix-like systems (that includes the Mac's command line, and the Linux
-Subsystem for Windows) because they have a long history of utility, predating
+Unix-like systems (that includes the Mac's command line, and the Windows
+Subsystem for Linux) because they have a long history of utility, predating
 GUIs entirely. Window's own command line is a little bit different, but the
 underlying ideas are similar.
 
