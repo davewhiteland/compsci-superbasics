@@ -51,6 +51,6 @@ Note that autocomplete can be very contextual. Depending on which program or
 shell you're running. So some autocompletion is taking into account what it
 knows you are trying to do (from the characters you've already typed). For
 example, if you are trying to change to a directory with the `cd` command, some
-shell's autocomplete will automatically disregard any filename that is not a
+shells' autocomplete will automatically disregard any filename that is not a
 directory.
 
