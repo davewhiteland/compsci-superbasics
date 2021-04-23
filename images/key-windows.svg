@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"><defs><linearGradient id="Gradient-0" x1="25" y1="0" x2="25" y2="50" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#676565"/><stop offset=".3" stop-color="#101010"/></linearGradient></defs><g><rect width="50" height="50" fill="url(#Gradient-0)" rx="5"/><rect x="4" y="4" width="40" height="40" fill="#101010" stroke="#7c7c7c" rx="5" stroke-width="2"/></g><path fill="#fff" d="M12 16l23-3v22l-23-3Z"/><path d="M22.5 11.5v26" stroke="#000" fill="none" stroke-linecap="square" stroke-width="2.8"/><path d="M10 24h29" stroke="#000" fill="none" stroke-width="2.8" stroke-linecap="square"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+    <defs>
+        <linearGradient id="Gradient-0" x1="25" y1="0" x2="25" y2="50" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#676565"/>
+            <stop offset="0.3" stop-color="#101010"/>
+        </linearGradient>
+    </defs>
+    <g>
+        <rect width="50" height="50" fill="url(#Gradient-0)" rx="5"/>
+        <rect width="40" height="40" fill="#101010" stroke="#7c7c7c" rx="5" stroke-width="2" transform="translate(0,0) translate(4,4)"/>
+    </g>
+    <path d="M0,0L9,-1L9,6.5L-0,6.5" fill="#dddddd" stroke="none" transform="translate(12,16)"/>
+    <path d="M0,0L9,-0L9,7.5L0,6.5" fill="#dddddd" stroke="none" transform="translate(12,25.5)"/>
+    <path d="M0,0L11,-1.5L11,8L0,8" fill="#dddddd" stroke="none" transform="translate(24,14.5)"/>
+    <path d="M0,0L11,0L11,9.5L0,8" fill="#dddddd" stroke="none" transform="translate(24,25.5)"/>
+</svg>
