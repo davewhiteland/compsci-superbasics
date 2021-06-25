@@ -99,11 +99,24 @@ collections:
       - file-manager.md
       - permissions.md
       - think.md
-  text-editing:
+  text-files:
     output: true
-    permalink: /text-editing/:path/
+    permalink: /text-files/:path/
     order:
-      - text-editing.md
+      - contents.md
+      - why.md
+      - examples.md
+      - characters.md
+      - control-chars.md
+      - newlines.md
+      - ascii.md
+      - unicode.md
+      - editors.md
+      - editor-features.md
+      - ide.md
+      - formatting.md
+      - binary-files.md
+      - think.md
   remote-sessions:
     output: true
     permalink: /remote-sessions/:path/
@@ -116,6 +129,7 @@ collections:
       - keyboard.md
       - command-line.md
       - file-system.md
+      - text-files.md
 #      - remote-sessions.md
 #      - text-editing.md
 
