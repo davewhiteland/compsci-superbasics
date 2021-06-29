@@ -353,4 +353,55 @@ img.enter-key {
 .faint {
   opacity: 0.5;
 }
-
+.text-file {
+  border:1px solid gray;
+  padding: 0;
+  background:black;
+  color:white;
+  font-family:monospace;
+  font-size:1.5em;
+  overflow:scroll;
+}
+.text-file > div {
+  margin:0;
+  padding:0;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:no-wrap;
+  justify-content:left;
+  align-items:top;
+}
+.text-file > div div{
+  flex-basis:auto;
+  margin:0;
+  padding:0;
+  margin:1px;
+  border:1px solid #333;
+  text-align:center;
+  justify-content:flex-start;
+  height:1.3em;
+  width:1em;
+  min-width:1em;
+  position:relative;
+}
+.text-file > div div.invisible{
+  color:#555;
+}
+.text-file > div div:hover, .text-file > div div.show-code{
+  background-color:#444;
+  color:#222;
+}
+.text-file > div div span{
+  display:none;
+  color:yellow;
+  font-size:0.5em;
+  position:absolute;
+  top:0.1em;
+  left:0.1em;
+}  
+.text-file > div div:hover span, .text-file > div div.show-code span{
+  display:block;
+}
+.js .text-file > div div {
+  cursor:pointer;
+}
