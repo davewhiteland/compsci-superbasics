@@ -4,6 +4,7 @@
   <style>
     :root {
       --dirfill: #ffffbb;
+      --dirstroke: #828282;
     }
     #dir {
       cursor: pointer;
@@ -12,7 +13,7 @@
     </style>
     <defs>
         <symbol id="dir" preserveAspectRatio="none" width="20" height="14" viewBox="0 0 20 14" overflow="visible">
-            <path fill="var(--dirfill,#ffffbb)" stroke="#000000" stroke-linecap="square" d="M-1.66667,-3L5.33333,-3L6.33333,-1L17.3333,-1L17.3333,10L-1.66667,10Z" transform="translate(14.5,11.6667) translate(-12.3333,-8.16667)"/>
+            <path fill="var(--dirfill,#ffffbb)" stroke="var(--dirstroke,#828282)" stroke-width="1" stroke-linecap="square" d="M-1.66667,-3L5.33333,-3L6.33333,-1L17.3333,-1L17.3333,10L-1.66667,10Z" transform="translate(14.5,11.6667) translate(-12.3333,-8.16667)"/>
         </symbol>
     </defs>
     <path d="M0,0L0,11.5" stroke="#828282" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(37.875,60.75)"/>
