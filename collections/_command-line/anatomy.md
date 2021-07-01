@@ -40,7 +40,7 @@ will learn the ones you use the most). On Unix systems, you can look them up
 using the [man (manual)]({{ site.baseurl}}/command-line/getting-information)
 command.
 
-<p><br><sup id="footnote-1">1</sup> "grep" = 
+<p class="footnote"><sup id="footnote-1">1</sup> “grep” =
 <strong>g</strong>lobally search for a <strong>r</strong>egular 
 <strong>e</strong>xpression and <strong>p</strong>rint matching lines.
 </p>

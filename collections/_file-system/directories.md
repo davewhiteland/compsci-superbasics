@@ -56,10 +56,9 @@ that directory structures are hierarchical: they can be represented as
 Note how every directory (except one) has <em>only one parent</em>, and can have
 none, one, or many subdirectories.
 
----
 
-<sup id="footnote-1">1</sup>&nbsp;
-You can create [symbolic links]({{ site.baseurl }}/files/symlinks)
-that make it look as if a directory is in more than one place... but these
-are just aliases, so the directory itself still has only one parent.
-
+<p class="footnote"><sup id="footnote-1">1</sup>
+  You can create <a href="{{ site.baseurl }}/files/symlinks">symbolic links</a>
+  that make it look as if a directory is in more than one place... but these
+  are just aliases, so the directory itself still has only one parent.
+</p>
