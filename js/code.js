@@ -21,6 +21,36 @@ for (let i=0; i<textfiles.length; i++) {
   });
 }
 
+
+//---------------------------------------------------------------------------
+// highlight footnote clicks — jumping to the footnote is not enough, since
+// it's at the bottom of the page: highlight it to draw reader's attention
+//---------------------------------------------------------------------------
+let FOOTNOTE_HILIGHT_DURATION = 2000; // milliseconds (NB: 1s transition in CSS)
+let FOOTNOTE_HILIGHT_CSS = "hilight";
+let footnote_links = document.getElementsByTagName("SUP");
+let footnote_tid;
+for (let link of footnote_links){
+  if (link.parentElement.tagName==="A") {
+    let href = link.parentElement.getAttribute("href");
+    if (href && href.indexOf("#") === 0) {
+      let target = document.getElementById(href.substr(1));
+      link.parentElement.addEventListener("click", function(e){
+        let footnote = document.getElementById(href.substring(1));
+        clearTimeout(footnote_tid);
+        if (footnote) {
+          footnote = footnote.parentElement;
+        }
+        footnote.classList.add(FOOTNOTE_HILIGHT_CSS);
+        footnote_tid = setTimeout(
+          function(){ footnote.classList.remove(FOOTNOTE_HILIGHT_CSS) },
+          FOOTNOTE_HILIGHT_DURATION
+        );
+      });
+    }
+  }
+}
+
 //---------------------------------------------------------------------------
 // interactive directory diagrams
 // check settings here match with SVG contents
