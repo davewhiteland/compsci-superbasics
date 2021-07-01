@@ -6,8 +6,9 @@ order: 111
 
 An Interactive Development Environment (IDE) is used to write programs.
 
-Since most¹ programs are written in text (source code), and stored as text files,
-an IDE always includes a text editor. 
+Since most<a href="#footnote-1"><sup>1</sup></a> programs are written in text, 
+and that _source code_ is stored as text files, an IDE always includes a text
+editor. 
 
 In fact, some IDEs are little more than  text editors that "know" about the
 language you are working in. Others are much more sophisticated and include
@@ -53,7 +54,7 @@ Common features of IDEs include:
   working in. If the IDE has this feature, you'll also be able to un-comment
   too.
 
----
-
-¹ There are exceptions: Scratch and LEGO robotics use graphical
-  programming environments that do _not_ use text editors.
+<p class="footnote"><sup id="footnote-1">1</sup>
+  There are exceptions. For example, Scratch and LEGO robotics have graphical
+  programming environments that do not use text editors.
+</p>

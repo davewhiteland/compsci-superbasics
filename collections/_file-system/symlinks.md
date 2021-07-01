@@ -44,12 +44,10 @@ renaming, moving, or deleting a file that a symbolic link is pointing to breaks
 the link (and leaves it "dangling").
 
 
----
-
-<sup id="footnote-1">1</sup>&nbsp;
-Hard links are a little more powerful; normally that's not what you want.
-Whereas a symbolic link is really just pointing to the other file, a hard link
-is more like a duplicate that the system _knows_ is a clone, and when you delete
-a hard link, you're deleting _all_ the clones too.
-
+<p class="footnote"><sup id="footnote-1">1</sup>
+  Hard links are a little more powerful; normally that’s not what you want.
+  Whereas a symbolic link is really just pointing to the other file, a hard
+  link is more like a duplicate that the system <em>knows</em> is a clone, and
+  when you delete a hard link, you're deleting all the clones too.
+</p>
 
