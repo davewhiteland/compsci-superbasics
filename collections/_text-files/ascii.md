@@ -26,7 +26,7 @@ The ASCII code breaks down into three parts:
 | `32`  | `127` | printable characters (the letters of the alphabet, numbers, punctuation, etc.) |
 | `128` | `255` | extended ASCII — there are different variations              |
 
-The limitation of ASCII is that it only accomodates 255 characters. That's not
+The limitation of ASCII is that it only accommodates 255 characters. That's not
 enough for all the characters we need (the different writing systems of the
 world, mathematical symbols, emojis, and so on).
 
