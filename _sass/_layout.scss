@@ -428,3 +428,30 @@ img.enter-key {
 .js .text-file > div div {
   cursor:pointer;
 }
+.cd-command-box {
+  margin-bottom:-1.5em;
+  display:grid;
+  grid-template-columns: auto 2.6em;
+  align-items: center;
+  button {
+    margin:0em;
+    padding: 0.6em;
+    background-color: #993333;
+    border-radius: 0.2em;
+    box-shadow: 0.1em 0.2em 0.2em #00000066;
+    color: #fff;
+    &:hover {
+      background-color: #006400;
+    }
+    &.hidden {
+      visibility:hidden;
+    }
+  }
+  span {
+    transition: background-color 0.5s;
+    padding:0.2em 0;
+  }
+  span.now {
+    background: #ffee00;
+  }
+}
