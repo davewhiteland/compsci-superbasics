@@ -23,7 +23,7 @@ which directory you are in is critically important when using the
   <button id="cd-button" class="hidden" data-to="0-1">go</button>
 </div>
 <p>
-  This is command moves from 
+  This command moves from 
   <code id="from-abs-display" class="language-plaintext highlighter-rouge">/ada/data</code>
   to
   <code id="to-abs-display" class="language-plaintext highlighter-rouge">/chaz</code>.
