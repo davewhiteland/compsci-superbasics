@@ -4,7 +4,8 @@ layout: topic
 order: 112
 ---
 
-You need to use paths when you move around the file system. Use the `cd`
+You need to use  [paths]({{ site.baseurl }}/files/paths)
+ when you move around the file system. Use the `cd`
 ("change directory") command to change your
 [current directory]({{ site.baseurl }}/files/current-directory). Controlling
 which directory you are in is critically important when using the
@@ -44,6 +45,6 @@ this file structure, to move from `ada` to `chaz` you must go via  `/`.
 
 You can “chain” multiple `..`s together to travel up the tree.
 
-Of course, you can use [absolute paths]({{ site.baseurl }}/files/absolute-paths)
-instead. But for small, local moves — which are very common — relative paths
-are simpler.
+You don't need to use relative paths with `cd`: you can use
+[absolute paths]({{ site.baseurl }}/files/absolute-paths) instead. But for
+small, local moves — which are very common — relative paths are often simpler.
