@@ -11,7 +11,7 @@ It is often _critically important_ that you know where you are when you issue a
 command. This is why the  prompt is often set to show the current directory. Or
 use `pwd` to find out.
 
-See the SuperBasics on the file system for more information:
+See the superbasics on the file system for more information:
 
 * The [special name `.`]({{ site.baseurl }}/files/special-filenames)
   _always_ refers to the current directory.

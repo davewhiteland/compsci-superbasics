@@ -8,7 +8,7 @@ The file system has the concept of _permissions_, which describe what you
 (or other users) are allowed to do with a file.
 
 This is a complex topic, which is core to ideas of computer security. But for
-the SuperBasics you really just need to know that permissions exist and that
+the superbasics you really just need to know that permissions exist and that
 they typically take into account things like:
 
 * what your relationship is to the file (for example, did you create it?)
