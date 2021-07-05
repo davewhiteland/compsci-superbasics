@@ -44,7 +44,7 @@ Common features of IDEs include:
   IDEs often provide tools to help you enter program code (often you use the
   tab key to accept suggestions). This is useful both for speed and also for
   avoiding typing errors. Basic IDEs do this with the keywords of the
-  programming language you're working in. But more poweful IDEs also offer the
+  programming language you're working in. But more powerful IDEs also offer the
   variable and method names you've declared in your program.
 
 * **commenting**

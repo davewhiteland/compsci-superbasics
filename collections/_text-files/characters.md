@@ -12,7 +12,7 @@ represents a character. The number is the _character code_, which is a mapping
 
 To decode the numbers in a text file, you must know the mappings between those
 numbers and the characters they represent. Today there is effectively one 
-standard code for this, and Unicodeed [Unicode]({{ site.baseurl }}/text-files/unicode).
+standard code for this, called [Unicode]({{ site.baseurl }}/text-files/unicode).
 The first 126 characters in that code are very common and, historically, were
 defined first as the [ASCII]({{ site.baseurl }}/text-files/ascii) code.
 
