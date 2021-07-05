@@ -91,6 +91,7 @@ collections:
       - absolute-paths.md
       - relative-paths.md
       - path-separators.md
+      - moving-around.md
       - symlinks.md
       - desktop.md
       - special-filenames.md
