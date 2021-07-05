@@ -18,3 +18,7 @@ See the SuperBasics on the file system for more information:
 
 * Understand [the current directory]({{ site.baseurl }}/files/current-directory)
   in terms of navigating the file system.
+
+* use the `cd` ("change directory") command to
+  [move around]({{ site.baseurl }}/files/moving-around) the file system — this
+  is how you control where you are.
