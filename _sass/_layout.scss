@@ -451,7 +451,11 @@ img.enter-key {
     transition: background-color 0.5s;
     padding:0.2em 0;
   }
-  span.now {
+  span.then {
     background: #ffee00;
+  }
+  span.then.now {
+    background: #b00;
+    color:white;
   }
 }

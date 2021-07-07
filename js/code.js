@@ -151,7 +151,8 @@ function dir_interaction(svgElement){
         TO_DISPLAY_NAME   = "to-abs-display",
         PATH_DISPLAY_NAME = "path-display",
   
-        DELAY_AT_END      = 2000; // (ms) pause on completion
+        DELAY_EN_ROUTE    = 500,  // (ms) pause at directories en route
+        DELAY_AT_END      = 1500; // (ms) pause on completion
 
   let is_busy = false;
   let interaction_type = svgElement.dataset.superbasics;
@@ -337,7 +338,24 @@ function dir_interaction(svgElement){
     }
 
     function show_hop(block) {
+      document.getElementById(HOP_PREFIX + get_dir_id(block.end_id)).classList.add("then");
+    }
+    // highlight flashes the dir for DELAY_EN_ROUTE (or forever, if overridden)
+    function highlight_hop(block, want_forever) {
       document.getElementById(HOP_PREFIX + get_dir_id(block.end_id)).classList.add("now");
+      let dir = svgObject.getElementById(block.end_id);
+      dir.setAttributeNS(null, 'style', "--dirfill:" + COL_ON_PATH);
+      svgObject.getElementById(dir.id.replace(ID_PREFIX, TEXT_PREFIX)).setAttributeNS(null, 'style', "--textfill:" + COL_TEXT_ON_PATH);
+      setTimeout(
+        function(){
+          document.getElementById(HOP_PREFIX + get_dir_id(block.end_id)).classList.remove("now");
+          if (! want_forever) {
+            dir.setAttributeNS(null, 'style', "--dirfill:" + COL_SUBDIR);
+            svgObject.getElementById(dir.id.replace(ID_PREFIX, TEXT_PREFIX)).setAttributeNS(null, 'style', "--textfill:" + COL_TEXT_DEFAULT);
+          }
+        },
+        DELAY_EN_ROUTE
+      )
     }
 
     let circleTween;
@@ -436,10 +454,13 @@ function dir_interaction(svgElement){
             movePosition();
           } else { // end of a block
             step = null;
+            highlight_hop(block, blocks.length==0);
             if (blocks.length > 0) {
               block = blocks.shift();
-              show_hop(block);
-              movePosition();
+              setTimeout(function(){
+                 movePosition();
+                 show_hop(block);
+               }, DELAY_EN_ROUTE);
             } else { // cd is complete: tidy up: repaint dirs, clear display
               //  after a pause for reflection
               setTimeout(function(){
