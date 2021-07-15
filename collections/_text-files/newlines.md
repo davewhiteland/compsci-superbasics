@@ -211,7 +211,7 @@ However, this can catch you out if you have problems with newlines. Depending on
 where the file came from (for example, was it made on Windows or Unix?) — this
 display might go wrong if the file is using the "other" system's line endings.
 On Unix systems, the extra character from Windows will sometimes appear as
-`^M`. On Windows systems, the file's lines might not all stay on the same line.
+`^M`. On Windows systems, the file might display as one long line.
 
 It's important to know this because _sometimes_ it will explain why you're
 having problems with a file or program that otherwise is working fine.
