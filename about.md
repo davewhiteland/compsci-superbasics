@@ -16,9 +16,9 @@ learned to program entirely on the web (I'm looking at you
 contrary, it's amazing — but it means assumptions colleges make about students'
 tech exposure are much less reliable than they used to be.
 
-The problem was exacerbated by 2020's Covid lockdowns: if you're not
+The problem was exacerbated by 2020's Covid lockdowns: if students are not
 _physically_ in the labs seeing what other people are doing, some of this
-practical knowledge is even harder to acquire, especially if you do not (yet)
+practical knowledge is even harder to acquire, especially if they do not (yet)
 have the vocabulary to search for it.
 
 So here's somewhere we can give a student a link to if they are unfamiliar
