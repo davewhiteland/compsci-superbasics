@@ -40,8 +40,5 @@ is available under the MIT license.
 
 It's currently a work in progress. More topics coming as time allows.
 
-— _Dave Whiteland_
-
-
 > Photo of [Erinna](https://en.wikipedia.org/wiki/Erinna) having dropped her
 > coffee in Founder's North Quad, Royal Holloway, taken on a snowy day in 2008.
