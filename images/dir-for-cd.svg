@@ -29,17 +29,18 @@
             <stop offset="1" stop-color="#ff1b1b"/>
         </radialGradient>
     </defs>
-    <path d="M0,0L0,11.5" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(37.875,60.75)"/>
-    <path d="M0,0L0,11.5" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(24.1573,34.3504)"/>
-    <path d="M0,-12L0,11.5" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(120.875,73)"/>
-    <path d="M0,0L0,11.5" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(93.875,46.625)"/>
-    <path d="M0,0L0,-10.259C-0.00303846,-12.3074,0.792191,-13.5002,2.97311,-13.434L52.8074,-13.4973C54.8678,-13.434,55.9281,-12.4399,56,-10.5L56,0.375" stroke="#aaaaaa" fill="none" stroke-linecap="square" stroke-width="2" transform="translate(24.125,34.375)"/>
-    <path d="M0,0L0,-10.259C-0.00303846,-12.3074,0.792191,-13.5002,2.97311,-13.434L23.8074,-13.4973C25.8678,-13.434,26.9281,-12.4399,27,-10.5L27,0.375" stroke="#aaaaaa" fill="none" stroke-linecap="square" stroke-width="2" transform="translate(10.6724,59.3585)"/>
-    <path d="M0,0L0,-10.259C-0.00303846,-12.3074,0.792191,-13.5002,2.97311,-13.434L50.8074,-13.4973C52.8678,-13.434,53.9281,-12.4399,54,-10.5L54,0.375" stroke="#aaaaaa" fill="none" stroke-linecap="square" stroke-width="2" transform="translate(66.7724,59.5585)"/>
-    <path d="M0,0L0,-10.259C-0.00303846,-12.3074,0.792191,-13.5002,2.97311,-13.434L50.8074,-13.4973C52.8678,-13.434,53.9281,-12.4399,54,-10.5L54,0.375" stroke="#aaaaaa" fill="none" stroke-linecap="square" stroke-width="2" transform="translate(20.7724,85.7585)"/>
-    <path d="M0,0L0,-10.5" stroke="#aaaaaa" fill="none" stroke-linecap="square" stroke-width="2" transform="translate(52.25,20.75)"/>
-    <path d="M0,0L0,-10.5" stroke="#aaaaaa" fill="none" stroke-linecap="square" stroke-width="2" transform="translate(80,46)"/>
-    <path d="M0,0L0,11.5" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(47.875,72.75)"/>
+    <path id="path-0-1-2-2" d="M0,0L0,-26" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(121,85)"/>
+    <path id="path-0-0-1-3" d="M6,0L6,-10C6.12535,-12.0003,4.9918,-12.8816,3,-13L-25,-13C-27,-13,-27.9261,-13.8498,-28,-16L-28,-25" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(69,85)"/>
+    <path id="path-0-0-1-4" d="M0,0L0,-7C0.00198279,-8.82484,-1.00542,-9.81875,-3,-10L-5,-10C-8,-10,-10,-12,-10,-15L-10,-25" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(48,85)"/>
+    <path id="path-0-0-1-5" d="M0,0L0,-10C-0.0250799,-11.9644,1.03647,-12.9065,3,-13L11,-13C13.1962,-12.99,14.0713,-14.0954,14,-16L14,-25" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(21,85)"/>
+    <path id="path-0-1-3" d="M10,0L10,-10C10.1253,-12.0003,8.9918,-12.8816,7,-13L-25,-13C-27,-13,-27.9261,-13.8498,-28,-16L-28,-25" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(111,59)"/>
+    <path id="path-0-1-4" d="M4,0L4,-7C4.00198,-8.82484,2.99458,-9.81875,1,-10L-4,-10C-7,-10,-10,-12,-10,-15L-10,-25" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(90,59)"/>
+    <path id="path-0-1-5" d="M3,0L3,-10C2.97492,-11.9644,4.03647,-12.9065,6,-13L10,-13C12.1962,-12.99,13.0713,-14.0954,13,-16L13,-25" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(64,59)"/>
+    <path id="path-0-0-2" d="M-15,0L-15,-10C-14.8747,-12.0003,-16.0082,-12.8816,-18,-13L-24,-13C-26,-13,-26.9261,-13.8498,-27,-16L-27,-25" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(53,59)"/>
+    <path id="path-0-0-3" d="M0,0L0,-10C-0.0250799,-11.9644,1.03647,-12.9065,3,-13L9,-13C11.1962,-12.99,12.0713,-14.0954,12,-16L12,-25" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(11,59)"/>
+    <path id="path-0-2" d="M-1,0L-1,-10C-0.8747,-12.0003,-2.0082,-12.8816,-4,-13L-24,-13C-26,-13,-26.9261,-13.8498,-27,-16L-27,-25" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(81,34)"/>
+    <path id="path-0-3" d="M-15,0L-15,-10C-15.0251,-11.9644,-13.9635,-12.9065,-12,-13L9,-13C11.1962,-12.99,12.0713,-14.0954,12,-16L12,-25" stroke="#aaaaaa" fill="none" stroke-width="2" stroke-linecap="square" transform="translate(39,34)"/>
+
     <use id="dir-0-0-1-1" width="20" height="14" xlink:href="#dir" x="37.5" y="77.5"/>
     <use id="dir-0-0-1-2" width="20" height="14" xlink:href="#dir" x="64.5" y="77.5"/>
     <use id="dir-0-0-1-0" width="20" height="14" xlink:href="#dir" x="10.5" y="77.5"/>
