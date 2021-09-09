@@ -5,7 +5,7 @@ order: 114
 ---
 
 All the spaces on the command line get squashed (collapsed) into single spaces.
-They are not commands themselves, but they server as separators between
+They are not commands themselves, but they serve as separators between
 commands.
 
 If you type a few spaces at the prompt, you'll see the cursor move along. (If
