@@ -35,7 +35,7 @@ probably doesn't exist. You can fix this either using quotation marks or by
 
     mv "I am a file.txt" banana.txt
 
-If you're going to study computer science, make you life easier and never put
+If you're going to study computer science, make your life easier and never put
 spaces (or other special characters) into filenames. Of course you _can_ put
 fancy things into your filenames, but you can avoid a world of pain by sticking
 to numbers, lowercase letters, hyphen (`-`), underscore (`_`) and dot (`.`).
