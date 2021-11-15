@@ -118,11 +118,24 @@ collections:
       - formatting.md
       - binary-files.md
       - think.md
-  remote-sessions:
+  hardware:
     output: true
-    permalink: /remote-sessions/:path/
+    permalink: /hardware/:path/
     order:
-      - remote-sessions.md
+      - hardware.md
+      - monitors.md
+      - processors.md
+      - gpu.md
+      - keyboards.md
+      - mice.md
+      - trackpads-and-touchscreens.md
+      - power.md
+      - connections.md
+      - dongles.md
+      - bluetooth-and-wifi.md
+      - networks.md
+      - external-drives.md
+      - think.md
   topics:
     output: true
     permalink: /:path/
@@ -131,6 +144,7 @@ collections:
       - command-line.md
       - file-system.md
       - text-files.md
+      - hardware.md
 #      - remote-sessions.md
 #      - text-editing.md
 
@@ -144,6 +158,7 @@ collections:
 #
 exclude:
   - utils/
+  - sources/
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
