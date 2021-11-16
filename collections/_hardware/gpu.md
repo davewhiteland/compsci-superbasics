@@ -106,5 +106,5 @@ encrypted data).
   canvas.height = y;
   canvas.style.width = x;
   canvas.style.height = y;
-  main("{{ site..baseurl }}/images/cube-texture.png");
+  main("{{ site.baseurl }}/images/cube-texture.png");
 </script>
