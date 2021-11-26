@@ -1,7 +1,7 @@
 ---
 title: External drives
 layout: topic
-order: 113
+order: 112
 ---
 
 _Including memory sticks and optical drives (CDs & DVDs)_

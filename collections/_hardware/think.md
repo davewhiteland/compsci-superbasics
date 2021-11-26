@@ -1,7 +1,7 @@
 ---
 title: More to think about
 layout: thinks
-order: 114
+order: 113
 ---
 
 * Why is silicon used to make chips?  
