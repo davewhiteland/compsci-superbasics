@@ -4,12 +4,25 @@ layout: topic
 order: 109
 ---
 
-There are effectively two ways devices can be connected: wirelessly, or by cable. There are different ways each of these can work, and each has different characteristics of capacity (how much data can be sent, and how fast) and range (over what physical distance).
+There are effectively two ways devices can be connected: wirelessly, or by
+cable. Each has different characteristics of capacity (what kind of data can be
+sent, and how fast) and range (over what physical distance).
 
-### Network cables
+It's usually possible to identify the kind of cable by looking at the physical
+connection (or the socket).
 
-The most common kind of network cable is the _ethernet cable_.
+<div class="images-with-captions" markdown="1">
+  
+![cable]({{ site.baseurl }}/images/cable-ethernet.svg)
+![cable]({{ site.baseurl }}/images/cable-hdmi.svg)
+![cable]({{ site.baseurl }}/images/cable-micro-usb.svg)
+![cable]({{ site.baseurl }}/images/cable-mini-usb.svg)
+![cable]({{ site.baseurl }}/images/cable-usb-3.svg)
+![cable]({{ site.baseurl }}/images/cable-usb-a.svg)
+![cable]({{ site.baseurl }}/images/cable-usb-b.svg)
+![cable]({{ site.baseurl }}/images/cable-usb-c.svg)
 
+</div>
 
 
 ### Video Cables
