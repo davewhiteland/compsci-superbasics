@@ -84,6 +84,22 @@
       padding: $spacing-unit/4 4rem $spacing-unit/4 $spacing-unit/2;
     }
   }
-  
+}
+@media (max-width: 30rem) {
+    .images-with-captions {
+    display: block;
+  }
+  .images-with-captions img {
+    max-width: 30em;
+    margin-top:2em auto 0 auto;
+  }
+  .images-with-captions p {
+    margin:0;
+    padding:0;
+  }
+  .images-with-captions p:nth-child(even) {
+    margin-bottom:3em;
+    padding:0;
+  }
 }
 
