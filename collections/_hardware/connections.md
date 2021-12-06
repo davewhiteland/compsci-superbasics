@@ -14,13 +14,56 @@ connection (or the socket).
 <div class="images-with-captions" markdown="1">
   
 ![cable]({{ site.baseurl }}/images/cable-ethernet.svg)
+
+**Ethernet cable**  
+Connects your computer to a network if, for example, you don't have
+WiFi.
+
 ![cable]({{ site.baseurl }}/images/cable-hdmi.svg)
+
+**HDMI cable**  
+Connects your computer to a
+[monitor]({{ site.baseurl }}/hardware/monitors).
+
+
 ![cable]({{ site.baseurl }}/images/cable-micro-usb.svg)
+
+**Micro USB**  
+Connects your computer to another device with
+[USB]({{ site.baseurl }}/hardware/usb).
+
 ![cable]({{ site.baseurl }}/images/cable-mini-usb.svg)
+
+**Mini USB**  
+Connects your computer to another device with
+[USB]({{ site.baseurl }}/hardware/usb).
+
 ![cable]({{ site.baseurl }}/images/cable-usb-3.svg)
+
+**USB 3**  
+The most recent USB connector that physically fits in the earlier
+USB A — the blue indicates that data speed/protocols are different.
+
 ![cable]({{ site.baseurl }}/images/cable-usb-a.svg)
+
+**USB A**  
+The first of the USB connectors to be introduced; still widely used.
+Connects your computer to another device with
+[USB]({{ site.baseurl }}/hardware/usb).
+
 ![cable]({{ site.baseurl }}/images/cable-usb-b.svg)
+
+**USB B**  
+Connects your computer to another device with
+[USB]({{ site.baseurl }}/hardware/usb).
+
+
 ![cable]({{ site.baseurl }}/images/cable-usb-c.svg)
+
+**USB C**  
+Connects your computer to another device with
+[USB]({{ site.baseurl }}/hardware/usb).
+
 
 </div>
 
@@ -39,5 +82,16 @@ Common types are:
   still require it (if you need to connect a VGA device to a different
   port, you'll need an [adaptor]({{ site.baseurl }}/hardware/dongles)).
 
-### Optic fibres
+
+### What about optic fibres?
+
+Fast networks connections are often implemented by transmitting light along
+optic fibres (instead of electric signals over along wires). But it's rare for
+this to be a connection on your own computer, unless your computer is a server.
+Metal wires are cheaper and more robust than fibres, so are commonly used for
+local connections.
+
+
+
+
 
