@@ -64,6 +64,14 @@ Connects your computer to another device with
 Connects your computer to another device with
 [USB]({{ site.baseurl }}/hardware/usb).
 
+![cable]({{ site.baseurl }}/images/cable-serial.svg)
+
+**Serial port**  
+Connects your computer to a _serial port_ for sending one character at a time,
+which is sometimes used for low-level communication between devices. The stalks
+are threaded so you can twiddle them to tighten the connection so it won't fall
+out.
+
 
 </div>
 
