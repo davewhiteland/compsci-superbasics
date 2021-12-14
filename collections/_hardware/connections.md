@@ -105,20 +105,6 @@ connection.
 </div>
 
 
-### Video Cables
-
-Video cables join computers to [monitors]({{ site.baseurl }}/hardware/monitors).
-
-Common types are:
-
-* DVI
-* HDMI
-* DisplayPort
-* VGA (Video Graphics Array)  
-  VGA is somewhat out of date now, but you might come across monitors that
-  still require it (if you need to connect a VGA device to a different
-  port, you'll need an [adaptor]({{ site.baseurl }}/hardware/dongles)).
-
 
 ### What about optic fibres?
 
