@@ -19,11 +19,13 @@ connection (or the socket).
 Connects your computer to a network if, for example, you don't have
 WiFi.
 
-![cable]({{ site.baseurl }}/images/cable-hdmi.svg)
 
-**HDMI cable**  
-Connects your computer to a
-[monitor]({{ site.baseurl }}/hardware/monitors).
+![cable]({{ site.baseurl }}/images/cable-usb-a.svg)
+
+**USB A**  
+The first of the USB connectors to be introduced; still widely used.
+Connects your computer to another device with
+[USB]({{ site.baseurl }}/hardware/usb).
 
 
 ![cable]({{ site.baseurl }}/images/cable-micro-usb.svg)
@@ -44,13 +46,6 @@ Connects your computer to another device with
 The most recent USB connector that physically fits in the earlier
 USB A — the blue indicates that data speed/protocols are different.
 
-![cable]({{ site.baseurl }}/images/cable-usb-a.svg)
-
-**USB A**  
-The first of the USB connectors to be introduced; still widely used.
-Connects your computer to another device with
-[USB]({{ site.baseurl }}/hardware/usb).
-
 ![cable]({{ site.baseurl }}/images/cable-usb-b.svg)
 
 **USB B**  
@@ -64,13 +59,47 @@ Connects your computer to another device with
 Connects your computer to another device with
 [USB]({{ site.baseurl }}/hardware/usb).
 
+![cable]({{ site.baseurl }}/images/cable-hdmi.svg)
+
+**HDMI cable**  
+Connects your computer to a
+[monitor]({{ site.baseurl }}/hardware/monitors).
+
+
+![cable]({{ site.baseurl }}/images/cable-dvi.svg)
+
+**DVI**  
+Connects your computer to a
+[monitor]({{ site.baseurl }}/hardware/monitors).
+DVI connections often have stalks you can twiddle so you can tighten the
+connection.
+
+
+![cable]({{ site.baseurl }}/images/cable-display-port.svg)
+
+**Display Port (DP)**  
+Connects your computer to a
+[monitor]({{ site.baseurl }}/hardware/monitors).
+
+
+![cable]({{ site.baseurl }}/images/cable-vga.svg)
+
+**VGA**  
+Connects your computer to a
+[monitor]({{ site.baseurl }}/hardware/monitors).
+VGA is mostly found on old devices, and the cable uses a D-shaped connector
+with 15 pins or holes ("D-15"). Like other D connectors, the stalks are
+threaded so you can tighten the connection.
+
 ![cable]({{ site.baseurl }}/images/cable-serial.svg)
 
 **Serial port**  
 Connects your computer to a _serial port_ for sending one character at a time,
-which is sometimes used for low-level communication between devices. The stalks
-are threaded so you can twiddle them to tighten the connection so it won't fall
-out.
+which is used for low-level communication between devices. You don't find therse
+on consumer-level devices any more but you might still use them in labs or
+robotics applications. The stalks on these "D" connectors are threaded so you
+can twiddle them to protect the pins from bending and to tighten the
+connection.
 
 
 </div>

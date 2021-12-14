@@ -24,8 +24,8 @@ separate power cable.
 The monitor screen is comprised of tightly-packed dots, arranged in a grid,
 whose colours can be individually set. These dots are called _pixels_ and
 are usually implemented as tiny liquid crystals in front of a backlit 
-light-emitting diode (LED) screen. The number (or density) of those pixels
-is the display's _resolution_.
+light-emitting diode (LED) screen. The number (or, more accurately, the density)
+of those pixels is the display's _resolution_.
 
 High-resolution screens whose pixels are too small to be individually
 distinguished by the human eye are called _retina displays_.
@@ -36,7 +36,9 @@ distinguished by the human eye are called _retina displays_.
 ![comparison of aspect ratios]({{ site.baseurl }}/images/display-aspect-ratios.svg)
 
 The relative dimensions of the display — the width:height ratio — is its
-_aspect ratio_. This is independent of the resolution. There are different ratios available but 16:9 is common. It's also possible to get ultra-wide screens.
+_aspect ratio_. This is independent of the resolution. There are different
+ratios available but 16:9 is common. It's also possible to get ultra-wide
+screens.
 
 ![examples of landscape and portrait orientation]({{ site.baseurl }}/images/display-orientation.svg)
 
@@ -58,13 +60,15 @@ today's monitors have their own dedicated
 ### Video cables
 
 There are a number of different types of
-[video cable]({{ site.baseurl }}/hardware/connections). If you need to connect a
-computer to a monitor, you need to know what kind of connectors each has in order to choose a cable that will work between them.
+[video cable]({{ site.baseurl }}/hardware/connections). If you need to connect
+a computer to a monitor, you need to know what kind of connectors each has in
+order to choose a cable that will work between them.
 
 ### Computers without monitors?
 
 Monitors are an essential component for desktop or laptop computers. But not
 all computers need them all the time: remote servers (such as as webservers)
 that spend all their time responding to requests from other computers, or
-embedded devices (such as robotic controllers, the SIM in your phone, or the
-chip on a credit card) operate without them.
+embedded devices operate without them. Examples include robotic controllers,
+the SIM in your phone, an engine management system, or the chip on a credit
+card.

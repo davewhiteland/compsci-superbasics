@@ -20,8 +20,8 @@ Processors are, by necessity, immensely complex devices but there are a few
 of critical aspects that define their behaviour.
 
 Because processors are performing millions of calculations to execute tasks, the
-speed of a processor is its most important feature. However, the efficiency of
-the processor (and hence, ultimately, its speed) is dependent on a number of
+speed of a processor is a critically important feature. However, the efficiency
+of the processor (and hence, ultimately, its speed) is dependent on a number of
 different factors.
 
 * word size
@@ -33,9 +33,10 @@ parallelism.
 
 ### Word size
 
-The _word size_ is the size, in digits, of the numbers that the processor's
-arithmetic circuits can handle. These are binary digits, because in practice
-the numbers are being represented by the presence (1) or absence (0) of charge.
+The _word size_ is the size, in binary digits, of the numbers that the
+processor's arithmetic circuits can handle. These are binary digits, called
+_bits_, because in practice the numbers are being represented by the presence
+(1) or absence (0) of charge.
 
 This is a critical limit because those numbers effectively limit the size of
 of the memory the processor can efficiently access.
@@ -44,7 +45,7 @@ Today, 64-bit machines are common.
 
 Note that architectures with smaller word sizes _can_ process bigger numbers,
 but less efficiently. The complexity of processors — and hence the difficulty
-of designing them — increases as their word size increases.
+of designing and implementing them — increases as their word size increases.
 
 ### Clock rate
 
@@ -58,8 +59,15 @@ single instruction can be, and what optimisations (like caches) are built-in.
 The _instruction set_ is the collection of all the instructions that the
 processor can execute. This is "close to the metal" because every instruction
 effectively requires circuitry for running it, on the chip. So the design of
-instruction sets is a balance between having a lot of powerful commands that
-might take longer to run (and take up valuable space on the chip) and having a
+instruction sets is a balance between having a large set of complex,
+expressive instructions or a small, set of simple, fast ones. The extremes of
+these two approaches are sometimes described as
+_complex instruction set computers_ (CISC) and 
+_reduced instruction set computers_ (RISC) respectively.
+
+ having a lot of powerful commands that
+might take longer to run and are more complex to design (and maybe even take up
+valuable space on the chip), and having a
 fast cut-down collection of basic instructions that can run very fast.
 
 ## Programmers and the processor
