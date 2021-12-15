@@ -59,6 +59,14 @@ Connects your computer to another device with
 Connects your computer to another device with
 [USB]({{ site.baseurl }}/hardware/usb).
 
+
+![cable]({{ site.baseurl }}/images/cable-lightning.svg)
+
+**Lightning**  
+Connects your Apple computer to another device with a lightning cable. This is
+very similar to USB&nbsp;C except it's only implemented on Apple devices.
+
+
 ![cable]({{ site.baseurl }}/images/cable-hdmi.svg)
 
 **HDMI cable**  
