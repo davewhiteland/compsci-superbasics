@@ -5,7 +5,8 @@ order: 101
 ---
 
 You're going to do a lot of typing in your computer science degree. Here's what
-you should know about about your keyboard.
+you should know about about
+[your keyboard]({{ site.baseurl }}/hardware/keyboards).
 
 The keyboard is really a grid of switches, and when you hold a switch down, a
 circuit closes. If you hold different keys down together, different things can

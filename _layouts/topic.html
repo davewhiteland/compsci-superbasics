@@ -21,7 +21,7 @@ layout: default
   {% assign prev = links %}
 {% endfor %}
 
-<article class="topic block">
+<article class="topic block" id="page{{ page.id | replace: '/', '-'}}">
   <a class="top-nav" href="{{ site.baseurl }}/{{ page.collection }}/">{{ page.collection | replace: '-', ' ' | capitalize }}</a>
   <h2>{{ page.title }}</h2>
   {{ content }}
