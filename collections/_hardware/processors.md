@@ -65,21 +65,18 @@ these two approaches are sometimes described as
 _complex instruction set computers_ (CISC) and 
 _reduced instruction set computers_ (RISC) respectively.
 
- having a lot of powerful commands that
-might take longer to run and are more complex to design (and maybe even take up
-valuable space on the chip), and having a
-fast cut-down collection of basic instructions that can run very fast.
 
 ## Programmers and the processor
 
 When you first learn to write programs, you do so in _high level languages_
 which another program (a compiler or interpreter) turns into commands that
 match the processor's instruction set. That is, the translation into _machine
-code__ is done for you. It's common for professional programmers to only ever
-work with high level languages.
+code_ is done for you. High level languages are now so expressive that it's not
+uncommon for a professional programmer to never need to know about that machine
+code.
 
-In industrial applications where optimal efficiency is required, programmers
-may need to write in _low level_ languages. This is where knowing how to
-exploit the characteristics of the processor on which the program will run
-(the "target device") becomes a consideration.
+However, for industrial applications where optimal efficiency is required,
+programmers may need to write in _low level_ languages. This is where knowing
+how to exploit the characteristics of the processor on which the program will
+run (the "target device") becomes a consideration.
 

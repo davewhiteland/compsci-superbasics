@@ -12,12 +12,13 @@ There are many different uses for dongles. For example:
 * a security key that provides authentication that is external
   to the computer (such as a personal license)
 
-* an adaptor that lets you plug a cable of the "wrong" type into a different
-  kind of connection<a href="#footnote-1"><sup>1</sup></a>
-  (an ethernet to USB C converter, for example, or an HDMI-to-VGA adaptor)
+* an adaptor that lets you plug a [cable]({{ site.baseurl }}/hardware/connections)
+  of the "wrong" type into a different kind of connection<a href="#footnote-1"><sup>1</sup></a>
+  (an ethernet to USB&nbsp;C converter, for example, or an HDMI-to-VGA adaptor)
 
 * a dongle that provides wireless connection, such as that needed by
-  a Bluetooth mouse or keyboard, or to Wifi
+  a [Bluetooth]({{ site.baseurl }}/hardware/bluetooth-and-wifi) mouse or keyboard,
+  or to [WiFi]({{ site.baseurl }}/hardware/bluetooth-and-wifi)
 
 * a means of transforming signals or data by sitting between the port
   and the external device, such as gaming cheat codes or network packet

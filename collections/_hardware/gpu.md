@@ -18,8 +18,7 @@ simultaneously, and then combining them. GPUs have multiple
 Common problems that GPUs need to solve rapidly include video decoding, and
 manipulation of three-dimensional geometry to produce two-dimensional views.
 
-
-The current state of GPU technology has arisen largely because of the gaming
+The current state of GPU technology has arisen partly because of the gaming
 industry. The computer's main processors manage the running of the game,
 including maintaining the 3D model of the game world and the physics within it.
 This gets passed to the GPU that turns it into realistic 2D images fast enough
@@ -30,11 +29,11 @@ grass.
 
 ### Hardware acceleration
 
-It's increasingly common for a computer to have a GPU available (because
-monitors often require them), so some tasks that might otherwise be handled by
-code running in the computer's main processor can be handed over to the GPU.
-This is _hardware acceleration_: the task runs faster because the calculations
-are being done by the GPU's hardware (that is, its specialised circuitry).
+It's increasingly common for a computer to have a GPU available to drive its
+monitor, so some tasks that might otherwise be handled by code running in the
+computer's main processor can be handed over to the GPU. This is _hardware
+acceleration_: the task runs faster because the calculations are being done by
+the GPU's hardware (that is, its specialised circuitry).
 
 An example of this on the web is when animations are required (using CSS, or
 cascading stylesheets). Your web browser (running in the computer's main
@@ -73,8 +72,8 @@ are connected to. Any calculation-based problem that can benefit from being run
 in parallel is potentially suitable for running on a GPU. Fields where such an
 approach is useful include machine learning (GPU manufacturer NVIDIA provides
 the CUDA platform for running Python frameworks like Tensorflow or Pytorch on
-GPUs) and cryptography (such as mining for bitcoins, or brute-force attacks on
-encrypted data).
+GPUs) and cryptography (such as blockchain calculations, mining digital
+currencies, or brute-force attacks on encrypted data).
 
 <script src="{{ site.baseurl }}/js/gl-matrix-min.js"></script>
 <script src="{{ site.baseurl }}/js/webgl-demo-custom.js"></script>

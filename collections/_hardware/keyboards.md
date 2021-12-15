@@ -16,7 +16,8 @@ There are three types of physical keyboard:
 
 ### Keyboard connected by a cable
 
-The cable provides a route for the power supply, and the signals indicating which keys you've pressed. Keyboards that connect using
+The cable provides a route for the power supply, and the signals indicating
+which keys you've pressed. Keyboards that connect using
 [USB]({{ site.baseurl }}/hardware/usb) are common.
 
 If your computer uses a dedicated keyboard port, by convention it will be
@@ -31,10 +32,10 @@ This must have a its own power (typically AA or AAA,  batteries).
 Some keyboards have a small light indicating that the power is on, and
 sometimes there is a small switch too.
 
-The power supply of a wireless keyboard drives the transmission of data to the computer (typically using
-[Bluetooth]({{ site.baseurl }}/hardware/bluetooth)). When the batteries start
-to run out, the signal will be weaker, and the range will decrease until it
-can no longer connect.
+The power supply of a wireless keyboard drives the transmission of data to the
+computer (typically using [Bluetooth]({{ site.baseurl }}/hardware/bluetooth-and-wifi)).
+When the batteries start to run out, the signal will be weaker, and the range
+will decrease until it can no longer connect.
 
 > If your wireless keyboard isn't working, check that it is switched on, and
 > that it has batteries that have not run out. You might require a
