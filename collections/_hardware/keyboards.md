@@ -20,8 +20,8 @@ The cable provides a route for the power supply, and the signals indicating
 which keys you've pressed. Keyboards that connect using
 [USB]({{ site.baseurl }}/hardware/usb) are common.
 
-If your computer uses a dedicated keyboard port, by convention it will be
-coloured purple. 
+If your computer uses a dedicated keyboard port (PS/2), by convention it will
+be coloured purple. 
 
 > If your cable keyboard isn't working, check that the cable is connected
 > _at both ends_. 
