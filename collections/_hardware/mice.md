@@ -4,7 +4,8 @@ layout: topic
 order: 106
 ---
 
-A mouse is a pointing device — it allows you to indicate a target (actually in terms of the coordinate position on the display) and an action by clicking.
+A mouse is a pointing device — it allows you to indicate a target (actually in
+terms of the coordinate position on the display) and an action by clicking.
 
 Most mice support different types of action:
 

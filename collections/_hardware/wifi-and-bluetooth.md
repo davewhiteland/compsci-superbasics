@@ -1,10 +1,10 @@
 ---
-title: Bluetooth & WiFi
+title: WiFi & Bluetooth
 layout: topic
 order: 111
 ---
 
-Bluetooth and WiFi are the two most common ways of connecting devices
+WiFi and Bluetooth are two of the most common ways of connecting devices
 **wirelessly** — that is, without being connected by a physical cable. Both
 enable you to send and receive data, but differ in their scope and how they
 work.

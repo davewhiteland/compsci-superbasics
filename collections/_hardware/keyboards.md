@@ -33,7 +33,7 @@ Some keyboards have a small light indicating that the power is on, and
 sometimes there is a small switch too.
 
 The power supply of a wireless keyboard drives the transmission of data to the
-computer (typically using [Bluetooth]({{ site.baseurl }}/hardware/bluetooth-and-wifi)).
+computer (typically using [Bluetooth]({{ site.baseurl }}/hardware/wifi-and-bluetooth)).
 When the batteries start to run out, the signal will be weaker, and the range
 will decrease until it can no longer connect.
 

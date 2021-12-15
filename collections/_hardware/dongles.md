@@ -17,8 +17,8 @@ There are many different uses for dongles. For example:
   (an ethernet to USB&nbsp;C converter, for example, or an HDMI-to-VGA adaptor)
 
 * a dongle that provides wireless connection, such as that needed by
-  a [Bluetooth]({{ site.baseurl }}/hardware/bluetooth-and-wifi) mouse or keyboard,
-  or to [WiFi]({{ site.baseurl }}/hardware/bluetooth-and-wifi)
+  a [Bluetooth]({{ site.baseurl }}/hardware/wifi-and-bluetooth) mouse or keyboard,
+  or to [WiFi]({{ site.baseurl }}/hardware/wifi-and-bluetooth)
 
 * a means of transforming signals or data by sitting between the port
   and the external device, such as gaming cheat codes or network packet

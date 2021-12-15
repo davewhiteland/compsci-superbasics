@@ -4,16 +4,18 @@ layout: topic
 order: 102
 ---
 
-A **computer monitor** is a screen which displays information. Technically the monitor is the whole assembly including the screen, the circuitry that drives it, and sometimes the stand or mounting that holds it up.
+A **computer monitor** is a screen which displays information. Technically the
+monitor is the whole assembly including the screen, the circuitry that drives
+it, and sometimes the stand or mounting that holds it up.
 
 It's not unusual for a computer to be connected to more than one monitor.
 
-Monitors are usually either built-in (such as on laptops, or machines
-where the screen and processor is in the same unit) or receive the data to display via a specialised graphics
-[cable]({{ site.baseurl }}/hardware/connections).
+Monitors are usually either built-in (such as on laptops, or machines where the
+screen and processor is in the same unit) or receive the data to display via a
+[video cable]({{ site.baseurl }}/hardware/connections).
 
-Monitors typically require their own power supply too, which is provided by a
-separate power cable.
+Monitors typically require their own [power]({{ site.baseurl }}/hardware/power)
+supply too, which is provided by a separate power cable.
 
 > Note that monitors often have their own "on/off" button, so if the screen
 > is blank, check that it's switched on (as well as the computer it's connected

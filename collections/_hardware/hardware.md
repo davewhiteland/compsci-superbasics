@@ -23,10 +23,11 @@ simple as "plugging in a cable" can only work because the devices are
 communicating using software that implements protocols right down to
 low-level concerns like voltages and timing. Some of this is exposed in
 consumer-level products (for example, [USB]({{ site.baseurl }}/hardware/usb)
-and Bluetooth are widely used terms, even though most people don't need to
-know how extensive the specifications for them are). The relationship between
-hardware and software is a good place to start to appreciate things like
-protocols, standards, APIs, and interfaces.
+and [Bluetooth]({{ site.baseurl }}/hardware/wifi-and-bluetooth) are widely used
+terms, even though most people don't need to know how extensive the
+specifications for them are). The relationship between hardware and software is
+a good place to start to appreciate things like protocols, standards, APIs, and
+interfaces.
 
 
 <script>

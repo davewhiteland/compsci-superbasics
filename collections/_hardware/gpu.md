@@ -5,7 +5,7 @@ order: 104
 ---
 
 A **graphics processing unit** (GPU) is circuitry optimised to perform the
-calculations required to [display pixels]({{ site.baseurl }}/hardaware/monitor).
+calculations required to [display pixels]({{ site.baseurl }}/hardaware/monitors).
 But GPUs are also used for other tasks that require many independent but
 similar calculations.
 
@@ -14,7 +14,8 @@ be calculated over and over again, ideally 60 times a second. The massively
 repetitive nature of the same calculations means this is a problem that can
 been speeded up by parallelism: performing calculations separately but
 simultaneously, and then combining them. GPUs have multiple
-[processors]({{ site.baseurl }}/hardaware/monitor) built with specialised instruction sets optimised for the kind of calculations they need to perform.
+[processors]({{ site.baseurl }}/hardaware/monitors) built with specialised
+instruction sets optimised for the kind of calculations they need to perform.
 Common problems that GPUs need to solve rapidly include video decoding, and
 manipulation of three-dimensional geometry to produce two-dimensional views.
 
