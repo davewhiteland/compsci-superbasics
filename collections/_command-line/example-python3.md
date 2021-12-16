@@ -37,7 +37,7 @@ you used before), it won't work:
     >>> 
 
 What's happened there is Python — not your command interpreter — has tried to
-understand you command. Python thinks you're referring to something with the
+understand your command. Python thinks you're referring to something with the
 name `pwd` but in Python you must declare things before you use their name.
 
 One way to exit that situation is to call the Python function `quit()`:
