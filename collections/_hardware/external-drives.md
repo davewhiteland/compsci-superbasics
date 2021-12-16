@@ -15,7 +15,7 @@ transfer files from one machine to another (provided you have physical access
 to both).
 
 Other devices may work the same way, including read-only devices like optical
-disks.
+disks that read (and perhaps write) CDs and DVDs.
 
 USB is not the only way to connect external storage devices to your computer.
 The _thunderbolt_ protocol, from Intel, is suitable for fast exchange of data
