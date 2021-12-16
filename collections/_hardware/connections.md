@@ -9,7 +9,7 @@ cable. Each has different characteristics of capacity (what kind of data can be
 sent, and how fast) and range (over what physical distance). You can usually
 identify a cable's type by looking at the physical connector on the end, or the
 shape of the hole of the socket it plugs into. Some cables only fit one way up,
-so you need to look at the socket to see which way round they need to be.
+so you must look at the socket to see which way round they need to be.
 
 If the sockets or connections available to you don't match, you might be able
 to use an [adaptor]({{ site.baseurl }}/hardware/dongles).
@@ -140,13 +140,15 @@ connector into a socket, never force it. Instead, check that:
 * You have them right way up.
 * There's nothing in the socket that's getting in the way.
 
-### What about optic fibres?
+### What about optical fibres?
 
 Fast network connections are often implemented by transmitting light along
-optical fibres (instead of electric signals over along wires). But it's rare
-for this to be a connection on your own computer, unless your computer is a
-server. Metal wires are cheaper and more robust than fibres, which is why they
-are used for the local connections you might be plugging in and out.
+optical fibres (instead of electric signals over along wires). It's rare for
+this to be a connection on your own computer, unless your computer is a server.
+Fibre optic cables can carry data for miles and are used in subsea cables to
+connect continents. But metal wires are cheaper and more robust than fibres,
+which is why they are used for the local connections you might be plugging in
+and out.
 
 
 

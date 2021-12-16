@@ -21,9 +21,11 @@ The UK plugs have three pins and are very stable (they don't wobble out).
 On most computers today, you need at least two power cables: one for the
 computer, and one for each monitor.
 
-Smaller devices might get power from other cables: USB and lightning can
-both supply power (there will be a transformer on that cable too, if it's
-plugged directly into to the mains power).
+Smaller devices might get power from other cables: 
+[USB]({{ site.baseurl }}/hardware/usb) and
+[lightning connectors]({{ site.baseurl }}/hardware/connections)
+can both supply power (there will be a transformer on that cable too, if it's
+plugged directly into the mains power).
 
 ## Batteries
 

@@ -12,7 +12,7 @@ they didn't need to. Until now.
 
 Specifically, using browser-based learning means some competent autodidacts have
 learned to program entirely on the web (I'm looking at you 
-[codeskulptor](https://py3.codeskulptor.org)). Nothing wrong with this — on the
+[CodeSkulptor](https://py3.codeskulptor.org)). Nothing wrong with this — on the
 contrary, it's amazing — but it means assumptions colleges make about students'
 tech exposure are much less reliable than they used to be.
 

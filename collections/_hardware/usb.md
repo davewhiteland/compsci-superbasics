@@ -33,7 +33,3 @@ example) that are connected by USB don't need a separate power cable. The
 convenience of using a single type of connector to charge mobile phones has
 resulted in the European Union proposing legislation to force manufacturers to
 adopt USB&nbsp;C as the standard.
-
-USB C data transfer can be fast. But USB is a short-range technology, and not
-suitable for covering long distances. For longer network connections, ethernet
-is used instead.

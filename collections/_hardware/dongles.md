@@ -14,7 +14,7 @@ There are many different uses for dongles. For example:
 
 * an adaptor that lets you plug a [cable]({{ site.baseurl }}/hardware/connections)
   of the "wrong" type into a different kind of connection<a href="#footnote-1"><sup>1</sup></a>
-  (an ethernet to USB&nbsp;C converter, for example, or an HDMI-to-VGA adaptor)
+  (an Ethernet to USB&nbsp;C converter, for example, or an HDMI-to-VGA adaptor)
 
 * a dongle that provides wireless connection, such as that needed by
   a [Bluetooth]({{ site.baseurl }}/hardware/wifi-and-bluetooth) mouse or keyboard,

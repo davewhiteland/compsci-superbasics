@@ -26,7 +26,7 @@ and can connect physically using a USB, lightning or display ports.
 ### Network-attached storage (NAS)
 
 If your computer is connected to the local network (whether by 
-[ethernet]({{ site.baseurl }}/hardware/connections) or
+[Ethernet]({{ site.baseurl }}/hardware/connections) or
 [WiFi]({{ site.baseurl }}/hardware/wifi-and-bluetooth)) it's also possible
 to access storage devices that are attached to that, instead of your computer.
 
