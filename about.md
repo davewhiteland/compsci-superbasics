@@ -38,7 +38,9 @@ This is a [Jekyll](https://jekyllrb.com) website
 the [whole repo](https://github.com/davewhiteland/compsci-superbasics)
 is available under the MIT license.
 
-It's currently a work in progress. More topics coming as time allows.
+It's currently a work in progress and maintained as a
+[Beholder](https://www.beholder.uk/) project.
+More topics coming as time allows.
 
 > Photo of [Erinna](https://en.wikipedia.org/wiki/Erinna) having dropped her
 > coffee in Founder's North Quad, Royal Holloway, taken on a snowy day in 2008.
