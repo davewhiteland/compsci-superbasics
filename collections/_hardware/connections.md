@@ -4,12 +4,14 @@ layout: topic
 order: 109
 ---
 
-There are effectively two ways devices can be connected: wirelessly, or by
-cable. Each has different characteristics of capacity (what kind of data can be
-sent, and how fast) and range (over what physical distance). You can usually
-identify a cable's type by looking at the physical connector on the end, or the
-shape of the hole of the socket it plugs into. Some cables only fit one way up,
-so you must look at the socket to see which way round they need to be.
+There are effectively two ways devices can be connected:
+[wirelessly]({{ site.baseurl }}/hardware/wifi-and-bluetooth),
+or by cable. Each has different characteristics of capacity (what kind of data
+can be sent, and how fast) and range (over what physical distance). You can
+usually identify a cable's type by looking at the physical connector on the
+end, or the shape of the hole of the socket it plugs into. Some cables only fit
+one way up, so you must look at the socket to see which way round they need to
+be.
 
 If the sockets or connections available to you don't match, you might be able
 to use an [adaptor]({{ site.baseurl }}/hardware/dongles).
