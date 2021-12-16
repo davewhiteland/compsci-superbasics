@@ -145,10 +145,10 @@ connector into a socket, never force it. Instead, check that:
 Fast network connections are often implemented by transmitting light along
 optical fibres (instead of electric signals over along wires). It's rare for
 this to be a connection on your own computer, unless your computer is a server.
-Fibre optic cables can carry data for miles and are used in subsea cables to
-connect continents. But metal wires are cheaper and more robust than fibres,
-which is why they are used for the local connections you might be plugging in
-and out.
+Fibre optic cables carry data at the speed of light for hundreds of miles and
+are used in subsea cables to connect continents. But metal wires are cheaper
+and more robust than fibres, which is why they are used for the local
+connections you might be plugging in and out.
 
 
 
