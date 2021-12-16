@@ -14,9 +14,9 @@ work.
 >
 > ![WiFi logo]({{site.baseurl}}/images/wifi-symbol.svg)
 >
-> In order for your computer to join a WiFi network, it either needs
-> built-in hardware that can receive and transmit the necessary signals, or
-> a [dongle]({{ site.baseurl }}/hardware/dongles) that can.
+> To join a WiFi network, your computer either needs built-in hardware that can
+> receive and transmit the necessary signals, or a
+> [dongle]({{ site.baseurl }}/hardware/dongles) that can.
 >
 
 WiFi is used to connect to a network. The physical location you are connecting
