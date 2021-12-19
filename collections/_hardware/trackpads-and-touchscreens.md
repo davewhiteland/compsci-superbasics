@@ -37,7 +37,7 @@ Trackpads provide similar capabilities to mice, with the extra consideration
 of using multiple fingers.
 
 But there is a significant difference with touch screens. Touch screens
-generally don't move a pointer around, but so there's no `hover` or similar
+generally don't move a pointer around, so there's no `hover` or similar
 behaviour. Interfaces that change button colour when you mouse over them, or
 have tool tips on hover, usually won't work the same way.
 
