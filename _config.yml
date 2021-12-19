@@ -22,7 +22,7 @@ title: CompSci Superbasics
 description: >- # this means to ignore newlines until "baseurl:"
   Basic things you need to know in order to use your computer
   properly in the CompSci labs.
-baseurl: ""
+baseurl: "/compsci-superbasics"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 collections_dir: collections
