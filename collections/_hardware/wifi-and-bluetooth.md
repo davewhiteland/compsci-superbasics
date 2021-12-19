@@ -23,18 +23,18 @@ WiFi is used to connect to a network. The physical location you are connecting
 to is provided by a WiFi _access point_ (or _hotspot_), which is itself
 connected to the network router. In domestic settings, the router and access
 point are often the same physical device. Effectively, WiFi is the wireless
-alternative to using an [ethernet cable]({{ site.baseurl }}/hardware/connections).
+alternative to using an [Ethernet cable]({{ site.baseurl }}/hardware/connections).
 
 There are different versions of WiFi, but they are all  managed by a consortium
 of manufacturers that need to comply to agreed standards in order to display
 the WiFi Alliance logo.
 
-Although you're technically connecting to the _local area network_, often
-you join the WiFi in order to access the internet. If this works, it is because
-the local network is itself connected, via its router, to the external services
-of an ISP (Internet Service Provider). It also follows that it's possible to
-to connect to the WiFi but not be able to access the internet. This might happen
-is the local network's outgoing connection is broken, or its firewall is
+Although you're technically connecting to the _local area network_, often you
+join the WiFi in order to access the internet. If this works, it is because the
+local network is itself connected, via its router, to the external services of
+an ISP (Internet Service Provider). It also follows that it's possible to to
+connect to the WiFi but not be able to access the internet. This might happen
+if the local network's outgoing connection is broken, or its firewall is
 preventing traffic flowing back to your machine.
 
 
@@ -50,7 +50,7 @@ preventing traffic flowing back to your machine.
 > that does.
 >
 
-Bluetooth operates over a shorter range that WiFi, and is used to connect two
+Bluetooth operates over a shorter range than WiFi, and is used to connect two
 devices by _pairing_ them. Once connection has been established, they can send
 data to and from each other.
 

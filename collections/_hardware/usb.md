@@ -12,7 +12,7 @@ anything that you might want to connect to a computer — to use the same port.
 > ![USB logo]({{site.baseurl}}/images/usb-symbol.svg)
 >
 > If you see this USB symbol on a device or its connector, you know that it will
-> fit in a USB socket, and also the that device has been certified to comply
+> fit in a USB socket, and also that the device has been certified to comply
 > with the USB standards (so your computer will be able to communicate with it).
 
 There are several different kinds of USB port (they've changed over time), so
