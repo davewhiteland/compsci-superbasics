@@ -72,8 +72,9 @@ Connects your computer to another device with
 ![cable]({{ site.baseurl }}/images/cable-usb-c.svg)
 
 **USB C**  
-Connects your computer to another device with
-[USB]({{ site.baseurl }}/hardware/usb). 
+Connects your computer to another device with [USB]({{ site.baseurl
+}}/hardware/usb). Also used to supply power (connected to a power supply or
+charging port).
 
 
 ![cable]({{ site.baseurl }}/images/cable-lightning.svg)
@@ -103,7 +104,9 @@ connection.
 
 **Display Port (DP)**  
 Connects your computer to a
-[monitor]({{ site.baseurl }}/hardware/monitors).
+[monitor]({{ site.baseurl }}/hardware/monitors). Is sometimes used by other
+devices too, such as [external storage]({{ site.baseurl }}/hardware/external-drives),
+if they support the Thunderbolt protocol.
 
 
 ![cable]({{ site.baseurl }}/images/cable-vga.svg)

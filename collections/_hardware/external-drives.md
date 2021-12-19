@@ -18,7 +18,7 @@ Other devices may work the same way, including read-only devices like optical
 disks that read (and perhaps write) CDs and DVDs.
 
 USB is not the only way to connect external storage devices to your computer.
-The _thunderbolt_ protocol, from Intel, is suitable for fast exchange of data
+The _Thunderbolt_ protocol, from Intel, is suitable for fast exchange of data
 and can connect physically using a USB, lightning or display ports.
 (Incidentally, this is why _display port_ is not always a video connection.)
 
