@@ -74,8 +74,16 @@ Connects your computer to another device with
 **USB C**  
 Connects your computer to another device with [USB]({{ site.baseurl
 }}/hardware/usb). Also used to supply power (connected to a power supply or
-charging port).
+charging port). Thunderbolt 3 and 4 interfaces use this USB&nbsp;C connection
+too, although their technical capablities (such as the speed they can transmit
+data) are different.
 
+
+![cable]({{ site.baseurl }}/images/cable-thunderbolt-2.svg)
+
+**Thunderbolt 1 or 2**  
+Connects your computer to another device with early Thunderbolt
+interfaces, which are only used on Apple computers.
 
 ![cable]({{ site.baseurl }}/images/cable-lightning.svg)
 
@@ -104,7 +112,7 @@ connection.
 
 **Display Port (DP)**  
 Connects your computer to a
-[monitor]({{ site.baseurl }}/hardware/monitors). Is sometimes used by other
+[monitor]({{ site.baseurl }}/hardware/monitors). DP can be used by other
 devices too, such as [external storage]({{ site.baseurl }}/hardware/external-drives),
 if they support the Thunderbolt protocol.
 
