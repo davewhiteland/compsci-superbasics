@@ -16,6 +16,8 @@ be.
 If the sockets or connections available to you don't match, you might be able
 to use an [adaptor]({{ site.baseurl }}/hardware/dongles).
 
+Cables that join your computer to a monitor are often called _video cables_.
+
 These are some of the more common types:
 
 <div class="images-with-captions" markdown="1">
@@ -79,12 +81,6 @@ too, although their technical capablities (such as the speed they can transmit
 data) are different.
 
 
-![cable]({{ site.baseurl }}/images/cable-thunderbolt-2.svg)
-
-**Thunderbolt 1 or 2**  
-Connects your computer to another device with early Thunderbolt
-interfaces, which are only used on Apple computers.
-
 ![cable]({{ site.baseurl }}/images/cable-lightning.svg)
 
 **Lightning**  
@@ -94,7 +90,8 @@ a [dongle]({{ site.baseurl }}/hardware/dongles) this can also transfer data.
 
 ![cable]({{ site.baseurl }}/images/cable-hdmi.svg)
 
-**HDMI cable**  
+**HDMI**  
+_High-Definition Multimedia Interface_  
 Connects your computer to a
 [monitor]({{ site.baseurl }}/hardware/monitors).
 
@@ -102,6 +99,7 @@ Connects your computer to a
 ![cable]({{ site.baseurl }}/images/cable-dvi.svg)
 
 **DVI**  
+_Digital Visual Interface_  
 Connects your computer to a
 [monitor]({{ site.baseurl }}/hardware/monitors).
 DVI connections often have stalks you can twiddle so you can tighten the
@@ -110,16 +108,26 @@ connection.
 
 ![cable]({{ site.baseurl }}/images/cable-display-port.svg)
 
-**Display Port (DP)**  
+**DisplayPort (DP)**  
 Connects your computer to a
 [monitor]({{ site.baseurl }}/hardware/monitors). DP can be used by other
 devices too, such as [external storage]({{ site.baseurl }}/hardware/external-drives),
 if they support the Thunderbolt protocol.
 
 
+![cable]({{ site.baseurl }}/images/cable-mini-dp.svg)
+
+**Mini DisplayPort**  
+Connects your computer to a
+[monitor]({{ site.baseurl }}/hardware/monitors). On Apple computers, may also
+be used to connect to other kinds of device using the Thunderbolt (1 or 2)
+interface.
+
+
 ![cable]({{ site.baseurl }}/images/cable-vga.svg)
 
 **VGA**  
+_Video Graphics Array_  
 Connects your computer to a
 [monitor]({{ site.baseurl }}/hardware/monitors).
 VGA is mostly found on old devices, and the cable uses a D-shaped connector
@@ -138,7 +146,6 @@ can twiddle them to protect the pins from bending and to tighten the connection.
 
 </div>
 
-Cables that join your computer to a monitor are often called _video cables_.
 
 ### Caring for cables
 
