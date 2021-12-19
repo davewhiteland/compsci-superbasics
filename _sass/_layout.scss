@@ -459,3 +459,24 @@ img.enter-key {
     color:white;
   }
 }
+
+.images-with-captions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+}
+.images-with-captions img {
+  max-width: 20em;
+}
+.images-with-captions strong {
+  font-size:120%;
+  font-weight:bold;
+}
+
+/* custom monkey-patch to stop logos getting ginormous */
+#page-hardware-usb blockquote img{
+  max-width:10em;
+}
+#page-hardware-wifi-and-bluetooth blockquote img{
+  max-width:8em;
+}

@@ -626,9 +626,31 @@ function dir_interaction(svgElement){
   }
 };
 
+function hardware_interaction(svgElement) {
+  let hardware_diagram = svgElement.contentDocument;
+  console.log("hardware_diagram=", hardware_diagram);
+  for (let id in HARDWARE_LINKS) {
+    if (component = hardware_diagram.getElementById(id)) {
+      component.className.baseVal = "hardware-link";
+      for (let child of component.children) {
+        child.className.baseVal = "hardware-link-interior";
+      }
+      component.addEventListener("click", function(){
+        document.location.href = HARDWARE_LINKS[id];
+      });
+    }
+  }
+}
+
 window.addEventListener("load", function() {
   let svgElement = document.getElementById('svg-dir-diagram');
   if (svgElement) { // only one interactive diagram per page, currently
     dir_interaction(svgElement);
   }
+
+  svgElement = document.getElementById("svg-hardware-diagram");
+  if (svgElement) {
+    hardware_interaction(svgElement);
+  }
+
 });
