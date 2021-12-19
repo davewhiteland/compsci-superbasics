@@ -79,8 +79,8 @@ Connects your computer to another device with
 ![cable]({{ site.baseurl }}/images/cable-lightning.svg)
 
 **Lightning**  
-Connects an Apple computer to another device. This is similar to USB&nbsp;C
-except it's a proprietary Apple connector.
+Connects some Apple devices to a power supply for charging. When used with
+a [dongle]({{ site.baseurl }}/hardware/dongles) this can also transfer data.
 
 
 ![cable]({{ site.baseurl }}/images/cable-hdmi.svg)
