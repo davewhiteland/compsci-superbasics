@@ -21,9 +21,9 @@ be coloured green.
 
 ### Wireless mouse
 
-This must have a its own power (typically AA or AAA batteries).
-Some mice have a small light indicating that the power is on, and
-sometimes there is a small switch too.
+This must have its own power (typically AA or AAA batteries). Some mice have a
+small light indicating that the power is on, and sometimes there is a small
+switch too.
 
 The power supply of a wireless mouse drives the transmission of data to the
 computer (typically using [Bluetooth]({{ site.baseurl }}/hardware/wifi-and-bluetooth)).
