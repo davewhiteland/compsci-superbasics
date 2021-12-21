@@ -22,7 +22,7 @@ The most recent is type C, but type A is still very common. You can use an
 [adaptor]({{ site.baseurl }}/hardware/dongles) to convert between them.
 
 A major benefit of using USB is that different devices can use the same
-physical connections. Of course this means the size and layout of the the ports
+physical connections. Of course this means the size and layout of the ports
 (that is, the socket and the plug) are precisely defined. But USB can only work
 because it is a thorough specification of protocols defining how the devices at
 each end of the cable must communicate with each other.

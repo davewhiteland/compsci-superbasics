@@ -5,7 +5,7 @@ order: 103
 ---
 
 Graphical user interfaces (GUIs) exist because they make interacting with the
-computer (and specifically the operating system) simple. It's easy to click
+computer (and specifically the operating system) simple. It's easier to click
 and double-click on icons or pick things from menus! 
 
 But that convenience also blunts its power. When you study Computer Science,

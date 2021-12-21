@@ -21,7 +21,7 @@ which program is listening.
 | <span class="key"><sub>ctrl</sub></span><span class="key">Z</span> | suspend |
 | <span class="key"><sub>ctrl</sub></span><span class="key">D</span> | terminate input |
 
-Specifically, these combinations are common in Unix and Windows systems.
+These combinations are common in Unix and Windows systems.
 
 On the Mac, many applications use the <span class="key">⌘</span> command
 modifier key instead (except inside Terminal, or other Unix-like applications).

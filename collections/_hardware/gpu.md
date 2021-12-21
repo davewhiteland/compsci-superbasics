@@ -47,9 +47,9 @@ get bogged down, or that the animation is less choppy.
 
 The Open Graphics Library (OpenGL) is a public specification of the things GPUs
 can do. Most manufacturers make GPUs that support the OpenGL, which makes it
-feasible to access their capabilities from any programming languages that can
-access them. Specifically, _bindings_ are available that join programs to the
-capabilities of the GPU hardware.
+feasible to access their capabilities from within any programming language that
+has _bindings_ for them. Such bindings usually take the form of a library or
+plug-in that you can call from your own program.
 
 _Shaders_ are programs written specifically to run on GPUs.
 

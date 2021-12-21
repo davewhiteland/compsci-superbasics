@@ -66,7 +66,7 @@ Look in the **File**, **Edit** and **View** menus to see what is possible.
 
 ### Forward/back/up/home
 
-There are usually buttons available on the the file manager too:
+There are usually buttons available on the file manager too:
 
 * **forward** and **back**<br>
   These navigate through you _history_ (so clicking back means going back to

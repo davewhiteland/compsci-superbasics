@@ -6,7 +6,7 @@ order: 110
 
 These are basic skills you should be able to do with your text editor.
 
-Whatever text editor you decide to use, you _must_ learn to to these things
+Whatever text editor you decide to use, you _must_ learn to do these things
 efficiently.
 
 If you're programming, you are going to spend a lot of time editing source

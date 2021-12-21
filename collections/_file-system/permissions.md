@@ -27,7 +27,7 @@ On Unix systems, every file has three basic _permissions_:
 | `x`  | execute    | can you execute it?                          |
 
 There are three different _user classes_ to which those permissions apply,
-which depend on how you (or, specifically, your user account) are related to
+which depend on how you (or, more precisely, your user account) are related to
 the file:
 
 | class | qualification                                       |
