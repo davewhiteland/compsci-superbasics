@@ -23,11 +23,11 @@ where you are.
 
 ### Change directory
 
-To change into the directory `foo`, do this:
+To change into the directory `pictures`, do this:
 
-    cd foo
+    cd pictures
 
-...but this will only work if the directory `foo` is in the
+...but this will only work if the directory `pictures` is in the
 current directory. If it isn't, you'll need to provide a 
 [path]({{ site.baseurl }}/files/paths) to it.
 

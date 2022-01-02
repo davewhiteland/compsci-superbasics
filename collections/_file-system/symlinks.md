@@ -32,12 +32,13 @@ link (as opposed to a hard<a href="#footnote-1"><sup>1</sup></a> link).
 The link itself is just a file, so you need to give it a filename when you
 create it.
 
-For example, if you have a file called `foo.py` in a `programs` directory, 
-you can make a symbolic link called `link-to-foo` that links to it with:
+For example, if you have a file called `do_sums.py` in a `programs`
+directory,  you can make a symbolic link called `link-to-sums`
+that links to it with:
 
-    ln -s programs/foo.py link-to-foo
+    ln -s programs/do_sums.py link-to-sums
 
-That creates the symbolic link called `link-to-foo` in the current directory.
+That creates the symbolic link called `link-to-sums` in the current directory.
 
 Deleting a symbolic link does _not_ delete the file it is linking to. However,
 renaming, moving, or deleting a file that a symbolic link is pointing to breaks

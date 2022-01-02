@@ -14,11 +14,11 @@ Some filenames have special meaning:
 
 ### Unix only
 
-| name     | meaning                                                              |
-| -------- | -------------------------------------------------------------------- |
-| `.foo`<br>`.bar`   | Filenames beginning with `.` are [hidden files]({{ site.baseurl }}/files/hidden files) and will not normally be displayed when you ask for a directory listing. |
-| `~`      | Your home directory.<br>This is usually the current directory when you first log in. |
-| `~bilbo` | User `bilbo`'s home directory (you won't necessarily have [permission]({{ site.baseurl }}/files/permissions) to look inside it). |
+| name      | meaning                                                              |
+| --------- | -------------------------------------------------------------------- |
+| `.config`<br>`.secrets`   | Filenames beginning with `.` are [hidden files]({{ site.baseurl }}/files/hidden files) and will not normally be displayed when you ask for a directory listing. |
+| `~`       | Your home directory.<br>This is usually the current directory when you first log in. |
+| `~olivia` | User `olivia`'s home directory (you won't necessarily have [permission]({{ site.baseurl }}/files/permissions) to look inside it). |
 
 Most Unix systems have conventions for the name of system directories too. A
 few of them are described below. It's a good idea to become familiar with these
