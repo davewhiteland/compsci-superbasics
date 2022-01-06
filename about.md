@@ -35,8 +35,11 @@ It went live January 2021.
 
 This is a [Jekyll](https://jekyllrb.com) website
 (designed to run nicely on [GitHub pages](https://pages.github.com)) —
-the [whole repo](https://github.com/davewhiteland/compsci-superbasics)
-is available under the MIT license.
+the whole repo is available under the MIT license.
+
+<div class="github-link" markdown=1>
+[superbasics ![github](images/github-mark-64px.png) GitHub repo](https://github.com/davewhiteland/compsci-superbasics)
+</div>
 
 It's currently a work in progress and maintained as a
 [Beholder](https://www.beholder.uk/) project.
@@ -44,3 +47,4 @@ More topics coming as time allows.
 
 > Photo of [Erinna](https://en.wikipedia.org/wiki/Erinna) having dropped her
 > coffee in Founder's North Quad, Royal Holloway, taken on a snowy day in 2008.
+

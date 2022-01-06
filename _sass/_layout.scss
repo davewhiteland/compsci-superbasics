@@ -480,3 +480,21 @@ img.enter-key {
 #page-hardware-wifi-and-bluetooth blockquote img{
   max-width:8em;
 }
+
+.github-link {
+  text-align: center;
+  a {
+    padding-left:0.2em;
+    padding-right:0.2em;
+    line-height:2em;
+    height:2em;
+    img[alt="github"] {
+      /* oh yes circle background to not crop the underline-border going on */
+      background: radial-gradient(circle, white, white 68%, transparent 70%, transparent);
+      vertical-align:middle;
+    }
+    &:hover img[alt="github"] {
+      background: radial-gradient(circle, $link_color, $link_color 68%, transparent 70%, transparent);
+    }
+  }
+}
