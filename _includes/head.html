@@ -10,4 +10,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
     <link rel="stylesheet" href='{{ "/css/main.css" | prepend: site.baseurl }}'>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <style>
+      a[href^="http"]:not([href^="{{ site.baseurl }}"]) {
+        background-image: url({{ "/images/external-link.png" | prepend: site.baseurl }});
+        background-position: center right;
+        background-repeat: no-repeat;
+        padding-right: 18px;
+      }
+      a[href^="http"]:not([href^="{{ site.baseurl }}"]):hover {
+        background-image: url({{ "/images/external-link-hover.png" | prepend: site.baseurl }});
+      }
+    </style>
 </head>
