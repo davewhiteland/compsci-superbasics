@@ -494,7 +494,7 @@ img.enter-key {
       vertical-align:middle;
     }
     &:hover img[alt="github"] {
-      background: radial-gradient(circle, $link_color, $link_color 68%, transparent 70%, transparent);
+      background: radial-gradient(circle, $link-hover, $link-hover 68%, transparent 70%, transparent);
     }
   }
 }
