@@ -8,7 +8,7 @@ Absolute file paths _start at the [root]({{ site.baseurl }}/files/root)_.
 
 That means they *must* have the
 [path separator]({{ site.baseurl }}/files/path-separators)
-as the very first character, because that is effectively the name of the
+as the very first character, because that is really the name of the
 root directory.
 
 <object id="svg-dir-diagram" data="{{ site.baseurl }}/images/dir-with-paths.svg"

@@ -44,5 +44,5 @@ conventionally called `C:`.
 Other volumes each have a different drive letter.
 
 This means that you need to explicitly specify drive letters when referencing
-other volumes on Windows; in practice they are different file systems. On Unix
+other volumes on Windows; they are present as discrete file systems. On Unix
 everything is presented as a single file system.

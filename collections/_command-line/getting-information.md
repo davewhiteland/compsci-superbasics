@@ -59,7 +59,7 @@ Files whose names begin with `.` are
 [hidden files]({{ site.baseurl }}/file-system/hidden-files).
 So `-a` shows hidden files which are not normally listed.
 
-Often these short options are chosen as mnemonics: `-a` here effectively means
+Often these short options are chosen as mnemonics: `-a` here means
 "show **a**ll files".
 
 For example, this command — with _no_ options — lists the files (but doesn't

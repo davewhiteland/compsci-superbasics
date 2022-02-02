@@ -15,7 +15,7 @@ of formatting text: you put an underscore either side of a word to indicate it
 is _italic_, or a couple of asterisks to show it is **bold**.
 
     This is an _italic_ word and this is
-    a **bold** word in a markdown file.
+    a **bold** word in a Markdown file.
 
 But this is still a text file because it only contains characters (the `_` and
 the `*` are just characters in the text). The formatting only gets applied if
