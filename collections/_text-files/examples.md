@@ -13,7 +13,7 @@ The following are all examples of text files (with their common
 | HTML                        | `.html`                     |
 | Python                      | `.py`                       |
 | Java source code            | `.java`                     |
-| markdown                    | `.md`                       |
+| Markdown                    | `.md`                       |
 | Javascript                  | `.js`                       |
 | comma separated values      | `.csv`                      |
 | numerical data              | `.dat`                      |
