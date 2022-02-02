@@ -19,7 +19,7 @@ Unix is `/` (and Windows is `\`).
 >  The file itself is identified by its filename. Remember that filenames are
 >  not unique within the file system, but they _are_ unique in any given
 >  directory. That's why identifying the directory that contains the file (that
->  is, its _path_) allows you to uniquely identify the file.
+>  is, its _path_) allows you to **uniquely identify the file**.
 
 * [Absolute-paths]({{ site.baseurl }}/files/absolute-paths) describe the route
   starting from the [root]({{ site.baseurl }}/files/root).

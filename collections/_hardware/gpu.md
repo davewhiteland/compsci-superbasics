@@ -23,7 +23,7 @@ The current state of GPU technology has arisen partly because of the gaming
 industry. The computer's main processors manage the running of the game,
 including maintaining the 3D model of the game world and the physics within it.
 This gets passed to the GPU that turns it into realistic 2D images fast enough
-to provide a smooth animation to the player. THE GPU is performing the
+to provide a smooth animation to the player. The GPU is performing the
 calculations needed to produce effects like perspective, occlusion, shadows,
 and distance-fading, as well as managing particles such as sparks or blades of
 grass.

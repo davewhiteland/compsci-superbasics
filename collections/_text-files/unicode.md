@@ -22,7 +22,7 @@ by the growth of web.
 
 The ASCII codes map onto the Unicode codes. That is, the ASCII character codes
 are deliberately a subset of Unicode, so plain text files that use ASCII are
-effectively and conveniently _also_ Unicode.
+conveniently _also_ Unicode.
 
 ### UTF-8 Encoding
 

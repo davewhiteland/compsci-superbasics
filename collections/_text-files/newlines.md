@@ -125,8 +125,7 @@ means the line ending is operating as a record separator.
 This is why the newline at the very end of the file is not always necessary —
 unlike the others, it's not separating anything.
 
-A blank line is effectively what you get when two line endings are adjacent to
-each other.
+A blank line is what you get when two line endings are adjacent to each other.
 
 ### Different line endings
 

@@ -49,7 +49,7 @@ of designing and implementing them — increases as their word size increases.
 
 ### Clock rate
 
-The clock rate is effectively the speed of the processor's "heartbeat", roughly
+The clock rate is the speed of the processor's "heartbeat", roughly
 a measure of how fast it's running. This alone doesn't tell you how fast it can
 work, because that depends on the other factors including how powerful a
 single instruction can be, and what optimisations (like caches) are built-in.
@@ -58,7 +58,7 @@ single instruction can be, and what optimisations (like caches) are built-in.
 
 The _instruction set_ is the collection of all the instructions that the
 processor can execute. This is "close to the metal" because every instruction
-effectively requires circuitry for running it, on the chip. So the design of
+requires circuitry for running it, on the chip. So the design of
 instruction sets is a balance between having a large set of complex,
 expressive instructions or a small, set of simple, fast ones. The extremes of
 these two approaches are sometimes described as
