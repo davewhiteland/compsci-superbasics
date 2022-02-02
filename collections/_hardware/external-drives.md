@@ -4,8 +4,8 @@ layout: topic
 order: 112
 ---
 
-Your computer has its own storage where files are saved. But _external storage_
-is also possible.
+Your computer has its own storage where [files]({{ site.baseurl }}/file-system)
+are saved. But _external storage_ is also possible.
 
 A simple example is a [USB]({{ site.baseurl }}/hardware/usb) memory stick.
 When you connect it to your machine, the operating system _mounts_ it and
