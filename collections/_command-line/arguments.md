@@ -40,7 +40,7 @@ spaces (or other special characters) into filenames. Of course you _can_ put
 fancy things into your filenames, but you can avoid a world of pain by sticking
 to numbers, lowercase letters, hyphen (`-`), underscore (`_`) and dot (`.`).
 For similar reasons, it's usually simpler to keep everything lower case. For
-more detail, see the intro about file systems.
+more detail, see the intro about [file systems]({{ site.baseurl }}/files/names).
 
 Sometimes you _must_ use capital letters in filenames: if there's a good reason
 (because the programming language you are using requires it) then of course,
