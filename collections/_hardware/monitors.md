@@ -74,3 +74,11 @@ that spend all their time responding to requests from other computers, or
 embedded devices operate without them. Examples include robotic controllers,
 the SIM in your phone, an engine management system, or the chip on a credit
 card.
+
+Applications that usually have graphical output but which are deliberately
+being run without displaying it are sometimes called _headless_. For example,
+running a
+[headless web browser](https://en.wikipedia.org/wiki/Headless_browser) can be
+useful if you want the result of what that browser _does_ — typically as part of
+some other process, such as a test suite — without needing to see its output.
+
