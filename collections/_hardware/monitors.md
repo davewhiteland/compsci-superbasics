@@ -49,12 +49,12 @@ wider than it is tall. _Portrait_ orientation is taller than it is wide.
 
 ### Refresh rate
 
-The monitor refreshes its display many times a second. The actual speed is
-called its _refresh rate_. Most computer monitors aim to "paint" the whole
-screen up to 60 times a second (this is considerably faster than earlier TV or
-cinema technology). Refreshing the screen display requires that the monitor
-determines the precise colour for every single pixel. Calculating this is an
-intensive task (especially if there are millions of pixels), which is why
+The monitor refreshes its display many times a second. The frequency at which
+it does so is its _refresh rate_. Most computer monitors aim to "paint" the
+whole screen up to 60 times a second (this is considerably faster than earlier
+TV or cinema technology). Refreshing the screen display requires that the
+monitor determines the precise colour for every single pixel. Calculating this
+is an intensive task (especially if there are millions of pixels), which is why
 today's monitors have their own dedicated
 [graphics processing units]({{ site.baseurl }}/hardware/gpu) (GPUs).
 
