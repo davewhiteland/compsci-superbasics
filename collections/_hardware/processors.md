@@ -17,7 +17,7 @@ chip: these are called _multicore_ processors, and the number of cores is the
 number of processors.
 
 Processors are, by necessity, immensely complex devices but there are a few
-of critical aspects that define their behaviour.
+key aspects that define their behaviour.
 
 Because processors are performing millions of calculations to execute tasks, the
 speed of a processor is a critically important feature. However, the efficiency
