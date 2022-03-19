@@ -37,6 +37,6 @@ press the function key. These are some of the more useful conventions.
 | --------------------------: | ----------------- |
 | <span class="key">F1</span> | get help information on the current application |
 | <span class="key">F3</span> | search            |
-| <span class="key">alt</span><span class="key">F4</span> | close the current window |
+| <span class="key"><sub>alt</sub></span><span class="key">F4</span> | close the current window |
 | <span class="key">F5</span> | refresh or reload |
 | <span class="key">F7</span> | spelling or grammar check |
