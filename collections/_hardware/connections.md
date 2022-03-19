@@ -8,7 +8,7 @@ There are effectively two ways devices can be connected:
 [wirelessly]({{ site.baseurl }}/hardware/wifi-and-bluetooth),
 or by cable. Each has different characteristics of capacity (what kind of data
 can be sent, and how fast) and range (over what physical distance). This page
-is about the cables that jooin devices.
+is about the cables that join devices.
 
 You can usually identify a cable's type by looking at the physical connector on
 the end, or the shape of the hole of the socket it plugs into. Some cables only
