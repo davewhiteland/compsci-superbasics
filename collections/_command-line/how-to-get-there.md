@@ -23,7 +23,7 @@ Two different applications that let you issue commands to Windows are cmd (the
 
 or
 
-* Press <img class="key" src="{{ site.baseurl }}/images/key-windows.svg" alt="the windows key"><span class="key">X</span> to access the Power Users menu.
+* Press <img class="key" src="{{ site.baseurl }}/images/key-windows.svg" alt="the windows key"><span class="key"><em>X</em></span> to access the Power Users menu.
 * Choose **Command prompt** or **Powershell**.
 
 Other applications may also offer a command prompt. Git bash is a common one —
@@ -33,22 +33,22 @@ be aware that Git bash really emulates a Unix command shell.
 
 You need to find the **Terminal** application and launch it. Either:
 
-* Press <span class="key">⌘</span><span class="key">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> (command-space to launch Spotlight)
+* Press <span class="key"><em>⌘</em></span><span class="wide key"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em></span> (command-space to launch Spotlight)
 
   * then type `terminal` to find then launch the Terminal app.
 
 or, in Finder (e.g., click on the Desktop background, or the blue Finder icon):
 
-* Press <span class="key">⌘</span><span class="key">⇧</span><span class="key">U</span> (opens the Utilities
+* Press <span class="key"><em>⌘</em></span><span class="key"><em>⇧</em></span><span class="key"><em>U</em></span> (opens the Utilities
 folder)
 
   * then double-click on **Terminal**.
 
 ### On Linux
 
-Press <span class="key"><sub>ctrl</sub></span><span class="key"><sub>alt</sub></span><span class="key">T</span>.
+Press <span class="key"><em><sub>ctrl</sub></em></span><span class="key"><em><sub>alt</sub></em></span><span class="key"><em>T</em></span>.
 
 ### On Gnome
 
-Press <span class="key"><sub>alt</sub></span><span class="key">F2</span> and
+Press <span class="key"><em><sub>alt</sub></em></span><span class="key"><em>F2</em></span> and
 type `terminal`.

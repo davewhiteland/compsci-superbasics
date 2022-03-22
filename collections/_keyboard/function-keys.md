@@ -4,9 +4,9 @@ layout: topic
 order: 112
 ---
 
-<span class="key">F1</span>
-<span class="key">F2</span>
-<span class="key">F3</span>
+<span class="key"><em>F1</em></span>
+<span class="key"><em>F2</em></span>
+<span class="key"><em>F3</em></span>
 ...
 
 The function keys are found at the top of the keyboard. They usually have two
@@ -22,7 +22,7 @@ current application with a _single_ keypress (that is, without needing a
 Some keyboards have a function lock (fn lock) that toggles the
 function keys' behaviour between software or hard-wired.
 
-You may also be able to use the function key <span class="key">fn</span>
+You may also be able to use the function key <span class="key"><em><sub>fn</sub></em></span>
 as a modifier key to choose the _other_ behaviour.
 
 Function keys can be used together with a modifier key.
@@ -35,8 +35,8 @@ press the function key. These are some of the more useful conventions.
 
 | key                         | action            |
 | --------------------------: | ----------------- |
-| <span class="key">F1</span> | get help information on the current application |
-| <span class="key">F3</span> | search            |
-| <span class="key"><sub>alt</sub></span><span class="key">F4</span> | close the current window |
-| <span class="key">F5</span> | refresh or reload |
-| <span class="key">F7</span> | spelling or grammar check |
+| <span class="key"><em>F1</em></span> | get help information on the current application |
+| <span class="key"><em>F3</em></span> | search            |
+| <span class="key"><em><sub>alt</sub></em></span><span class="key"><em>F4</em></span> | close the current window |
+| <span class="key"><em>F5</em></span> | refresh or reload |
+| <span class="key"><em>F7</em></span> | spelling or grammar check |

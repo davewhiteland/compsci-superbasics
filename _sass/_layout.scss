@@ -308,36 +308,61 @@ h3 {
   padding-top:1rem;
 }
 
+.key{
+  margin: 0em 0 0.2em 0.1em;
+  display: inline-block;
+  background:red;
+  padding:0.05em 0.05em 0.1em 0.1em;
+  line-height:2em;
+  border-radius:0.4em;
+  background: rgb(162,161,161);
+  background: linear-gradient(135deg, #555 0%, #555 44%, #000 52%);
+  em {
+    font-size:120%;
+    font-style: normal;
+    display:block;
+    text-align:center;
+    margin:0.1em 0.1em 0.1em 0.05em;
+    background:black;
+    color:white;
+    border:2px solid #717171;
+    padding:0 0.2em;
+    border-radius:0.2em;
+    line-height:1.5;
+    min-width:1.2em;
+    position:relative;
+    sub {
+      font-size:66%;
+      bottom:0;
+    }
+    sup {
+      position:absolute;
+      top:0.5em;
+      font-size:66%;
+    }
+    sup + sub {
+      bottom:-0.2em;
+    }
+  }
+  &.wide {
+    background: linear-gradient(160deg, #555 0%, #555 44%, #000 52%);
+    em {
+     min-width:3.8em;
+   }
+  }
+}
+
+
 img.key-wide {max-width: 20em;}
 
-span.key{
-  font-size:120%;
-  color:white;
-  padding:0.2em 0em 0.2em 0.4em;
-  background-image:url(../images/key-blank.svg);
-  background-size:auto 100%;
-  background-position:left;
-  background-repeat:no-repeat;
-  border-radius:0.2em;
-  text-align:center;
-  margin-right:0.2em;
-}
-span.key::after{
-  padding:0.2em 0 0.2em 0.2em;
-  content: "\2002";
-  background-image:url(../images/key-blank.svg);
-  background-size:auto 100%;
-  background-position:right;
-}
-span.key sub{
-  font-size:66%;
-  bottom:0;
-}
-span.key.wide sub {
-  padding-right:2em;
+.numberpad {
+  display:inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap:0.1em 0.2em;
+  justify-content: start;
 }
 img.key {
-  height:2em;
+  height:2.4em;
   vertical-align: middle;
   margin-right:0.2em;
 }
@@ -498,3 +523,4 @@ img.enter-key {
     }
   }
 }
+

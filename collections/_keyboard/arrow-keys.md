@@ -5,11 +5,11 @@ order: 110
 ---
 
 <div class="center inline-block">
-  <span class="key">↑</span>
-  <br><br>
-  <span class="key">←</span>
-  <span class="key">↓</span>
-  <span class="key">→</span>
+  <span class="key"><em>↑</em></span>
+  <br>
+  <span class="key"><em>←</em></span>
+  <span class="key"><em>↓</em></span>
+  <span class="key"><em>→</em></span>
 </div>
 
 The arrow keys are used in some programs for navigating.

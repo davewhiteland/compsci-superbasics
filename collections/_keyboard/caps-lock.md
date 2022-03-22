@@ -4,7 +4,7 @@ layout: topic
 order: 105
 ---
 
-<span class="wide key"><sub>caps lock</sub></span>
+<span class="wide key"><em><sub>caps lock</sub></em></span>
 
 On the Mac, the caps lock key may look like this:
 
@@ -13,7 +13,7 @@ On the Mac, the caps lock key may look like this:
 The caps lock key is usually used to _lock_ the input to CAPITAL (upper case)
 letters. Press it again to _unlock_. This button is unusual because it's used
 to _toggle_ between states. If you press it, the capitals are locked on (so if
-you then press <span class="key">A</span> you get "A" instead of "a"). If you
+you then press <span class="key"><em>A</em></span> you get "A" instead of "a"). If you
 press caps lock again, the lock is taken off.
 
 Sometimes the keyboard has a small light that indicates when the key has been

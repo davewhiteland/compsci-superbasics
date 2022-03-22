@@ -12,16 +12,16 @@ which program is listening.
 
 | keys     | what it usually does               |
 | -------- | ---------------------------------- |
-| <span class="key"><sub>ctrl</sub></span><span class="key">C</span> | copy <br>cancel or interrupt |
-| <span class="key"><sub>ctrl</sub></span><span class="key">X</span> | cut |
-| <span class="key"><sub>ctrl</sub></span><span class="key">V</span> | paste |
-| <span class="key"><sub>ctrl</sub></span><span class="key">S</span> | save |
-| <span class="key"><sub>ctrl</sub></span><span class="key">F</span> | find or search |
-| <span class="key"><sub>ctrl</sub></span><span class="key">A</span> | select all |
-| <span class="key"><sub>ctrl</sub></span><span class="key">Z</span> | suspend |
-| <span class="key"><sub>ctrl</sub></span><span class="key">D</span> | terminate input |
+| <span class="key"><em><sub>ctrl</sub></em></span><span class="key"><em>C</em></span> | copy <br>cancel or interrupt |
+| <span class="key"><em><sub>ctrl</sub></em></span><span class="key"><em>X</em></span> | cut |
+| <span class="key"><em><sub>ctrl</sub></em></span><span class="key"><em>V</em></span> | paste |
+| <span class="key"><em><sub>ctrl</sub></em></span><span class="key"><em>S</em></span> | save |
+| <span class="key"><em><sub>ctrl</sub></em></span><span class="key"><em>F</em></span> | find or search |
+| <span class="key"><em><sub>ctrl</sub></em></span><span class="key"><em>A</em></span> | select all |
+| <span class="key"><em><sub>ctrl</sub></em></span><span class="key"><em>Z</em></span> | suspend |
+| <span class="key"><em><sub>ctrl</sub></em></span><span class="key"><em>D</em></span> | terminate input |
 
 These combinations are common in Unix and Windows systems.
 
-On the Mac, many applications use the <span class="key">⌘</span> command
+On the Mac, many applications use the <span class="key"><em>⌘</em></span> command
 modifier key instead (except inside Terminal, or other Unix-like applications).

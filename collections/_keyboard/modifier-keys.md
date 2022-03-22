@@ -17,12 +17,12 @@ Control key may be "Control", "Ctrl", "Ctl" or sometimes "^").
 
 | key      | name      | symbol  | typical use               |
 | -------- | -------- | ------- | -------------------------------------- |
-| <span class="key">&nbsp;⇧&nbsp;</span> | shift    | ⇧       | shift to upper case                        |
-| <span class="key"><sub>alt</sub></span> | alt      | Alt <br>⌥ <br> Option  | generate alternate character (e.g., £ or #)    |
-| <span class="key"><sub>ctrl</sub></span>   | control  | Ctl <br> Ctrl <br> ^ | turn the other key(s) into a control signal   |
-| <span class="key"><sub>fn</sub></span>  | function | Fn      | turn the other key(s) into a [function]({{ site.baseurl }}/keyboard/function-keys) |
+| <span class="key"><em>&nbsp;⇧&nbsp;</em></span> | shift    | ⇧       | shift to upper case                        |
+| <span class="key"><em><sub>alt</sub></em></span> | alt      | Alt <br>⌥ <br> Option  | generate alternate character (e.g., £ or #)    |
+| <span class="key"><em><sub>ctrl</sub></em></span>   | control  | Ctl <br> Ctrl <br> ^ | turn the other key(s) into a control signal   |
+| <span class="key"><em><sub>fn</sub></em></span>  | function | Fn      | turn the other key(s) into a [function]({{ site.baseurl }}/keyboard/function-keys) |
 | <img class="key" src="{{ site.baseurl }}/images/key-windows.svg" alt="the windows key">  | Windows  | Win  <br> ⊞  | specific actions — see more about the [Windows key]({{ site.baseurl }}/keyboard/windows-key)   |
-| <span class="key">⌘</span>   | command  | Cmd <br> ⌘       | execute shortcut (on Mac only) |
+| <span class="key"><em>⌘</em></span>   | command  | Cmd <br> ⌘       | execute shortcut (on Mac only) |
 
 If you see ctrl+shift+C (or ctrl-shift-C), that means "hold down the control
 key and the shift key and then press C". Those first two are modifying the C.

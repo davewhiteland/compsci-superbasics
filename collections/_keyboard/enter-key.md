@@ -4,7 +4,7 @@ layout: topic
 order: 104
 ---
 
-<span class="wide key"><sub>enter</sub></span>
+<span class="wide key"><em><sub>enter</sub></em></span>
 
 Sometimes the enter key does not say "enter" on it but shows a down-and-back
 arrow like this:

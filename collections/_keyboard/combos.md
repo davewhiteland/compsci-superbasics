@@ -10,8 +10,8 @@ lower and upper case letter A:
 
 | keys pressed               | result            |
 | -------------------------: | ----------------- |
-| <span class="key">A</span> | a                 |
-| <span class="key">&nbsp;⇧&nbsp;</span><span class="key">A</span> | A  |
+| <span class="key"><em>A</em></span> | a                 |
+| <span class="key"><em>&nbsp;⇧&nbsp;</em></span><span class="key"><em>A</em></span> | A  |
 
 Both "a" and "A" are printable characters — good for typing words. But other
 modifiers can indicate that you're not trying to _type_ the letter "a" at all,

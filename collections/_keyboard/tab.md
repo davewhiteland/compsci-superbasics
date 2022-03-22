@@ -4,7 +4,7 @@ layout: topic
 order: 109
 ---
 
-<span class="wide key"><sub>tab</sub></span>
+<span class="wide key"><em><sub>tab</sub></em></span>
 
 The tab key is sometimes marked with an arrow-to-line symbol:
 

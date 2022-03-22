@@ -19,13 +19,13 @@ the keyboard. If you rest your hands so your index fingers are there, you can
 and should learn where the other keys are relative to that position. Ideally,
 use different fingers for the different keys.
 
-<div class="center inline-block">
-  <span class="key faint">D</span>
-  <span class="key">F</span>
-  <span class="key faint">G</span>
-  <span class="key faint">H</span>
-  <span class="key">J</span>
-  <span class="key faint">K</span>
+<div class="center">
+  <span class="faint key"><em>D</em></span>
+  <span class="key"><em>F</em></span>
+  <span class="faint key"><em>G</em></span>
+  <span class="faint key"><em>H</em></span>
+  <span class="key"><em>J</em></span>
+  <span class="faint key"><em>K</em></span>
 </div>
 
 
