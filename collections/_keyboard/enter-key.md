@@ -17,9 +17,10 @@ might already be used to using it to mean "go" or "send". See more about
 
 In word processors or text editors the enter key indicates a new line — this is
 really from the days of "carriage-return and new line" from typewriters. This
-legacy still exists in the _line-ending_ characters stored in text files (which
+legacy still exists in the [line-ending]({{ site.baseurl }}/text-files/newlines)
+characters stored in [text files]({{ site.baseurl }}/text-files/contents) (which
 are different between Windows and Unix). It's why the enter key is sometimes
-called the return key too.
+called the _return key_ too.
 
 The enter key is often used to _confirm_ a program or process — often it will
 close a dialogue box just as if you had clicked OK.
