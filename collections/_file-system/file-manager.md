@@ -1,7 +1,7 @@
 ---
 title: File managers
 layout: topic
-order: 117
+order: 118
 ---
 
 _Or: navigating the file system with a graphical user interface (GUI)._

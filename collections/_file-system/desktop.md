@@ -1,7 +1,7 @@
 ---
 title: The desktop
 layout: topic
-order: 113
+order: 114
 ---
 
 You're familiar with the desktop because it's what you see when you log into

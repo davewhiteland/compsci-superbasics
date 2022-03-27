@@ -1,7 +1,7 @@
 ---
 title: Symbolic links
 layout: topic
-order: 112
+order: 113
 ---
 
 Sometimes called a _symlink_, _alias_ or (in user interface terms) a _shortcut_.
