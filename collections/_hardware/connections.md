@@ -23,7 +23,7 @@ Cables that join your computer to a monitor are often called _video cables_.
 These are some of the more common types:
 
 <div class="images-with-captions" markdown="1">
-  
+
 ![cable]({{ site.baseurl }}/images/cable-ethernet.svg)
 
 **Ethernet**  
@@ -145,6 +145,16 @@ which is used for low-level communication between machines. You don't find
 these on consumer-level devices any more but you might still use them in labs
 or robotics applications. The stalks on these D connectors are threaded so you
 can twiddle them to protect the pins from bending and to tighten the connection.
+
+
+![cable]({{ site.baseurl }}/images/cable-coaxial.svg)
+
+**Coaxial ("coax") cable**  
+Used as a transmission line, often for networks. Comprised of two conductors:
+the inner — which runs through the middle — and, separated by an insulator, the
+outer sheath around it. The two conductors share the central axis, hence
+"coaxial". If your internet (or TV) comes into your house through a cable (not
+fibre), it's probably one of these.
 
 </div>
 
