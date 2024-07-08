@@ -61,7 +61,7 @@ like cameras and phones.
 ![cable]({{ site.baseurl }}/images/cable-usb-3.svg)
 
 **USB 3**  
-The most recent [USB]({{ site.baseurl }}/hardware/usb) connector. It physically
+Also called SuperSpeed [USB]({{ site.baseurl }}/hardware/usb). It physically
 fits in the earlier USB A — the blue indicates that data speed/protocols are
 different.
 
