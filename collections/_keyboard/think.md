@@ -17,4 +17,7 @@ order: 116
   keys are pressed — and tell which is which?
 * What about the number pad numbers versus numbers from the "regular" number
   keys?
-
+* If you write a program that handles events, what are the differences between
+  `keydown`, `keypress`, and `keyup`? How do you decide which to use?
+* Do you know how to type `£`? Or `”` or `Ø` or `♥` or `½`? Why _might_ it be a
+  bad idea to have characters like these in passwords?
